@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.283">
+<meta name="generator" content="quarto-1.4.538">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,12 +47,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
     "s"
   ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -61,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -70,14 +72,41 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../index.html">
@@ -91,18 +120,18 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html" rel="" target="">
- <span class="menu-text">About</span></a>
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">Boram-coco</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/" rel="" target=""><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com" rel="" target=""><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
 </i> 
- <span class="menu-text"></span></a>
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -154,6 +183,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+
 <section id="번" class="level1">
 <h1>1번</h1>
 <p>음이항분포 <span class="math inline">\(NB(r, p)\)</span>의 확률밀도함수 <span class="math inline">\(f(x)\)</span>가 <span class="math inline">\(\sum_{x=r}^\infty f(x) = 1\)</span>을 만족함을 음이항정리를 이용하여 증명하시오</p>
@@ -178,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
 <p><span style="color:red"><span class="math inline">\(\sum_{k=0}^\infty\begin{pmatrix} r+k-1 \\ k \end{pmatrix} w^k\)</span></span></p>
 <p><span style="color:red"><span class="math inline">\(x=r+k\)</span>로 치환하면</span></p>
 <p><span style="color:red">=<span class="math inline">\(\sum_{x=r}^\infty \begin{pmatrix} x-1 \\ r-1 \end{pmatrix} w^{x-r}\)</span></span></p>
-<p><span style="color:red"><span class="math inline">\(s.t \sum \begin{pmatrix} x-1 \\ r-1 \end{pmatrix} p^r (1-p)^{x-r} = p^r \sum \begin{pmatrix} x-1 \\ r-1 \end{pmatrix} (1-p)^{x-r} = p^r {1-(1-p)}^{-r} = 1\)</span></span></p>
+<p><span style="color:red"><span class="math inline">\(s.t \sum \begin{pmatrix} x-1 \\ r-1 \end{pmatrix} p^r (1-p)^{x-r} =  p^r \sum \begin{pmatrix} x-1 \\ r-1 \end{pmatrix}  (1-p)^{x-r} = p^r {1-(1-p)}^{-r} = 1\)</span></span></p>
 </section>
 <section id="번-1" class="level1">
 <h1>2번</h1>
@@ -243,7 +273,7 @@ ul.task-list li input[type="checkbox"] {
 <p><span class="math inline">\(f_X(x)=\int_{-\infty}^\infty f_{X,Y}(x,y)dy\)</span></p>
 <p><span class="math inline">\(= \int_{-\infty}^\infty \dfrac{1}{2\pi \sigma_x \sigma_y \sqrt{1-\rho^2}}exp \left[-\dfrac{1}{2(1- \rho^2)} \left( \left(\dfrac{x-\mu_x}{\sigma_x}\right)^2 + \left(\dfrac{y-\mu_y}{\sigma_y}\right)^2 - 2\rho \left(\dfrac{x-\mu_x}{\sigma_x}\right) \left(\dfrac{y-\mu_y}{\sigma_y}\right) \right) \right]dy\)</span></p>
 <p><span class="math inline">\(v=\dfrac{y-\mu_y}{\sigma_y}\)</span>치환하면, <span class="math inline">\(dv=\dfrac{1}{\sigma_y}dy\)</span></p>
-<p><span class="math inline">\(=\int_{-\infty}^\infty \dfrac{1}{2 \pi \sigma_x \sqrt{1-\rho^2}} exp \left[ -\dfrac{1}{2} \left(\dfrac{x-\mu_x}{\sigma_x}\right)^2 - \dfrac{1}{2(1-\rho^2)} \left( v-\rho \left( \dfrac{x-\mu_x}{\sigma_x}\right) \right)^2 \right]dy\)</span></p>
+<p><span class="math inline">\(=\int_{-\infty}^\infty \dfrac{1}{2 \pi \sigma_x \sqrt{1-\rho^2}} exp \left[ -\dfrac{1}{2} \left(\dfrac{x-\mu_x}{\sigma_x}\right)^2  - \dfrac{1}{2(1-\rho^2)} \left( v-\rho \left( \dfrac{x-\mu_x}{\sigma_x}\right) \right)^2 \right]dy\)</span></p>
 <p><span class="math inline">\(u=\left( v-\rho \left( \dfrac{x-\mu_x}{\sigma_x}\right) \right)\)</span> 치환하면, <span class="math inline">\(du=\dfrac{dv}{\sqrt{1-\rho^2}}\)</span></p>
 <p><span class="math inline">\(=\int_{-\infty}^\infty \dfrac{1}{\sqrt{2\pi}\sigma_x} exp \left[ -\dfrac{1}{2} \left( \dfrac{x-\mu_x}{\sigma_x}\right)^2 - \dfrac{u^2}{2}\right]du\)</span></p>
 <p><span class="math inline">\(=\dfrac{1}{\sqrt{2\pi}\sigma_x} exp \left[ -\dfrac{1}{2} \left( \dfrac{x-\mu_x}{\sigma_x}\right)^2 \right] \int_{-\infty}^\infty e^{-u^2/2}du\)</span></p>
@@ -275,7 +305,7 @@ ul.task-list li input[type="checkbox"] {
 <p><span style="color:red"><span class="math inline">\(f_{X_1|X_2}(x_1|x_2)=\dfrac{f_{X_1,X_2}(x_1,x_2)}{f_{X_2}(x_2)}\)</span></span></p>
 <p><span style="color:red"><span class="math inline">\(=\dfrac{\dfrac{n!}{x_1! x_2! (n-x_1 -x_2)!}p_1^{x_1} p_2^{x_2} p_3^{n-x_1-x_2}}{\dfrac{n!}{x_2!(n-x_2)!}p_2^{x_2}(1-p_2)^{n-x_2}}\)</span></span></p>
 <p><span style="color:red"><span class="math inline">\(=\dfrac{(n-x_2)!}{x_1!(n-x_2-x_1)!} \left( \dfrac{p_{1}}{1-p_{2}}\right) ^{x_{1}} \left( \dfrac{p_{3}}{1-p_{2}}\right) ^{n-x_{2}-x_{1}}\)</span></span></p>
-<p><span style="color:red"><span class="math inline">\(=\begin{pmatrix} n-x_{2} \\ x_{1} \end{pmatrix} \left( \dfrac{p_{1}}{1-p_{2}}\right) ^{x_{1}} \left( 1-\dfrac{p_{1}}{1-p_{2}}\right) ^{n-x_{2}-x_{1}}\)</span></span></p>
+<p><span style="color:red"><span class="math inline">\(=\begin{pmatrix} n-x_{2} \\ x_{1} \end{pmatrix}  \left( \dfrac{p_{1}}{1-p_{2}}\right) ^{x_{1}} \left( 1-\dfrac{p_{1}}{1-p_{2}}\right) ^{n-x_{2}-x_{1}}\)</span></span></p>
 <p><span style="color:red">즉, <span class="math inline">\(B(n-x_2, \dfrac{p_1}{1-p_2})\)</span>를 따른다.</span></p>
 <p><span style="color:red">즉, <span class="math inline">\(E(X_1X_2)=\dfrac{(n-x_2)p_1}{1-p_2}\)</span></span></p>
 <p><span style="color:red">다시 이중기댓값 정의로 돌아가서..</span></p>
@@ -424,15 +454,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    if (id.startsWith('sec-')) {
+    if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        for (let i = 0; i < 2; i++) {
-          container.appendChild(note.children[i].cloneNode(true));
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
         }
         return container.innerHTML
       } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -440,6 +483,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const anchorLink = note.querySelector('a.anchorjs-link');
       if (anchorLink) {
         anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
       }
       return note.innerHTML;
     }
@@ -483,6 +529,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
       }
     }, function(instance) {
     });
@@ -554,6 +623,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
