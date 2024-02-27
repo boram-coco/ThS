@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Theoretical Statistics",
     "section": "",
-    "text": "Professor Hye-mi Choi, Department of Statistics, Jeonbuk National University\n2nd semester, 2022\n\n\n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nJun 17, 2023\n\n\nTS final\n\n\n김보람 \n\n\n\n\nJun 10, 2023\n\n\nTS HW9\n\n\n김보람 \n\n\n\n\nJun 4, 2023\n\n\nTS HW8\n\n\n김보람 \n\n\n\n\nMay 19, 2023\n\n\nTS HW7\n\n\n김보람 \n\n\n\n\nMay 6, 2023\n\n\nTS HW6\n\n\n김보람 \n\n\n\n\nApr 19, 2023\n\n\nTS HW5\n\n\n김보람 \n\n\n\n\nApr 15, 2023\n\n\nTS HW4\n\n\n김보람 \n\n\n\n\nMar 29, 2023\n\n\nTS HW3\n\n\n김보람 \n\n\n\n\nMar 28, 2023\n\n\nTS HW2\n\n\n김보람 \n\n\n\n\nMar 21, 2023\n\n\nTS HW1\n\n\n김보람 \n\n\n\n\n\nNo matching items"
+    "text": "Professor Hye-mi Choi, Department of Statistics, Jeonbuk National University\n2nd semester, 2022\n\n\n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nFeb 26, 2024\n\n\nTS\n\n\n김보람 \n\n\n\n\nJun 17, 2023\n\n\nTS final\n\n\n김보람 \n\n\n\n\nJun 10, 2023\n\n\nTS HW9\n\n\n김보람 \n\n\n\n\nJun 4, 2023\n\n\nTS HW8\n\n\n김보람 \n\n\n\n\nMay 19, 2023\n\n\nTS HW7\n\n\n김보람 \n\n\n\n\nMay 6, 2023\n\n\nTS HW6\n\n\n김보람 \n\n\n\n\nApr 19, 2023\n\n\nTS HW5\n\n\n김보람 \n\n\n\n\nApr 15, 2023\n\n\nTS HW4\n\n\n김보람 \n\n\n\n\nMar 29, 2023\n\n\nTS HW3\n\n\n김보람 \n\n\n\n\nMar 28, 2023\n\n\nTS HW2\n\n\n김보람 \n\n\n\n\nMar 21, 2023\n\n\nTS HW1\n\n\n김보람 \n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/TS6.html",
@@ -145,6 +145,482 @@
     "title": "TS HW6",
     "section": "(3)",
     "text": "(3)\n\\(n=2r+1\\)이라고 가정하고, 표본중위수 \\(X_{(r)}\\)의 확률밀도함수\n\\(f_{X_{r}}= \\dfrac{(2r+1)!}{(r-1)!(r+1)!}(1-e^{-\\lambda x})^{r-1}(\\lambda e^{-\\lambda x})(1-(1-e^{-\\lambda x})^{r+1}\\)\n\\(=\\dfrac{(2r+1)!}{(r-1)!(r+1)!}(1-e^{-\\lambda x})^{r-1} \\lambda e^{-\\lambda x (r+2)}\\)"
+  },
+  {
+    "objectID": "posts/TS.html",
+    "href": "posts/TS.html",
+    "title": "TS",
+    "section": "",
+    "text": "\\(X_1, X_2, \\dots, X_n\\)는 확률밀도함수 \\(f(x) = \\dfrac{1}{\\lambda}e^{-x/\\lambda}I(x&gt;0)\\)를 가지는 모집단으로부터의 랜덤표본이라고 할 때\n\n\n\\(T = X_1 + X_2 + \\dots + X_n\\)라고 할 때 \\(T\\)의 평균과 분산\n\n\n\n\\(\\lambda\\)의 최대가능도추정량 MLE \\(\\hat \\lambda_n\\)을 유도하시오\n\n\n\n\\(\\hat \\lambda_n^*\\)과 다른 추정량을 제시하고, 어느 추정량이 좋은지 그 판단의 근거를 간단히 기술하시오\n\n\n\n\\(\\hat \\lambda_n\\)의 기댓값\n\n\n\n\\(\\hat \\lambda_n\\)는 일치추정량 여부를 판단하고, 그 이유를 기술\n\n\n\n\\(\\hat \\lambda_n\\)의 점근분포를 구체적으로 기술\n\n\n\n가설 \\(H_0: \\lambda= 1, \\text{vs} \\ H_1: \\lambda \\neq 1\\)을 가능도비 검정법으로 검정하시오"
+  },
+  {
+    "objectID": "posts/TS.html#section-1",
+    "href": "posts/TS.html#section-1",
+    "title": "TS",
+    "section": "",
+    "text": "\\(T = X_1 + X_2 + \\dots + X_n\\)라고 할 때 \\(T\\)의 평균과 분산"
+  },
+  {
+    "objectID": "posts/TS.html#section-2",
+    "href": "posts/TS.html#section-2",
+    "title": "TS",
+    "section": "",
+    "text": "\\(\\lambda\\)의 최대가능도추정량 MLE \\(\\hat \\lambda_n\\)을 유도하시오"
+  },
+  {
+    "objectID": "posts/TS.html#section-3",
+    "href": "posts/TS.html#section-3",
+    "title": "TS",
+    "section": "",
+    "text": "\\(\\hat \\lambda_n^*\\)과 다른 추정량을 제시하고, 어느 추정량이 좋은지 그 판단의 근거를 간단히 기술하시오"
+  },
+  {
+    "objectID": "posts/TS.html#section-4",
+    "href": "posts/TS.html#section-4",
+    "title": "TS",
+    "section": "",
+    "text": "\\(\\hat \\lambda_n\\)의 기댓값"
+  },
+  {
+    "objectID": "posts/TS.html#section-5",
+    "href": "posts/TS.html#section-5",
+    "title": "TS",
+    "section": "",
+    "text": "\\(\\hat \\lambda_n\\)는 일치추정량 여부를 판단하고, 그 이유를 기술"
+  },
+  {
+    "objectID": "posts/TS.html#section-6",
+    "href": "posts/TS.html#section-6",
+    "title": "TS",
+    "section": "",
+    "text": "\\(\\hat \\lambda_n\\)의 점근분포를 구체적으로 기술"
+  },
+  {
+    "objectID": "posts/TS.html#section-7",
+    "href": "posts/TS.html#section-7",
+    "title": "TS",
+    "section": "",
+    "text": "가설 \\(H_0: \\lambda= 1, \\text{vs} \\ H_1: \\lambda \\neq 1\\)을 가능도비 검정법으로 검정하시오"
+  },
+  {
+    "objectID": "posts/TS9.html",
+    "href": "posts/TS9.html",
+    "title": "TS HW9",
+    "section": "",
+    "text": "1번\n\\(X_1,X_2,\\dots, X_n\\)이 \\(N(\\mu, \\sigma^2)\\) (단 \\(\\mu\\):unknown)로부터의 랜덤샘플일 때 다음 가설에 대한 가능도비 검정의 유의수준 \\(\\alpha\\)기각역을 구하시오.\n\\[H_0: \\sigma^2 = \\sigma_0^2 \\ vs \\ H_1: \\sigma^2 \\neq \\sigma_0^2\\]\n\\((\\hat \\mu, \\hat \\sigma^2) = (\\bar X, \\frac{\\sum_{i=1}^n (X_i-\\bar X)^2}{n})\\)\n\\((\\hat \\mu_0, \\hat \\sigma^2_0) = (\\bar X, \\sigma_0^2)\\)\n\\(L(\\mu, \\sigma^2 |x)=\\Pi_{i=1}^n \\frac{1}{\\sqrt{2\\pi \\sigma^2}} e^{-\\frac{(X_i-\\mu)^2}{2\\sigma^2}}\\)\n\\(\\gamma(X)=\\dfrac{(\\frac{1}{2\\pi \\hat \\sigma_0^2})^{2/n} exp(-\\frac{\\sum_{i=1}^n(X_i-\\bar X)^2}{2\\hat \\sigma_0^2})}{(\\frac{1}{2\\pi\\hat \\sigma^2})^{2/n}exp(-\\frac{\\sum_{i=1}^n(X_i-\\bar X)^2}{2\\hat \\sigma^2})}\\)\n\\(=(\\frac{\\hat \\sigma^2}{\\sigma_0^2})^{2/n}exp(-\\frac{\\sum_{i=1}^n (X_i-\\bar X)^2}{2\\sigma_0^2}+\\frac{n}{2})\\)\n\\(=(\\frac{\\hat \\sigma^2}{ \\sigma_0^2})^{2/n}exp((-\\frac{n}{2}) (\\frac{\\hat \\sigma^2}{\\sigma_0^2})+\\frac{n}{2})\\)\n\\(P(\\gamma(X) \\leq C |H_0) = \\alpha\\) 를 찾자.\n\\(e^{n/2}\\)식은 상수이므로 곱해서 없애주면\n\\((\\frac{\\hat \\sigma^2}{\\sigma_0^2})^{2/n} exp(-\\frac{\\hat \\sigma^2}{\\sigma_0^2}) \\leq C\\)\n\\(\\because \\frac{n\\hat \\sigma^2}{\\sigma_0^2} = \\frac{\\sum_{i=1}^n (X_i-\\bar X)^2}{\\sigma_0^2}\\) ~ \\(\\chi^2(n-1))\\)\n\\(\\rightarrow P((\\frac{n\\hat \\sigma^2}{\\sigma_0^2})^{2/n} exp(-\\frac{n\\hat \\sigma^2}{\\sigma_0^2}) \\leq C |H_0) = \\alpha\\)\n\\(\\therefore \\dfrac{\\sum_{i=1}^n (X_i -\\bar X)^2}{\\sigma_0^2} \\geq \\chi^2_{\\alpha/2}(n-1)\\) or \\(\\dfrac{\\sum_{i=1}^n (X_i -\\bar X)^2}{\\sigma_0^2} \\leq \\chi^2_{1-\\alpha/2}(n-1)\\)\n\n\n2번\n\\(X_k\\) ~ \\(N(k\\theta. 1), k=1,2,\\dots,n\\)이고 서로 독립인 확률변수이다. 다음 가설에 대한 가능도비 검정의 유의수준 \\(\\alpha\\) 기각역을 구하시오.\n\\[H_0:\\theta=0 \\ vs \\ H_1: \\theta \\neq 0\\]\n위 확률변수는 평균이 다 다르므로 랜덤표본이 아니다.\n\\(L(\\theta: x_1, \\dots, x_n)= f(x_1,\\dots,x_n;\\theta)=\\Pi_{k=1}^n f_k (x_k ; \\theta) = \\Pi_{k=1}^n \\frac{1}{\\sqrt{2\\pi}} e^{-\\frac{(X_k-k\\theta)^2}{2}}=(\\frac{1}{2\\pi})^{n/2}e^{-\\frac{\\sum_{i=1}^n(X_k-k\\theta)^2}{2}}\\)\n\\(h: \\{ \\theta : -\\infty &lt; \\theta &lt; \\infty \\}\\)\n\\(h_0: \\{ \\theta : \\theta=0 \\}\\)\n\\(l(\\theta)=\\frac{n}{2}log 2\\pi - \\frac{\\sum_{k=1}^n (X_k - k\\theta)^2}{2}\\)\n\\(l'(\\theta) = \\sum_{k=1}^n k(X_k - k\\theta) = 0\\)\n\\(\\hat \\theta^{MLE} = \\dfrac{\\sum_{k=1}^n kX_k}{\\sum_{k=1}^n k^2}\\)\n\\(\\gamma(X) = \\dfrac{(\\frac{1}{2\\pi})^{2/n} e^{-\\frac{\\sum_{k=1}^n (X_k)^2}{2}}}{(\\frac{1}{2\\pi})^{2/n} e^{-\\frac{\\sum_{k=1}^n (X_k-k\\hat \\theta^{MLE})^2}{2}}}\\)\n\\(=e^{-\\frac{\\sum X_k^2}{2}+\\frac{\\sum(X_k-k\\hat \\theta^{MLE})^2}{2}}\\)\n\\(=exp(-(\\sum kX_k) \\frac{\\sum kX_k}{\\sum k^2} + \\frac{1}{2}\\sum k^2 \\frac{(\\sum kX_k)^2}{(\\sum k^2)^2})\\)\n\\(=exp(-\\dfrac{(\\sum kX_k)^2}{2\\sum k^2}) \\leq C\\)\n위 식에서 log를 취하면\n\\(\\dfrac{(\\sum kX_k)^2}{\\sum k^2} \\geq C\\)\n\\(kX_k\\) ~ \\(N(k^2 \\theta, k^2)\\)\n\\(\\sum_{k=1}^n k X_k\\) ~ \\(N(\\sum_{k=1}^n k^2 \\theta, \\sum_{k=1}^n k^2)\\)\nunder \\(H_0\\),\n\\(\\sum_{k=1}^n k X_k\\) ~ \\(N(0,\\sum_{k=1}^n k^2)\\)\n표준화하면,\n\\(\\dfrac{\\sum_{k=1}^n k X_k - 0}{\\sqrt{\\sum_{k=1}^n k^2}}\\) ~ \\(N(0,1)\\)\n제곱하면,\n\\(\\dfrac{(\\sum_{k=1}^n k X_k)^2}{\\sum_{k=1}^n k^2}\\) ~ \\(\\chi^2(1)\\)\n즉,\n\\(P \\{ (X_1, \\dots, X_n): \\dfrac{(\\sum_{k=1}^n kX_k)^2}{\\sum_{k=1}^n k^2} \\geq C \\} (\\theta_0)=\\alpha\\)\n\\(\\dfrac{(\\sum_{k=1}^n kX_k)^2}{\\sum_{k=1}^n k^2} \\geq \\chi^2_\\alpha(1)\\)"
+  },
+  {
+    "objectID": "posts/TS1.html",
+    "href": "posts/TS1.html",
+    "title": "TS HW1",
+    "section": "",
+    "text": "모든 풀이는 틀릴 수 있음 하하하 ㅇ_&lt;"
+  },
+  {
+    "objectID": "posts/TS1.html#a_1과-a_2c",
+    "href": "posts/TS1.html#a_1과-a_2c",
+    "title": "TS HW1",
+    "section": "(1) \\(A_{1}\\)과 \\(A_{2}^{c}\\)",
+    "text": "(1) \\(A_{1}\\)과 \\(A_{2}^{c}\\)\n\n\\(P(A_{1} \\cap  A_{2}^c)\\)\n\n= \\(P(A_1) - P(A_1 \\cap A_2)\\)\n= \\(P(A_1) - P(A_1) \\cdot P(A_2)\\)\n= \\(P(A_1) \\cdot (1 - P(A_2))\\)\n\\(= P(A_{1})P(A_{2}^c)\\)"
+  },
+  {
+    "objectID": "posts/TS1.html#a_1c과-a_2",
+    "href": "posts/TS1.html#a_1c과-a_2",
+    "title": "TS HW1",
+    "section": "(2) \\(A_{1}^{c}\\)과 \\(A_{2}\\)",
+    "text": "(2) \\(A_{1}^{c}\\)과 \\(A_{2}\\)\n\n\\(P(A_{2} \\cap  A_{1}^c)\\)\n\n= \\(P(A_2) - P(A_1 \\cap A_2)\\)\n= \\(P(A_2) - P(A_1) \\cdot P(A_2)\\)\n= \\(P(A_2) \\cdot (1-P(A_1))\\)\n= \\(P(A_2) \\cdot P(A_1^c)\\)"
+  },
+  {
+    "objectID": "posts/TS1.html#a_1c과-a_2c",
+    "href": "posts/TS1.html#a_1c과-a_2c",
+    "title": "TS HW1",
+    "section": "(3) \\(A_{1}^{c}\\)과 \\(A_{2}^{c}\\)",
+    "text": "(3) \\(A_{1}^{c}\\)과 \\(A_{2}^{c}\\)\n\n\\(P(A_1^c \\cap A_2^c)\\)\n\n= \\(P((A_1 \\cup A_2)^c)\\)\n= \\(1-P(A_1 \\cup A_2)\\)\n= \\(1 - (P(A_1) + P(A_2) - P(A_1 \\cap A_2))\\)\n= \\(1 - P(A_1) - P(A_2) + P(A_1 \\cap A_2)\\)\n= \\(1 - P(A_1) - P(A_2) + P(A_1)P(A_2)\\)\n= \\(1 - P(A_1) - P(A_2)(1-P_{A_1})\\)\n= \\((1-P(A_1))(1-P(A_2))\\)\n= \\(P(A_1^c)P(A_2^c)\\)"
+  },
+  {
+    "objectID": "posts/TS1.html#pa_1-cap-a_2",
+    "href": "posts/TS1.html#pa_1-cap-a_2",
+    "title": "TS HW1",
+    "section": "(1) \\(P(A_{1} \\cap A_{2})\\)",
+    "text": "(1) \\(P(A_{1} \\cap A_{2})\\)\n\\(A_{1}\\)과 \\(A_{2}\\)가 서로 독립이므로 \\(P(A_{1} \\cap A_{2}) = P(A_{1}) P(A_{2})\\) 가 성립\n\\(P(A_1 \\cap A_2) = P(A_1)P(A_2) = 0.6 \\times 0.3 = 0.18\\)"
+  },
+  {
+    "objectID": "posts/TS1.html#pleft-a_1cup-a_2right",
+    "href": "posts/TS1.html#pleft-a_1cup-a_2right",
+    "title": "TS HW1",
+    "section": "(2) \\(P\\left( A_{1}\\cup A_{2}\\right)\\)",
+    "text": "(2) \\(P\\left( A_{1}\\cup A_{2}\\right)\\)\n\\(P(A_1 \\cup A_2) = P(A_1) + P(A_2) - P(A_1 \\cap A_2) = 0.6 + 0.3 - 0.18 = 0.72\\)"
+  },
+  {
+    "objectID": "posts/TS1.html#pa_1-cup-a_2c",
+    "href": "posts/TS1.html#pa_1-cup-a_2c",
+    "title": "TS HW1",
+    "section": "(3) \\(P(A_{1} \\cup A_{2}^{c})\\)",
+    "text": "(3) \\(P(A_{1} \\cup A_{2}^{c})\\)\n\\(P(A_{1} \\cup A_{2}^c)\\)\n= \\(P(A_1) + P(A_2^c) - P(A_1 \\cap A_2^c)\\)\n= \\(P(A_1) + 1 - P(A_2) - ( P(A_1) - P(A_1 \\cap A_2))\\)\n= \\(1 - P(A_2) + P(A_1 \\cap A_2)\\)\n= \\(1 - 0.3 + 0.18\\)\n= \\(0.88\\)"
+  },
+  {
+    "objectID": "posts/TS1.html#fleft-xright-c-dfrac23x-ileft-xin-left-012ldots-right-right",
+    "href": "posts/TS1.html#fleft-xright-c-dfrac23x-ileft-xin-left-012ldots-right-right",
+    "title": "TS HW1",
+    "section": "(1) \\(f\\left( x\\right) = c( \\dfrac{2}{3})^x\\) \\(I\\left( x\\in \\left\\{ 0,1,2,\\ldots \\right\\} \\right)\\)",
+    "text": "(1) \\(f\\left( x\\right) = c( \\dfrac{2}{3})^x\\) \\(I\\left( x\\in \\left\\{ 0,1,2,\\ldots \\right\\} \\right)\\)\n이럴수가 연속형이 아니라 이산형이였담 두둥 이산형인 경우 저렇게 0,1,2,… 표시되고 연속형인 경우에는 \\(x\\geq0\\) 이렇게 표시됨..ㅠㅠ\n각 \\(f(x) \\geq 0\\) 이므로 \\(c \\geq 0\\)\n\\(\\sum _{\\forall x_{i}}f\\left( x_{i}\\right) = 1\\) 을 만족하는 상수 c값 찾기\n\\(\\sum ^{\\infty}_{0}c( \\dfrac{2}{3})^x =\\dfrac{\\dfrac{2}{3}c}{1-\\dfrac{2}{3}}= 2c = 1\\)\ns.t \\(c= \\dfrac{1}{2}\\)"
+  },
+  {
+    "objectID": "posts/TS1.html#fx-cx-ileft-xin-left-123456-right-right",
+    "href": "posts/TS1.html#fx-cx-ileft-xin-left-123456-right-right",
+    "title": "TS HW1",
+    "section": "(2) \\(f(x) = cx\\) \\(I\\left( x\\in \\left\\{ 1,2,3,4,5,6 \\right\\} \\right)\\)",
+    "text": "(2) \\(f(x) = cx\\) \\(I\\left( x\\in \\left\\{ 1,2,3,4,5,6 \\right\\} \\right)\\)\n각 \\(f(x) \\geq 0\\) 이므로 \\(c \\geq 0\\)\n\\(\\sum _{\\forall x_{i}}f\\left( x_{i}\\right) = 1\\) 을 만족하는 상수 c값 찾기\n\\(\\sum ^{6}_{x=1}f\\left( x_{i}\\right) = c (1+2+3+4+5+6) = 21 c =1\\)\ns.t \\(c= \\dfrac{1}{21}\\)"
+  },
+  {
+    "objectID": "posts/TS1.html#p0-x_1-dfrac12-dfrac14-x_2-1",
+    "href": "posts/TS1.html#p0-x_1-dfrac12-dfrac14-x_2-1",
+    "title": "TS HW1",
+    "section": "(1) \\(P(0 < X_{1} < \\dfrac{1}{2}, \\dfrac{1}{4} < X_{2} < 1)\\)",
+    "text": "(1) \\(P(0 &lt; X_{1} &lt; \\dfrac{1}{2}, \\dfrac{1}{4} &lt; X_{2} &lt; 1)\\)\n\\(\\int \\int _{A}f\\left( x_{1},x_{2}\\right) dx_{1}dx_{2} = \\int _{0}^{1/2}\\int _{1/4}^{1}4x_{1}x_{2}dx_{2}dx_{1} = \\dfrac{15}{64}\\)"
+  },
+  {
+    "objectID": "posts/TS1.html#px_1-x_2",
+    "href": "posts/TS1.html#px_1-x_2",
+    "title": "TS HW1",
+    "section": "(2) \\(P(X_{1} = X_{2})\\)",
+    "text": "(2) \\(P(X_{1} = X_{2})\\)\n\\(\\int _{0}^{.1}\\int ^{x_{1}}_{x_{1}}4x_{1}x_{2}dx_{2}dx_{1} = 0\\)"
+  },
+  {
+    "objectID": "posts/TS1.html#px_1-x_2-1",
+    "href": "posts/TS1.html#px_1-x_2-1",
+    "title": "TS HW1",
+    "section": "(3) \\(P(X_{1} < X_{2})\\)",
+    "text": "(3) \\(P(X_{1} &lt; X_{2})\\)"
+  },
+  {
+    "objectID": "posts/TS1.html#p-x_1leq-x_2",
+    "href": "posts/TS1.html#p-x_1leq-x_2",
+    "title": "TS HW1",
+    "section": "(4) \\(P( X_{1}\\leq X_{2})\\)",
+    "text": "(4) \\(P( X_{1}\\leq X_{2})\\)\n(2)에서 \\(P(X_{1} = X_{2}) = 0\\) 이므로 (3)식과 (4)식의 확률값은 동일하다.\n\\(\\int \\int _{A}f\\left( x_{1},x_{2}\\right) dx_{1}dx_{2} = \\int _{0}^{1}\\int _{0}^{x_2}4x_{1}x_{2}dx_{1}dx_{2} = \\int _{0}^{1}2x_{2}^{3}dx_{2} = \\dfrac{1}{2}\\)"
+  },
+  {
+    "objectID": "posts/TS4.html",
+    "href": "posts/TS4.html",
+    "title": "TS HW4",
+    "section": "",
+    "text": "1번\n음이항분포 \\(NB(r, p)\\)의 확률밀도함수 \\(f(x)\\)가 \\(\\sum_{x=r}^\\infty f(x) = 1\\)을 만족함을 음이항정리를 이용하여 증명하시오\n음이항정리\n\\(\\dfrac{1}{1-q} = \\sum_{x=0}^{\\infty} \\begin{pmatrix} x+1-1 \\\\ 1-1 \\end{pmatrix} q^x (|x|&lt;1)\\)\n\\(\\dfrac{1}{(1-q)^2} = \\dfrac{d}{dq} (\\dfrac{1}{1-q}) = \\sum_{x=1}^\\infty xq^{x-1} = \\sum_{x=0}^\\infty (x+1)q^x = \\sum_{x=0}^{\\infty} \\begin{pmatrix} x+2-1 \\\\ 2-1 \\end{pmatrix} q^x (|x|&lt;1)\\)\n수학적 귀납법을 통해\n\\((1-q)^{-r} = \\sum_{x=0}^\\infty \\begin{pmatrix} x+r-1 \\\\ r-1 \\end{pmatrix} q^x\\) 임을 구할 수 있다. -(A)\n\\(\\sum_{x=r}^\\infty f(x)\\)\n= \\(\\sum_{x=r}^\\infty \\begin{pmatrix} x-r \\\\ r-1 \\end{pmatrix} p^r (1-p)^{x-r} (x=r, r+1, \\dots)\\)\n= \\(p^r \\sum_{x=r}^\\infty \\begin{pmatrix} x-r \\\\ r-1 \\end{pmatrix} (1-p)^{x-r}\\) 이고\n\\(x-r=t\\)로 치환하면\n= \\(p^r \\sum_{t=0}^\\infty \\begin{pmatrix} t+r-1 \\\\ r-1 \\end{pmatrix} (1-p)^t\\) 이다.\n(A)식을 이용해\n= \\(p^r(1-q)^{-r} = p^r p^{-r} = 1\\) 을 증명할 수 있다.\n이항정리 \\((x+y)^n = \\sum_{k=0}^n \\begin{pmatrix} n \\\\ k \\end{pmatrix} x^k y^{n-k}\\)\n일반화된 이항정리 \\((x+y)^a = \\sum_{k=0}^\\infty \\begin{pmatrix} a \\\\ k \\end{pmatrix} a^k y^{n-k}, a\\in \\mathbb{R}, -1&lt;x&lt;1\\)\n즉, \\((1-w)^{-r}= \\sum_{k=0}^\\infty \\begin{pmatrix} -r \\\\ k \\end{pmatrix} (-w)^k\\)\n=\\(\\sum_{k=0}^\\infty \\dfrac{-r \\cdot (-r-1) \\dots \\cdot (-r-k+1) }{k!}(-1)^k w^k\\)\n=\\(\\sum_{k=0}^\\infty \\dfrac{r \\cdot (r+1) \\dots \\cdot (r+k-1) }{k!}(-1)^{2k} w^k\\)\n\\(\\sum_{k=0}^\\infty \\dfrac{-r \\cdot (-r-1) \\dots \\cdot (-r-k+1) }{k!}(-1)^k w^k\\)\n\\(\\sum_{k=0}^\\infty\\begin{pmatrix} r+k-1 \\\\ k \\end{pmatrix} w^k\\)\n\\(x=r+k\\)로 치환하면\n=\\(\\sum_{x=r}^\\infty \\begin{pmatrix} x-1 \\\\ r-1 \\end{pmatrix} w^{x-r}\\)\n\\(s.t \\sum \\begin{pmatrix} x-1 \\\\ r-1 \\end{pmatrix} p^r (1-p)^{x-r} =  p^r \\sum \\begin{pmatrix} x-1 \\\\ r-1 \\end{pmatrix}  (1-p)^{x-r} = p^r {1-(1-p)}^{-r} = 1\\)\n\n\n2번\n음이항분포 \\(NB(r, p)\\)의 적률생성함수를 구하시오\n\\(Y_i\\)가 기하분포를 따르면 \\(\\sum_{i=1}^r Y_i = X~NB(r,p)\\)이다.\n\\(M_X(t)=E(e^{tX})=E(e^{tY_1+\\dots+tY_r})\\)\n\\(Y_i\\)는 각각 독립이므로,\n=\\(E(e^{tY_1}) \\dots E(e^{tY_r})\\)\n=\\((\\dfrac{pe^t}{1-qe^t})^r\\)\n\n\n3번\n베타분포 \\(BETA(a, b)\\)의 \\(k\\)차적률이 \\(E(X^k) = \\dfrac{Γ(a + k)Γ(a + b)}{Γ(a)Γ(a + b + k)}\\)임을 보이시오.\n\\(E(X^k)=\\int_{-\\infty}^{\\infty}x^k \\dfrac{1}{B(a,b)}x^{a-1}(1-x)^{b-1}I(0&lt;x&lt;1)dx\\)\n= \\(\\dfrac{1}{B(a,b)}\\int_0^1 x^{a+k-1}(1-x)^{b-1}dx\\)\n= \\(\\dfrac{B(a+k,b)}{B(a,b)}= \\dfrac{\\Gamma(a+k)\\Gamma(b)}{\\Gamma(a+k+b)} \\dfrac{\\Gamma(a+B)}{\\Gamma(a)\\Gamma(b)}=\\dfrac{\\Gamma(a+k) \\Gamma(a+b)}{\\Gamma(a) \\Gamma(a+b+k)}\\)\n과제 3의 9번 문제도 이 공식을 이용해 구할 수 있다.\n\n\n4번\n감마분포 \\(GAM(α, β)\\)의 평균과 분산의 기댓값 정의를 이용하여 구하시오.\n\\(E(X)=\\dfrac{1}{\\Gamma(\\alpha) \\beta^\\alpha}\\int_0^\\infty x x^{\\alpha -1} e^{-x/\\beta}\\)\n\\(=\\dfrac{\\Gamma(\\alpha+1) \\beta^{\\alpha+1}}{\\Gamma(\\alpha) \\beta^\\alpha} \\int_0^\\infty \\dfrac{1}{\\Gamma(\\alpha+1)\\beta^{\\alpha+1}} x^{(a+1)-1}e^{-x/\\beta}\\)\n\\(\\because \\int_0^\\infty \\dfrac{1}{\\Gamma(\\alpha+1)\\beta^{\\alpha+1}} x^{(a+1)-1}e^{-x/\\beta} =1\\)\n\\(=\\dfrac{\\Gamma(\\alpha+1) \\beta^{\\alpha+1}}{\\Gamma(\\alpha) \\beta^\\alpha} = \\dfrac{\\alpha \\Gamma(\\alpha) \\beta^{\\alpha +1}}{\\Gamma(\\alpha) \\beta^\\alpha} = \\alpha\\beta\\)\n\\(E(X^2)=\\dfrac{1}{\\Gamma(\\alpha) \\beta^\\alpha}\\int_0^\\infty x^2 x^{\\alpha -1} e^{-x/\\beta}\\)\n\\(=\\dfrac{\\Gamma(\\alpha+2) \\beta^{\\alpha+2}}{\\Gamma(\\alpha) \\beta^\\alpha} \\int_0^\\infty \\dfrac{1}{\\Gamma(\\alpha+2)\\beta^{\\alpha+2}} x^{(a+2)-1}e^{-x/\\beta}\\)\n\\(=\\dfrac{\\Gamma(\\alpha+2) \\beta^{\\alpha+2}}{\\Gamma(\\alpha) \\beta^\\alpha} = \\dfrac{\\Gamma(\\alpha+1)\\alpha \\beta^{\\alpha +2} \\Gamma(\\alpha)}{\\Gamma(\\alpha) \\beta^\\alpha} = (\\alpha+1)\\alpha\\beta^2\\)\n\\(Var(X)=E(X^2)-[E(X)]^2= (\\alpha+1)\\alpha\\beta^2 - (\\alpha\\beta)^2 = \\alpha\\beta^2\\)\n\n\n5번\n정규분포 \\(N(µ, σ^2)\\)의 적률생성함수를 구하시오.\n\\(M_X(t)=E(e^{tX})=\\int_{-\\infty}^\\infty e^{tx} \\dfrac{1}{\\sqrt{2\\pi \\sigma^2}}e^{-\\dfrac{(x-\\mu)^2}{2\\sigma^2}}dx\\)\n(\\(\\dfrac{x-\\mu}{\\sigma}=u\\) 치환하면, \\(dx=\\sigma du\\), \\(x=\\mu+\\sigma u\\))\n= \\(\\int_{-\\infty}^\\infty e^{t(\\mu+\\sigma u)} \\dfrac{1}{\\sqrt{2\\pi \\sigma^2}}e^{-u^2/2} \\sigma du\\)\n= \\(\\dfrac{e^{t\\mu}}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty}e^{-\\dfrac{1}{2}(u-t \\mu)^2 + -\\dfrac{1}{2}t^2\\sigma^2}du\\)\n=\\(\\dfrac{e^{t\\mu+ \\dfrac{1}{2}t^2 \\sigma^2}}{\\sqrt{2\\pi}} \\int_{-\\infty}^\\infty e ^{-\\dfrac{(u-t\\mu)^2}{2}}du\\)\n(\\(u-t\\sigma=v\\)로 치환하면, \\(du=dv, u=v+t\\sigma\\))\n=\\(\\dfrac{e^{t\\mu+ \\dfrac{1}{2}t^2 \\sigma^2}}{\\sqrt{2\\pi}} \\int_{-\\infty}^\\infty e^{-\\dfrac{v}{2}}dv\\)\n\\(\\because \\int_{-\\infty}^\\infty e^{-\\dfrac{v}{2}}dv = \\sqrt{2\\pi}\\)\n=\\(e^{t\\mu+ \\dfrac{1}{2}t^2 \\sigma^2}\\)\n\n\n6번\n이변량정규분포 \\(BVN(µ_X, µ_Y , σ_X, σ_Y , ρ)\\)를 따르는 확률벡터 \\((X,Y)\\)의 확률밀도함수를 다변량정규분포의 확률밀도함수의 2차원형임을 이용하여 구하시오.\n\\(\\mu =\\begin{pmatrix} \\mu _{x} \\\\ \\mu _{y} \\end{pmatrix}\\)\n\\(\\sum =\\begin{pmatrix} \\sigma _{x}^{2} & \\sigma _{xy} \\\\ \\sigma _{xy} & \\sigma _{y}^{2} \\end{pmatrix}= \\begin{pmatrix} \\sigma _{x}^{2} & \\rho \\sigma _{x}\\sigma _{y} \\\\ \\rho \\sigma _{x}\\sigma _{y} & \\sigma _{y}^{2} \\end{pmatrix}\\)\n\\(f_{X,Y}(x,y)=\\dfrac{1}{|2\\pi \\sum|^{1/2}} exp\\left[ -\\dfrac{1}{2}\\left( \\begin{pmatrix} x \\\\ y \\end{pmatrix}-\\begin{pmatrix} u_{x} \\\\ u_{y} \\end{pmatrix}\\right) ^{t}\\Sigma ^{-1}\\left( \\begin{pmatrix} x \\\\ y \\end{pmatrix}-\\begin{pmatrix} \\mu _{x} \\\\ \\mu _{y} \\end{pmatrix}\\right) \\right]\\)\n먼저, \\(\\dfrac{1}{|2\\pi\\sum|^{1/2}}=\\dfrac{1}{2\\pi|\\sum|^{1/2}}=\\dfrac{1}{2\\pi(\\sigma_x^2 \\sigma_y^2 - \\rho^2 \\sigma_x^2 \\sigma_y^2)^{1/2}}=\\dfrac{1}{2\\pi \\sigma_x \\sigma_y \\sqrt{1-\\rho^2}}\\)\n\\(exp\\left[ -\\dfrac{1}{2}\\left( \\begin{pmatrix} x \\\\ y \\end{pmatrix}-\\begin{pmatrix} \\mu_{x} \\\\ \\mu_{y} \\end{pmatrix}\\right) ^{t}\\Sigma ^{-1}\\left( \\begin{pmatrix} x \\\\ y \\end{pmatrix}-\\begin{pmatrix} \\mu _{x} \\\\ \\mu _{y} \\end{pmatrix}\\right) \\right]\\)\n= \\(exp \\left[-\\dfrac{1}{2(\\sigma_x^2 \\sigma_y^2 - \\rho^2 \\sigma_x^2 \\sigma_y^2)} \\begin{pmatrix} x-\\mu_x & y-\\mu_y \\end{pmatrix} \\begin{pmatrix} \\sigma _{y}^{2} & - \\rho \\sigma _{x}\\sigma _{y} \\\\ - \\rho \\sigma _{x}\\sigma _{y} & \\sigma _{x}^{2} \\end{pmatrix} \\begin{pmatrix} x-\\mu_x \\\\ y-\\mu_y \\end{pmatrix} \\right]\\)\n= \\(exp \\left[ -\\dfrac{1}{2(\\sigma_x^2 \\sigma_y^2 - \\rho^2 \\sigma_x^2 \\sigma_y^2)} ( (x-\\mu_x)^2 \\sigma_y^2 + (y-\\mu_y)^2 \\sigma_x^2 - 2\\rho \\sigma_x \\sigma_y (x-\\mu_x)(y-\\mu_y)) \\right]\\)\n=\\(exp \\left[-\\dfrac{\\sigma_x^2 \\sigma_y^2}{2\\sigma_x^2 \\sigma_y^2(1- \\rho^2)} \\left( \\left(\\dfrac{x-\\mu_x}{\\sigma_x}\\right)^2 + \\left(\\dfrac{y-\\mu_y}{\\sigma_y}\\right)^2 - 2\\rho \\left(\\dfrac{x-\\mu_x}{\\sigma_x}\\right) \\left(\\dfrac{y-\\mu_y}{\\sigma_y}\\right) \\right) \\right]\\)\n=\\(exp \\left[-\\dfrac{1}{2(1- \\rho^2)} \\left( \\left(\\dfrac{x-\\mu_x}{\\sigma_x}\\right)^2 + \\left(\\dfrac{y-\\mu_y}{\\sigma_y}\\right)^2 - 2\\rho \\left(\\dfrac{x-\\mu_x}{\\sigma_x}\\right) \\left(\\dfrac{y-\\mu_y}{\\sigma_y}\\right) \\right) \\right]\\)\n즉,\n\\(f_{X,Y}(x,y)=\\dfrac{1}{2\\pi \\sigma_x \\sigma_y \\sqrt{1-\\rho^2}}exp \\left[-\\dfrac{1}{2(1- \\rho^2)} \\left( \\left(\\dfrac{x-\\mu_x}{\\sigma_x}\\right)^2 + \\left(\\dfrac{y-\\mu_y}{\\sigma_y}\\right)^2 - 2\\rho \\left(\\dfrac{x-\\mu_x}{\\sigma_x}\\right) \\left(\\dfrac{y-\\mu_y}{\\sigma_y}\\right) \\right) \\right]\\)\n\n\n7번\n이변량정규분포 \\(BVN(µ_X, µ_Y , σ_X, σ_Y , ρ)\\)의 확률밀도함수로부터 \\(X\\)의 주변확률밀도함수를 구하시오.\n\\(f_X(x)=\\int_{-\\infty}^\\infty f_{X,Y}(x,y)dy\\)\n\\(= \\int_{-\\infty}^\\infty \\dfrac{1}{2\\pi \\sigma_x \\sigma_y \\sqrt{1-\\rho^2}}exp \\left[-\\dfrac{1}{2(1- \\rho^2)} \\left( \\left(\\dfrac{x-\\mu_x}{\\sigma_x}\\right)^2 + \\left(\\dfrac{y-\\mu_y}{\\sigma_y}\\right)^2 - 2\\rho \\left(\\dfrac{x-\\mu_x}{\\sigma_x}\\right) \\left(\\dfrac{y-\\mu_y}{\\sigma_y}\\right) \\right) \\right]dy\\)\n\\(v=\\dfrac{y-\\mu_y}{\\sigma_y}\\)치환하면, \\(dv=\\dfrac{1}{\\sigma_y}dy\\)\n\\(=\\int_{-\\infty}^\\infty \\dfrac{1}{2 \\pi \\sigma_x \\sqrt{1-\\rho^2}} exp \\left[ -\\dfrac{1}{2} \\left(\\dfrac{x-\\mu_x}{\\sigma_x}\\right)^2  - \\dfrac{1}{2(1-\\rho^2)} \\left( v-\\rho \\left( \\dfrac{x-\\mu_x}{\\sigma_x}\\right) \\right)^2 \\right]dy\\)\n\\(u=\\left( v-\\rho \\left( \\dfrac{x-\\mu_x}{\\sigma_x}\\right) \\right)\\) 치환하면, \\(du=\\dfrac{dv}{\\sqrt{1-\\rho^2}}\\)\n\\(=\\int_{-\\infty}^\\infty \\dfrac{1}{\\sqrt{2\\pi}\\sigma_x} exp \\left[ -\\dfrac{1}{2} \\left( \\dfrac{x-\\mu_x}{\\sigma_x}\\right)^2 - \\dfrac{u^2}{2}\\right]du\\)\n\\(=\\dfrac{1}{\\sqrt{2\\pi}\\sigma_x} exp \\left[ -\\dfrac{1}{2} \\left( \\dfrac{x-\\mu_x}{\\sigma_x}\\right)^2 \\right] \\int_{-\\infty}^\\infty e^{-u^2/2}du\\)\n\\(\\because \\int_{-\\infty}^\\infty e^{-u^2/2}du=1\\)\n\\(=\\dfrac{1}{\\sqrt{2\\pi}\\sigma_x} exp \\left[ -\\dfrac{1}{2} \\left( \\dfrac{x-\\mu_x}{\\sigma_x}\\right)^2 \\right]\\)\n\n\n8번\n\\((X_1, X_2, X_3) ∼ MULT(n, p_1, p_2, p_3)\\)일 때 \\(Cov(X_1, X_2)\\)를 구하시오\n\n\\(Var(X_1+X_2)=n(p_1+p_2)(1-(p_1+p_2))\\)\n\\(Var(X_1+X_2)=Var(X_1)+Var(X_2)+2Cov(X_1,X_2)=np_1(1-p_1)+np_2(1-p_2)+2Cov(X_1,X_2)\\)\n\n1과 2를 연립하면,\n\\(Cov(X_1,X_2)=-np_1p_2\\)\n\\(f_{X_1,X_2,X_3}(x_1,x_2,x_3)\\begin{pmatrix} n \\\\ x_1 \\ x_2\\  x_3 \\end{pmatrix} p_1^{x_1} p_2^{x_2} p_3^{x_3}\\) , 단 \\(\\begin{pmatrix} 0\\leq x_{1}\\leq 1 & \\\\ 0\\leq x_{2}\\leq 1 & \\\\ 0\\leq x_{3}\\leq 1 & \\\\ x_{1}+x_{2}+x_{3}= & 1 \\end{pmatrix}\\)\n\\(Cov(X_1, X_2) = E(X_1X_2) - E(X_1)E(X_2)\\)\n\\(X_1\\) ~ \\(B(n,p_1)\\)이므로 \\(E(X_1)=np_1, E(X_2)=np_2\\)\n\\(E(X_1X_2)=E(E(X_1X_2|X_2))\\) 이고 \\(X_2\\)가 주어졌을 때의 조건부서식이므로 \\(X_2\\)는 밖으로 나갈 수 있다.\n=\\(E(X_2 E(X_1|X_2))\\)를 구하자.\n먼저, \\(E(X_1|X_2=x_2)\\)는 \\(f_{X_1|X_2}(x_1|x_2)=\\dfrac{f_{X_1,X_2}(x_1,x_2)}{f_{X_2}(x_2)}\\)이다.\n분자먼저 구하자! \n\\(f_{X_1,X_2}(x_1,x_2)=P(X_1=x_1,X_2=x_2)\\) 이고 \n이 실험에서는,\n\\(=P(X_1=x_1,X_2=x_2,X_3=n-x_1-x_2)\\)\n\\(=\\dfrac{n!}{x_1! x_2! (n-x_1 -x_2)!}p_1^{x_1} p_2^{x_2} p_3^{n-x_1-x_2}\\)\n분모는, 이항분포를 따르므로\n\\(f_{X_2}(x_2) = \\dfrac{n!}{x_2!(n-x_2)!}p_2^{x_2}(1-p_2)^{n-x_2}\\)\n\\(f_{X_1|X_2}(x_1|x_2)=\\dfrac{f_{X_1,X_2}(x_1,x_2)}{f_{X_2}(x_2)}\\)\n\\(=\\dfrac{\\dfrac{n!}{x_1! x_2! (n-x_1 -x_2)!}p_1^{x_1} p_2^{x_2} p_3^{n-x_1-x_2}}{\\dfrac{n!}{x_2!(n-x_2)!}p_2^{x_2}(1-p_2)^{n-x_2}}\\)\n\\(=\\dfrac{(n-x_2)!}{x_1!(n-x_2-x_1)!} \\left( \\dfrac{p_{1}}{1-p_{2}}\\right) ^{x_{1}} \\left( \\dfrac{p_{3}}{1-p_{2}}\\right) ^{n-x_{2}-x_{1}}\\)\n\\(=\\begin{pmatrix} n-x_{2} \\\\ x_{1} \\end{pmatrix}  \\left( \\dfrac{p_{1}}{1-p_{2}}\\right) ^{x_{1}} \\left( 1-\\dfrac{p_{1}}{1-p_{2}}\\right) ^{n-x_{2}-x_{1}}\\)\n즉, \\(B(n-x_2, \\dfrac{p_1}{1-p_2})\\)를 따른다.\n즉, \\(E(X_1X_2)=\\dfrac{(n-x_2)p_1}{1-p_2}\\)\n다시 이중기댓값 정의로 돌아가서..\n구하려는 값 : \\(E(X_2 E(X_1|X_2))\\)\n\\(E(X_2 E(X_1|X_2))=E(X_2 \\cdot \\dfrac{(n-x_2)p_1}{1-p_2})\\)\n\\(=\\dfrac{p_1}{1-p_2}[E(n_2X_2)-E(X_2^2)]\\)\n\\(\\because E(X_2^2) = Var(X_2) + [E(X_2)]^2 = np_2(1-p_2) + n^2 p_2^2\\)\n\\(=\\dfrac{p_1}{1-p_2}(n^2p_2 - np_2(1-p_2) - n^2 p_2^2)\\)\n\\(=\\dfrac{np_1p_2}{1-p_2}(n-1+p_2-np_2)\\)\n\\(=\\dfrac{np_1p_2(1-p_2)(n-1)}{1-p_2}\\)\n\\(=n(n-1)p_1p_2\\)\n돌고돌아 구하고자 하는 공분산을 구해보자.\n\\(Cov(X_1, X_2) = E(X_1X_2) - E(X_1)E(X_2)\\)\n\\(=n(n-1)p_1p_2 - n^2p_1p_2\\)\n\\(=-np_1p_2\\)"
+  },
+  {
+    "objectID": "posts/TS5.html",
+    "href": "posts/TS5.html",
+    "title": "TS HW5",
+    "section": "",
+    "text": "\\((X_1, X_2, X_3)\\) ∼ \\(MULT(n, p_1, p_2, p_3)\\)일 때 \\(X_1|X_2 = x_2\\)의 조건부 확률밀도함수를 구하시오.\n\\(f_{X_1,X_2,X_3}(x_1,x_2,x_3)=\\begin{pmatrix} n \\\\ x_1 \\ x_2\\  x_3 \\end{pmatrix} p_1^{x_1} p_2^{x_2} p_3^{x_3}\\) , 단 \\(\\begin{pmatrix} 0\\leq x_{1}\\leq 1 & \\\\ 0\\leq x_{2}\\leq 1 & \\\\ 0\\leq x_{3}\\leq 1 & \\\\ x_{1}+x_{2}+x_{3}= & 1 \\end{pmatrix}\\)\n\\(X_1\\) ~ \\(B(n,p_1)\\)이므로 \\(E(X_1)=np_1, E(X_2)=np_2\\)\n\\(f_{X_1,X_2}(x_1,x_2)=P(X_1=x_1,X_2=x_2)\\) 이고 \n이 실험에서는,\n\\(=P(X_1=x_1,X_2=x_2,X_3=n-x_1-x_2)\\)\n\\(=\\dfrac{n!}{x_1! x_2! (n-x_1 -x_2)!}p_1^{x_1} p_2^{x_2} p_3^{n-x_1-x_2}\\)\n분모는, 이항분포를 따르므로\n\\(f_{X_2}(x_2) = \\dfrac{n!}{x_2!(n-x_2)!}p_2^{x_2}(1-p_2)^{n-x_2}\\)\n\\(f_{X_1|X_2}(x_1|x_2)=\\dfrac{f_{X_1,X_2}(x_1,x_2)}{f_{X_2}(x_2)}\\)\n\\(=\\dfrac{\\dfrac{n!}{x_1! x_2! (n-x_1 -x_2)!}p_1^{x_1} p_2^{x_2} p_3^{n-x_1-x_2}}{\\dfrac{n!}{x_2!(n-x_2)!}p_2^{x_2}(1-p_2)^{n-x_2}}\\)\n\\(=\\dfrac{(n-x_2)!}{x_1!(n-x_2-x_1)!} \\left( \\dfrac{p_{1}}{1-p_{2}}\\right) ^{x_{1}} \\left( \\dfrac{p_{3}}{1-p_{2}}\\right) ^{n-x_{2}-x_{1}}\\)\n\\(=\\begin{pmatrix} n-x_{2} \\\\ x_{1} \\end{pmatrix}  \\left( \\dfrac{p_{1}}{1-p_{2}}\\right) ^{x_{1}} \\left( 1-\\dfrac{p_{1}}{1-p_{2}}\\right) ^{n-x_{2}-x_{1}}\\)\n즉, \\(B(n-x_2, \\dfrac{p_1}{1-p_2})\\)를 따른다."
+  },
+  {
+    "objectID": "posts/TS5.html#section",
+    "href": "posts/TS5.html#section",
+    "title": "TS HW5",
+    "section": "(1)",
+    "text": "(1)\n\\(Y = |X − µ|\\)의 확률밀도함수\n\\(f_X(x)=\\dfrac{1}{\\sqrt{2\\pi \\sigma^2}}e^ {-\\frac{(x-\\mu)^2}{2\\sigma^2}}\\)\n\\(F_Y(y) = P(Y \\le y) = P(|X-\\mu| \\le y) = P(\\mu-y \\le X \\le \\mu+y) = F_X(\\mu + y) - F_X(\\mu - y)\\) 이다.\n\\(f_y(y) = \\frac{d}{dy}\\{F_X(\\mu + y) - F_X(\\mu - y) \\} = f_X (\\mu + y) + f_X(\\mu - y) = \\frac{2}{\\sqrt{2\\pi}\\sigma} exp(-\\frac{y^2}{2\\sigma^2}) I(y&gt;0)\\)"
+  },
+  {
+    "objectID": "posts/TS5.html#section-1",
+    "href": "posts/TS5.html#section-1",
+    "title": "TS HW5",
+    "section": "(2)",
+    "text": "(2)\n\\(Y = exp(X)\\)의 확률밀도함수\n\\(g(y) = e^X\\) 라 놓자.\n\\(g^{-1}(y) = lny\\)\n\\(\\dfrac{d}{dy}(g^{-1}(y))= \\dfrac{1}{y}\\)\n\\(f_Y(y) = f_X(g^{-1}(y))\\left| \\dfrac{d g^{-1}(y) }{dy} \\right| =  \\dfrac{1}{y\\sqrt{2\\pi\\sigma^2}}e^{-\\frac{(lny - \\mu)^2}{2\\sigma^2}}\\)\n\\(= \\dfrac{1}{y\\sqrt{2\\pi\\sigma^2}}e^{-\\frac{(lny - \\mu)^2}{2\\sigma^2}}I(y&gt;0)\\)"
+  },
+  {
+    "objectID": "posts/TS5.html#section-2",
+    "href": "posts/TS5.html#section-2",
+    "title": "TS HW5",
+    "section": "(1)",
+    "text": "(1)\n\\(Z = Y_1 + Y_2\\)의 확률분포\n\\(Y_1\\)과 \\(Y_2\\)는 서로 독립이므로 합성곱 이용해보면, 범위는 \\(0&lt;y_1&lt;z\\)이고\n\\(f_Z(z)=\\int_{-\\infty}^\\infty f_{Y_2}(z-y_1) f_{Y_1}(y_1) dy_1=\\dfrac{e^{-2/z}}{8}\\int_0^z  y_1 dy_1=\\dfrac{ze^{-2/z}}{8}I(z&gt;0)\\)\n 교수님 풀이\n\\(f_Z(z) = \\dfrac{d}{dz}F_Z(z)\\)\n\\(F_Z(z) = P(Z \\leq z) = P(Y_1 + Y_2 \\leq z)\\) 이므로 \\((Y_1, Y_2)\\)의 사건\n\\(\\int\\int_{y_1+y_2 \\leq z} f_{Y_1,Y_2}(y_1,y_2)dy_1dy_2\\)\n=\\(\\int\\int_{y_1+y_2 \\leq z} \\dfrac{1}{8}y_1e^{-(y_1+y_2)/2}I(y_1&gt;0)I(y_2&gt;0)dy_1dy_2\\)\n=\\(\\int_0^z \\dfrac{1}{8}y_1 e^{-\\frac{y_1}{2}}\\int_0^{z-y_1}e^{-\\frac{y_2}{2}}dy_2dy_1\\)\n=\\(\\int_0^z \\dfrac{1}{8}y_1 e^{-\\frac{y_1}{2}} \\left[ -2e^{-\\frac{y^2}{2}} \\right]_0^{z-y_1}dy_1\\)\n=\\(\\int_0^z \\dfrac{1}{8}y_1 e^{-\\frac{y_1}{2}} 2(1-e^{-\\frac{z-y_1}{2}})dy_1\\)\n=\\(\\int_0^z \\dfrac{1}{4}y_1 \\left( e^{-\\frac{y_1}{2}}-e^{-\\frac{z}{2}} \\right)dy_1\\)"
+  },
+  {
+    "objectID": "posts/TS5.html#section-3",
+    "href": "posts/TS5.html#section-3",
+    "title": "TS HW5",
+    "section": "(2)",
+    "text": "(2)\n\\(U = Y_2/Y_1\\)와 \\(V = Y_1\\)의 결합확률밀도함수\n\\(U.V\\)를 연립하면 \\(Y_1=V, Y_2=UV\\) 이다.\n\\(|J|=\\begin{vmatrix} 0 & 1 \\\\ v & u \\end{vmatrix}=|-v|=v\\)\n\\(f_{U,V}(u,v) = f_{Y_1,Y_2}(y_1,y_2)|J| = f_{Y_1,Y_2}(v,uv)v =\\dfrac{1}{8} v^2 e^{-(v+uv)/2}I(u&gt;0,v&gt;0)\\)"
+  },
+  {
+    "objectID": "posts/TS5.html#section-4",
+    "href": "posts/TS5.html#section-4",
+    "title": "TS HW5",
+    "section": "(3)",
+    "text": "(3)\n\\((2)\\)의 결과를 이용하여 \\(U\\)의 주변확률밀도함수\n\\(f_U(u)=\\int_{-\\infty}^{\\infty} f_{U,V}(u,v) dv = \\int_{0}^{\\infty} \\dfrac{1}{8} v^2 e^{-(v+uv)/2}I(u&gt;0)dv\\)\n \\(\\dfrac{v(u+1)}{2}=t\\)치환, \\(v=\\dfrac{2t}{u+1}, dv=\\dfrac{2}{u+1}dt\\)\n=\\(\\int_{-\\infty}^\\infty \\dfrac{1}{8} (\\dfrac{2}{u+1})^3 t^2 e^{-t} I(u&gt;0)I(t&gt;0)dt\\)\n=\\(\\dfrac{1}{8}(\\dfrac{2}{u+1})^3I(u&gt;0) \\int_0^\\infty t^2e^{-t}dt\\)\n\\(\\because  \\int_0^\\infty t^2e^{-t}dt=\\Gamma(3)=2!=2\\)\n=\\(\\dfrac{2}{(u+1)^3}I(u&gt;0)\\)"
+  },
+  {
+    "objectID": "posts/TS5.html#section-5",
+    "href": "posts/TS5.html#section-5",
+    "title": "TS HW5",
+    "section": "(3)",
+    "text": "(3)\n\\(U = X − Y\\) 라고 할 때 \\(U\\)의 확률밀도함수\n\\(U=X-Y, V=Y\\)이면 \\(X=U+V, Y=V, |J|=1\\)\n\\(f_{U,V}(u,v)=p^2(1-p)^{u+2v-2}\\)\n\\(f_U(u)=\\sum_v f_{U,V}(u,v) = \\sum_{v=1}^\\infty (1-p)^u [p(1-p)^{v-1}]^2 = \\dfrac{p}{2-p}(1-p)^u\\)\n \\(u\\)의 범위가 \\((-\\infty, \\infty)\\)이고, 위 식은 \\(u&gt;0\\)인 경우에만 성립한다.\n만약 \\(u\\leq0\\)인 경우를 생각하면\n\\(\\begin{aligned}\\sum \\sum \\\\ \\begin{pmatrix} x=y+n \\\\ y=1.2,\\dots \\\\ x\\geq 1 \\end{pmatrix}\\end{aligned} = \\sum_{y=1-u}^\\infty p^2 (1-p)^{2y+u-2} = p^2 \\dfrac{(1-p)^{-u}}{1-(1-p)^2}=\\dfrac{p}{(2-p)(1-p)^u}\\)"
+  },
+  {
+    "objectID": "posts/TS5.html#section-6",
+    "href": "posts/TS5.html#section-6",
+    "title": "TS HW5",
+    "section": "(1)",
+    "text": "(1)\n\\(P (X = Y )\\)\n\\(P (X = Y )=P(X-Y=0)=P(U=0)=\\dfrac{p}{2-p}\\)\n교수님 풀이\n\\(f_{X,Y}(x,y) = \\sum \\sum_{x=y}f_{X,Y}(x,y)= \\begin{aligned}\\sum \\sum \\\\ \\begin{pmatrix} x=y \\\\ x=1,2,\\dots \\\\ y=1,2,\\dots \\end{pmatrix}\\end{aligned}p^2(1-p)^{x+y-2}=\\sum_{k=1}^\\infty (1-p)^{2k-2}=\\dfrac{p}{2-p}\\)"
+  },
+  {
+    "objectID": "posts/TS5.html#section-7",
+    "href": "posts/TS5.html#section-7",
+    "title": "TS HW5",
+    "section": "(2)",
+    "text": "(2)\n\\(P (X − Y = 1)\\)\n\\(P (X − Y = 1)=P(U=1)=\\dfrac{p(1-p)}{2-p}\\)\n교수님 풀이\n\\(f_{X,Y}(x,y) = \\sum \\sum_{x-y=1}f_{X,Y}(x,y)= \\begin{aligned}\\sum \\sum \\\\ \\begin{pmatrix} x-y=1 \\\\ x=1,2,\\dots \\\\ y=1,2,\\dots \\end{pmatrix}\\end{aligned}p^2(1-p)^{x+y-2}=\\sum_{y=1}^\\infty (1-p)^{2y-1}=\\dfrac{p(1-p)}{2-p}\\)"
+  },
+  {
+    "objectID": "posts/TS7.html",
+    "href": "posts/TS7.html",
+    "title": "TS HW7",
+    "section": "",
+    "text": "\\(Z\\) ~ \\(N(0,1)\\)이면 \\(Z^2\\) ~ \\(\\chi_1^2\\)이다.\n\\(Y=Z^2\\)\n\\(F_Y(y) = P(Y \\leq y) = P(Z^2 \\leq y)=P(-\\sqrt{y} \\leq Z \\leq \\sqrt{y})=\\Phi(\\sqrt{y})-\\Phi(-\\sqrt{y})\\)\n\\(f_Y(y) = \\dfrac{d}{dy}F_Y(y) = \\Phi(\\sqrt{y})\\dfrac{1}{2\\sqrt{y}}-\\Phi(-\\sqrt{y}) \\left(-\\dfrac{1}{2\\sqrt{y}} \\right)=\\dfrac{1}{\\sqrt{2\\pi}}e^{-2/y} \\dfrac{1}{\\sqrt{y}}=\\dfrac{1}{\\Gamma{(1/2)}2^{1/2}}y^{-1/2}e^{-2/y}\\)\n즉, \\(r=1\\)인 카이제곱 분포를 따른다.\n\n\n\n랜덤표본 \\(X_1, \\dots, X_n\\)에 대하여 \\(Cov(\\bar X_n, X_k - \\bar X_n)=0\\)\n\\(Cov(\\bar X, X_k-\\bar X) = Cov(\\bar X, X_k) - Cov(\\bar X, \\bar X) = Cov(\\bar X, X_k) - Var(\\bar X)\\)\n\\(Cov(\\bar X, X_k) = Cov(\\frac{1}{n}X_1+\\dots+\\frac{1}{n}X_n, X_k)=\\frac{1}{n}Cov(X_1,X_k)+\\dots+\\frac{1}{n}Cov(X_n,X_k)=\\frac{1}{n}Cov(X_k,X_k)=\\frac{1}{n}Var(X_k)=\\frac{1}{n} \\sigma^2\\)\n\\(\\because Cov(X_i, X_k)\\) 는 서로 독립이므로 \\(Cov(X_i, X_k)=0\\) (단 \\(i \\neq k\\))\n\\(\\therefore Cov(\\bar X, X_k-\\bar X)= Cov(\\bar X, X_k) - Var(\\bar X) = \\frac{1}{n} \\sigma^2 - \\frac{1}{n} \\sigma^2 = 0\\)\n\n\n\n\\(GAM(\\alpha, \\beta)\\)분포로부터의 랜덤표본 \\(X_1, \\dots, X_n\\)에 대하여 \\(\\bar X_n\\)의 분포를 구하시오.\n\\(\\bar X_n = \\sum_{i=1}^n X_i/n\\)\n\\(E(\\bar X_n)=\\dfrac{1}{n} n \\alpha \\beta=\\alpha \\beta\\), \\(Var(\\bar X_n)=\\dfrac{1}{n^2} n\\alpha \\beta^2=\\dfrac{1}{n} \\alpha \\beta^2\\)\n\\(\\bar X_n\\) ~ \\(GAM\\left( \\alpha \\beta, \\dfrac{1}{n} \\alpha \\beta^2 \\right)\\)"
+  },
+  {
+    "objectID": "posts/TS7.html#section",
+    "href": "posts/TS7.html#section",
+    "title": "TS HW7",
+    "section": "",
+    "text": "\\(Z\\) ~ \\(N(0,1)\\)이면 \\(Z^2\\) ~ \\(\\chi_1^2\\)이다.\n\\(Y=Z^2\\)\n\\(F_Y(y) = P(Y \\leq y) = P(Z^2 \\leq y)=P(-\\sqrt{y} \\leq Z \\leq \\sqrt{y})=\\Phi(\\sqrt{y})-\\Phi(-\\sqrt{y})\\)\n\\(f_Y(y) = \\dfrac{d}{dy}F_Y(y) = \\Phi(\\sqrt{y})\\dfrac{1}{2\\sqrt{y}}-\\Phi(-\\sqrt{y}) \\left(-\\dfrac{1}{2\\sqrt{y}} \\right)=\\dfrac{1}{\\sqrt{2\\pi}}e^{-2/y} \\dfrac{1}{\\sqrt{y}}=\\dfrac{1}{\\Gamma{(1/2)}2^{1/2}}y^{-1/2}e^{-2/y}\\)\n즉, \\(r=1\\)인 카이제곱 분포를 따른다."
+  },
+  {
+    "objectID": "posts/TS7.html#section-1",
+    "href": "posts/TS7.html#section-1",
+    "title": "TS HW7",
+    "section": "",
+    "text": "랜덤표본 \\(X_1, \\dots, X_n\\)에 대하여 \\(Cov(\\bar X_n, X_k - \\bar X_n)=0\\)\n\\(Cov(\\bar X, X_k-\\bar X) = Cov(\\bar X, X_k) - Cov(\\bar X, \\bar X) = Cov(\\bar X, X_k) - Var(\\bar X)\\)\n\\(Cov(\\bar X, X_k) = Cov(\\frac{1}{n}X_1+\\dots+\\frac{1}{n}X_n, X_k)=\\frac{1}{n}Cov(X_1,X_k)+\\dots+\\frac{1}{n}Cov(X_n,X_k)=\\frac{1}{n}Cov(X_k,X_k)=\\frac{1}{n}Var(X_k)=\\frac{1}{n} \\sigma^2\\)\n\\(\\because Cov(X_i, X_k)\\) 는 서로 독립이므로 \\(Cov(X_i, X_k)=0\\) (단 \\(i \\neq k\\))\n\\(\\therefore Cov(\\bar X, X_k-\\bar X)= Cov(\\bar X, X_k) - Var(\\bar X) = \\frac{1}{n} \\sigma^2 - \\frac{1}{n} \\sigma^2 = 0\\)"
+  },
+  {
+    "objectID": "posts/TS7.html#번",
+    "href": "posts/TS7.html#번",
+    "title": "TS HW7",
+    "section": "",
+    "text": "\\(GAM(\\alpha, \\beta)\\)분포로부터의 랜덤표본 \\(X_1, \\dots, X_n\\)에 대하여 \\(\\bar X_n\\)의 분포를 구하시오.\n\\(\\bar X_n = \\sum_{i=1}^n X_i/n\\)\n\\(E(\\bar X_n)=\\dfrac{1}{n} n \\alpha \\beta=\\alpha \\beta\\), \\(Var(\\bar X_n)=\\dfrac{1}{n^2} n\\alpha \\beta^2=\\dfrac{1}{n} \\alpha \\beta^2\\)\n\\(\\bar X_n\\) ~ \\(GAM\\left( \\alpha \\beta, \\dfrac{1}{n} \\alpha \\beta^2 \\right)\\)"
+  },
+  {
+    "objectID": "posts/TS7.html#section-2",
+    "href": "posts/TS7.html#section-2",
+    "title": "TS HW7",
+    "section": "(1)",
+    "text": "(1)\n\\(\\bar X_{16} - \\bar Y_{25}\\)의 분포를 구하시오.\n\\(E(\\bar X_{16} - \\bar Y_{25}) = E(\\bar X_{16}) - E(\\bar Y_{25}) = 0-2 = -2\\)\n\\(Var(\\bar X_{16} - \\bar Y_{25}) = Var(\\bar X_{16})+Var( \\bar Y_{25}) = \\dfrac{9}{16}+\\dfrac{16}{25}=\\dfrac{481}{400}\\)\n\\(\\bar X_{16} - \\bar Y_{25}\\) ~ \\(N(-2,\\dfrac{481}{400})\\)"
+  },
+  {
+    "objectID": "posts/TS7.html#section-3",
+    "href": "posts/TS7.html#section-3",
+    "title": "TS HW7",
+    "section": "(2)",
+    "text": "(2)\n\\(\\dfrac{24\\sum_{i=1}^{16} X_i^2}{9 \\sum_{i=1}^{25}(Y_i-\\bar Y)^2}\\)\n\\(U=\\left( \\sum_{i=1}^{16}\\dfrac{X_i-0}{3} \\right)^2\\) ~ \\(\\chi_{16}^2\\)\n\\(S_{25}^2=\\dfrac{\\sum_{i=1}^{25}(Y_i-\\bar Y)^2}{24}\\)\n\\(V=\\dfrac{24S_{25}^2}{16}\\) ~ \\(\\chi_{24}^2\\)\n\\(\\sum_{i=1}^{25}(Y_i-\\bar Y)^2 = 24 S_{25}^2\\)\n\\(\\dfrac{24\\sum_{i=1}^{16} X_i^2}{9 \\sum_{i=1}^{25}(Y_i-\\bar Y)^2}=\\dfrac{24}{9} \\dfrac{16 \\times 9}{16 \\times 24} \\dfrac{U/16}{V/24}=F\\)~\\(F_{16,24}\\)"
+  },
+  {
+    "objectID": "posts/TS7.html#section-4",
+    "href": "posts/TS7.html#section-4",
+    "title": "TS HW7",
+    "section": "(1)",
+    "text": "(1)\n\\(GAM(2,\\theta)\\)\n\\(\\mu_1 = E(X) = 2\\theta = \\bar{X_n} \\rightarrow \\theta^{MME} = \\dfrac{\\bar X_n}{2}\\)\n\\(\\mu_1 = \\bar X^1\\)"
+  },
+  {
+    "objectID": "posts/TS7.html#section-5",
+    "href": "posts/TS7.html#section-5",
+    "title": "TS HW7",
+    "section": "(2)",
+    "text": "(2)\n\\(f(x|\\mu, \\sigma) = \\dfrac{1}{\\sigma} e^{-\\frac{x-\\mu}{\\sigma}}I(x&gt;\\mu)\\)"
+  },
+  {
+    "objectID": "posts/TS7.html#section-6",
+    "href": "posts/TS7.html#section-6",
+    "title": "TS HW7",
+    "section": "(3)",
+    "text": "(3)\n\\(f(x|\\theta) = \\dfrac{3\\theta^3}{x^4}I(\\theta&lt;x)\\)"
+  },
+  {
+    "objectID": "posts/TS7.html#번-8",
+    "href": "posts/TS7.html#번-8",
+    "title": "TS HW7",
+    "section": "11번",
+    "text": "11번\n\\(X_1, X_2, \\dots, X_n\\)이 \\(U(−θ, θ), θ &gt; 0\\)로부터의 랜덤표본일 때 \\(c(X_{(n)} − X_{(1)})\\)이 모수 \\(θ\\)의 비편향 추정량이 되기 위한 상수 \\(c\\)의 값은?"
+  },
+  {
+    "objectID": "posts/TS3.html",
+    "href": "posts/TS3.html",
+    "title": "TS HW3",
+    "section": "",
+    "text": "모든 풀이는 틀릴 수 있움"
+  },
+  {
+    "objectID": "posts/TS3.html#section",
+    "href": "posts/TS3.html#section",
+    "title": "TS HW3",
+    "section": "(1)",
+    "text": "(1)\n\\(E(U)= μ\\)를 만족하기 위한 상수 \\(a_1, \\dots, a_n\\)에 대한 조건은?\n\\(E(U)=E(\\sum_{i=1}^n a_i X_i)= E(a_1X_1)+ \\dots + E(a_nX_n)=  μ(a_1 + \\dots + a_n)=μ\\)\ns.t \\((a_1 + \\dots + a_n)=1\\)"
+  },
+  {
+    "objectID": "posts/TS3.html#section-1",
+    "href": "posts/TS3.html#section-1",
+    "title": "TS HW3",
+    "section": "(2)",
+    "text": "(2)\n\\(Var(U)=\\sum_{i=1}^n a_i^2 Var(X_i) + 2 \\sum\\sum_{i&lt;j} a_i a_j Cov(X_i, X_j)\\)임을 보이시오.\n만약 \\(X_i\\) 가 랜덤분포라면..\n\\(Var(U)=Var(\\sum_{i=1}^n a_i X_i)= Var(a_1X_1)+ \\dots + Var(a_nX_n)= a_1^2Var(X_1)+\\dots+a_n^2Var(X_n)=\\sum a_i^2 Var(X_i)\\)\n\\(n=2\\)인 경우를 고려\n\\(Var(a_1X_1+a_2X_2)=E(a_1X_1+a_2X_2)^2 - [E(a_1X_1)+E(a_2X_2)]^2\\)\n= \\(E(a_1^2X_1^2+ a_2^2X_2^2 + 2a_1a_2X_1X_2) - [E(a_1X_1)]^2 -[E(a_2X_2)]^2 -2E(a_1X_1)E(a_2X_2)\\)\n= \\(E(a_1^2X_1^2)+E(a_2^2X_2^2)+ 2a_1a_2E(X_1X_2) - [E(a_1X_1)]^2 -[E(a_2X_2)]^2 -2E(a_1X_1)E(a_2X_2)\\)\n= \\(E(a_1^2X_1^2)- [E(a_1X_1)]^2+E(a_2^2X_2^2)-[E(a_2X_2)]^2 + 2a_1a_2E(X_1X_2)-2a_1a_2E(X_1)E(X_2)\\)\n=\\(Var(a_1X_1)+Var(a_2X_2)+2a_1a_2Cov(X_1,X_2)\\)\n수학적 귀납법을 통해 그 이후도 성립\n교수님 풀이\n\\(Var(U)=E[(u-E(u))^2]\\)\n\\(E(u)=\\sum a_i \\mu\\) 이므로\n\\(u-E(u) = \\sum a_iX_i - \\sum a_i \\mu = \\sum a_i(X_i - \\mu)\\)\n\\(E[(u-E(u))^2] = E(\\sum a_i(X_i - \\mu))^2 = E(\\sum a_i^2(X_i-\\mu)^2 + \\sum \\sum a_i (X_i-\\mu) a_j (X_j-\\mu))\\)\n\\(=\\sum a_i^2 E(X_i-\\mu)^2 + 2\\sum \\sum a_i a_j E(X_i-\\mu)E(X_j-\\mu)\\)\n\\(= \\sum_{i=1}^n a_i^2 Var(X_i) + 2 \\sum\\sum_{i&lt;j} a_i a_j Cov(X_i, X_j)\\)"
+  },
+  {
+    "objectID": "posts/TS3.html#확인해보쟈",
+    "href": "posts/TS3.html#확인해보쟈",
+    "title": "TS HW3",
+    "section": "(3) 확인해보쟈",
+    "text": "(3) 확인해보쟈\n\\(X_1, \\dots, X_n\\)이 서로 독립인 확률변수라고 할 때 \\(E(U)=μ\\)을 만족하면서 \\(Var(U)\\)를 최소로 하는 상수 \\(a_1,\\dots,a_n\\)에 대한 조건은?\n\\(X_i\\)가 서로 독립이면 \\(Cov(X_i,X_j)=0\\)이다.\n만약 \\(X_i\\) 가 랜덤분포라면..\n\\(Var(U)=Var(\\sum_{i=1}^n a_i X_i)= Var(a_1X_1)+ \\dots + Var(a_nX_n)= a_1^2Var(X_1)+\\dots+a_n^2Var(X_n)=\\sum a_i^2 Var(X_i)\\)\n\\((σ^2 - μ^2) \\sum a_i^2\\)\n위식이 최소가 되기 위해서는 \\(\\sum a_i^2\\)이 최소가 되어야 한다.\n코시 슈바츠르 부등식을 이용하여,\n\n코시 슈차르츠 부등식: \\((a^2+b^2)(x^2+y^2) &gt; (ax+by)^2\\)\n\n\\((a_1^2 + \\dots + a_n^2)(1^2+ \\dots + 1^2) \\geq (a_1+ \\dots a_n)^2\\)\n\\(n \\sum a_i^2 \\geq  μ^2\\)\n\\(\\sum a_i^2 \\geq \\dfrac{μ^2}{n}\\)\n문제오류!! \\(E(X_i^2)=\\sigma^2\\)이 아니라 \\(Var(X_i)=\\sigma^2\\)\n\\(Var(U)=\\sum a_i^2 \\sigma^2\\)을 최소로 하는 \\(a_1, \\dots, a_n\\)을 구하자.\n라그랑쥬(Lagrange)승수법 이용\n\\(g(a_1,\\dots,a_n,\\lambda) = \\sum_{i=1}^n a_i^2 \\sigma^2 + \\lambda(\\sum a_i - 1)\\)\n제약조건을 \\(\\lambda\\)로 넣는다.\n\\(\\begin{cases}\\dfrac{\\partial g}{\\partial a_{i}}=0(i=1,2,\\dots)\\\\ \\dfrac{\\partial g}{\\partial \\lambda}=0\\end{cases}\\)인 것을 찾자\n\\(2a_i \\sigma^2 + \\lambda=0  (i=1,\\dots,n)\\) \n\\(a_i=-\\dfrac{\\lambda}{2\\sigma^2}\\)\n\\(\\sum a_i - 1 = 0\\)\n\\(1=-\\dfrac{\\lambda}{2\\sigma^2}\\)\n\\(\\lambda = -\\dfrac{2\\sigma^2}{n}\\)\n\\(\\therefore a_i=\\dfrac{1}{n}\\)"
+  },
+  {
+    "objectID": "posts/TS3.html#section-2",
+    "href": "posts/TS3.html#section-2",
+    "title": "TS HW3",
+    "section": "(1)",
+    "text": "(1)\n\\(E(X-Y)=E(X)-E(Y)\\)\nT"
+  },
+  {
+    "objectID": "posts/TS3.html#section-3",
+    "href": "posts/TS3.html#section-3",
+    "title": "TS HW3",
+    "section": "(2)",
+    "text": "(2)\n\\(Var(X-Y) = Var(X) - Var(Y)\\)\nF(\\(Var(X-Y) = Var(X) + Var(Y)\\))"
+  },
+  {
+    "objectID": "posts/TS3.html#section-4",
+    "href": "posts/TS3.html#section-4",
+    "title": "TS HW3",
+    "section": "(3)",
+    "text": "(3)\n\\(Cov(X+Y,X) = Var(X)\\)\nT\n\\(Cov(X+Y,X)=E((X+Y)X)-E(X+Y)E(X)=E(X^2+YX)-(E(X)+E(Y))E(X)=E(X^2)+E(YX)-[E(X)]^2-E(Y)E(X)=E(X^2)-[E(X)]^2=Var(X)\\)"
+  },
+  {
+    "objectID": "posts/TS3.html#section-5",
+    "href": "posts/TS3.html#section-5",
+    "title": "TS HW3",
+    "section": "(4)",
+    "text": "(4)\n\\(Cov(X+Y,X-Y) = Var(X)+Var(Y)\\)\nF(\\(Var(X)-Var(Y)\\))\n\\(Cov(X+Y,X-Y)=E((X+Y)(X-Y))-E(X+Y)E(X-Y)=E(X^2+YX-XY-Y^2)-(E(X)+E(Y))(E(X)-E(Y))=Var(X)-Var(Y)\\)"
+  },
+  {
+    "objectID": "posts/TS3.html#section-6",
+    "href": "posts/TS3.html#section-6",
+    "title": "TS HW3",
+    "section": "(5)",
+    "text": "(5)\n\\(Corr(X+Y,Y)=\\dfrac{SD(Y)}{SD(X)}\\)\nF\n\\(Corr(X+Y,Y)=\\dfrac{Cov(X+Y,Y)}{SD(X+Y)SD(Y)}=\\dfrac{Var(Y)}{\\sqrt{Var(X)+Var(Y)}SD(Y)}=\\dfrac{SD(Y)}{\\sqrt{Var(X)+Var(Y)}}\\)"
+  },
+  {
+    "objectID": "posts/TS3.html#section-7",
+    "href": "posts/TS3.html#section-7",
+    "title": "TS HW3",
+    "section": "(1)",
+    "text": "(1)\n확률변수 \\(X_i\\)의 적률생성함수를 구하라.\n\\(M_X(t)=E(e^{tX})=\\int_{-\\infty}^\\infty e^{tx}xe^{-x}I(x&gt;0)dx=\\int_0^\\infty xe^{x(t-1)}dx=\\dfrac{1}{(t-1)^2}\\)\n\\(\\dfrac{1}{(1-t)^2} \\ for (1-t)&gt;0\\)"
+  },
+  {
+    "objectID": "posts/TS3.html#section-8",
+    "href": "posts/TS3.html#section-8",
+    "title": "TS HW3",
+    "section": "(2)",
+    "text": "(2)\n(1)의 결과를 이용하여 확률변수 \\(X_i\\)의 분산을 구하라\n\\(Var(X)=E(X^2)-[E(X)]^2\\)\n\\(M_X^{(1)}(t=0)=E(X), M_X^{(2)}(t=0)=E(X^2)\\) 이용\n\\(M_X^{(1)}(t)=\\dfrac{-2}{(t-1)^3}, M_X^{(1)}(t=0)=2\\)\n\\(\\dfrac{-2}{(1-t)^3}\\)\n\\(M_X^{(2)}(t)=\\dfrac{6}{(t-1)^4}, M_X^{(2)}(t=0)=6\\)\n\\(Var(X)=E(X^2)-[E(X)]^2=6-4=2\\)"
+  },
+  {
+    "objectID": "posts/TS3.html#section-9",
+    "href": "posts/TS3.html#section-9",
+    "title": "TS HW3",
+    "section": "(3)",
+    "text": "(3)\n(1)의 결과를 이용하여 확률변수 \\(\\sum_{i=1}^n X_i\\)의 적률생성함수를 구하라.\n확률변수 \\(X_i\\)가 랜덤분포이므로 \\(U=\\sum X_i\\)일때 적률생성함수는\n\\(M_U(t)=M_{X_1}(t)M_{X_2}(t) \\dots M_{X_n}(t)\\) 이다.\n\\(M_U(t)= \\dfrac{1}{(t-1)^{2n}}\\)"
+  },
+  {
+    "objectID": "posts/TS3.html#section-10",
+    "href": "posts/TS3.html#section-10",
+    "title": "TS HW3",
+    "section": "(4)",
+    "text": "(4)\n(3)의 결과를 이용하여 확률변수 \\(Y=\\sum_{i=1}^n 2X_i\\)의 적률생성함수를 구하라.\n\\(M_Y(t)=E(e^{tY})=E(e^{2tu})=M_u(2t)=(\\dfrac{1}{1-2t})^{2n}\\) 이다.\n위 결과는 \\(GAM(2n,2)\\)의 mgf이다, 즉 \\(Y\\)~\\(GAM(2n,2)\\)이다.\n\\(GAM(2n,2)\\)은 자유도가 4n인 카이제곱을 따른다."
+  },
+  {
+    "objectID": "posts/TS3.html#section-11",
+    "href": "posts/TS3.html#section-11",
+    "title": "TS HW3",
+    "section": "(2)",
+    "text": "(2)\n\\(Var(Y|X=x)\\)\n\\(Var(Y|X=x) = E(Y^2|x)-[E(Y|x)]^2\\)\n\\(E(Y^2|x)=\\sum y^2 f_{X|Y}(x|y) = \\sum_0^n y^2 \\begin{pmatrix} n \\\\ y  \\end{pmatrix} x^y \\ (1-x)^{n-y}\\)\n\\(f_{X|Y}(x|y)\\)는 이항분포이며 기댓값은 \\(nx\\), 분산은 \\(nx(1-x)\\)이다.\n\\(E(Y|X)=nx, Var(Y|X)=nx(1-x)\\)\n계산이 너무 복잡해.."
+  },
+  {
+    "objectID": "posts/TS3.html#section-12",
+    "href": "posts/TS3.html#section-12",
+    "title": "TS HW3",
+    "section": "(1)",
+    "text": "(1)\n이중기댓값 정의를 이용하여 \\(E(Y)=E[E(Y|X)]\\) 풀이\n\\(Var(Y)=Var(E(Y|X))+E(Var(Y|X))\\)\n\\(=Var(nX)+E(nX(1-X))\\)\n\\(=n^2 Var(X) + nE(X) - nE(X^2)\\)\n\\(=n^2/20 + n/2 - 3n/10\\)\n\\(=n^2/20 + n/5\\)"
+  },
+  {
+    "objectID": "posts/TS8.html",
+    "href": "posts/TS8.html",
+    "title": "TS HW8",
+    "section": "",
+    "text": "모수 \\(\\theta\\)에 대한 서로 독립인 비편향 추정량 \\(\\hat \\theta_1\\)과 \\(\\hat \\theta_2\\)이 존재하며 \\(Var(\\hat \\theta_i)=\\sigma_i^2, i=1,2\\)이라고 한다. 이를 이용하여 새로운 추정량 \\(\\hat \\theta_{a_1,a_2}=a_1\\hat \\theta_1+ a_2 \\hat \\theta_2\\)를 정의할 때 다음에 답하시오.\n\n\n\\(\\hat \\theta_{a_1,a_2}\\)이 비편향추정량이 될 \\(a_1\\)과 \\(a_2\\)의 조건을 구하시오\n\\(E(a_1\\hat \\theta_1 + a_2 \\hat \\theta_2) = a_1E(\\hat \\theta_1) + a_2 E(\\hat \\theta_2) = \\theta(a_1+a_2)=\\theta\\)\n\\(\\therefore a_1+a_2=1\\)\n\n\n\n비편향추정량인 \\(\\hat \\theta_{a_1,a_2}\\) 중에서 가장 작은 분산을 가지는 추정량을 구하시오.\n\\(Var(\\hat \\theta_{a_1,a_2})=Var(a_1\\hat \\theta_1 + a_2\\hat \\theta_2) = a_1^2 \\sigma_1^2 + a_2^2 \\sigma_2^2\\)\n(1)에서 \\(a_1+a_2=1\\)이므로 이를 이용하면\n\\(f(a_1) = a_1^2 \\sigma_1^2 + (1-a_1)^2 \\sigma^2_2 = a_1^2(\\sigma_1^2+\\sigma_2^2) -2\\sigma_2^2 a_1 + \\sigma_2^2\\)\n\\(\\dfrac{df(a_1)}{da_1} \\rightarrow a_1=\\dfrac{\\sigma_2^2}{\\sigma_1^2+\\sigma_2^2}=\\dfrac{\\frac{1}{\\sigma_1^2}}{\\frac{\\sigma_1^2+\\sigma_2^2}{\\sigma_1^2\\sigma_2^2}} = \\dfrac{\\frac{1}{\\sigma_1^2}}{\\frac{1}{\\sigma_1^2} + \\frac{1}{\\sigma_2^2}}\\)\n(1)에서 \\(a_1+a_2=1\\)이므로 이를 이용하면\n\\(f(a_2) = a_2^2 \\sigma_1^2 + (1-a_2)^2 \\sigma^2_2 = a_2^2(\\sigma_1^2+\\sigma_2^2) -2\\sigma_1^2 a_2 + \\sigma_1^2\\)\n\\(\\dfrac{df(a_2)}{da_2} \\rightarrow a_2=\\dfrac{\\sigma_1^2}{\\sigma_1^2+\\sigma_2^2}=\\dfrac{\\frac{1}{\\sigma_2^2}}{\\frac{\\sigma_1^2+\\sigma_2^2}{\\sigma_1^2\\sigma_2^2}} = \\dfrac{\\frac{1}{\\sigma_2^2}}{\\frac{1}{\\sigma_1^2} + \\frac{1}{\\sigma_2^2}}\\)\n즉 \\(\\hat \\theta_{a_1,a_2}\\)는 \\(a_1=\\dfrac{\\sigma_2^2}{\\sigma_1^2+\\sigma_2^2}, a_2=\\dfrac{\\sigma_1^2}{\\sigma_1^2+\\sigma_2^2}\\)일 때 가장 작은 분산을 가진다. 일반화 하면 \\(a_i = \\dfrac{\\frac{1}{\\sigma_1}}{\\sum_{j=1}^2\\frac{1}{\\sigma_j^2}}\\)"
+  },
+  {
+    "objectID": "posts/TS8.html#section",
+    "href": "posts/TS8.html#section",
+    "title": "TS HW8",
+    "section": "",
+    "text": "\\(\\hat \\theta_{a_1,a_2}\\)이 비편향추정량이 될 \\(a_1\\)과 \\(a_2\\)의 조건을 구하시오\n\\(E(a_1\\hat \\theta_1 + a_2 \\hat \\theta_2) = a_1E(\\hat \\theta_1) + a_2 E(\\hat \\theta_2) = \\theta(a_1+a_2)=\\theta\\)\n\\(\\therefore a_1+a_2=1\\)"
+  },
+  {
+    "objectID": "posts/TS8.html#section-1",
+    "href": "posts/TS8.html#section-1",
+    "title": "TS HW8",
+    "section": "",
+    "text": "비편향추정량인 \\(\\hat \\theta_{a_1,a_2}\\) 중에서 가장 작은 분산을 가지는 추정량을 구하시오.\n\\(Var(\\hat \\theta_{a_1,a_2})=Var(a_1\\hat \\theta_1 + a_2\\hat \\theta_2) = a_1^2 \\sigma_1^2 + a_2^2 \\sigma_2^2\\)\n(1)에서 \\(a_1+a_2=1\\)이므로 이를 이용하면\n\\(f(a_1) = a_1^2 \\sigma_1^2 + (1-a_1)^2 \\sigma^2_2 = a_1^2(\\sigma_1^2+\\sigma_2^2) -2\\sigma_2^2 a_1 + \\sigma_2^2\\)\n\\(\\dfrac{df(a_1)}{da_1} \\rightarrow a_1=\\dfrac{\\sigma_2^2}{\\sigma_1^2+\\sigma_2^2}=\\dfrac{\\frac{1}{\\sigma_1^2}}{\\frac{\\sigma_1^2+\\sigma_2^2}{\\sigma_1^2\\sigma_2^2}} = \\dfrac{\\frac{1}{\\sigma_1^2}}{\\frac{1}{\\sigma_1^2} + \\frac{1}{\\sigma_2^2}}\\)\n(1)에서 \\(a_1+a_2=1\\)이므로 이를 이용하면\n\\(f(a_2) = a_2^2 \\sigma_1^2 + (1-a_2)^2 \\sigma^2_2 = a_2^2(\\sigma_1^2+\\sigma_2^2) -2\\sigma_1^2 a_2 + \\sigma_1^2\\)\n\\(\\dfrac{df(a_2)}{da_2} \\rightarrow a_2=\\dfrac{\\sigma_1^2}{\\sigma_1^2+\\sigma_2^2}=\\dfrac{\\frac{1}{\\sigma_2^2}}{\\frac{\\sigma_1^2+\\sigma_2^2}{\\sigma_1^2\\sigma_2^2}} = \\dfrac{\\frac{1}{\\sigma_2^2}}{\\frac{1}{\\sigma_1^2} + \\frac{1}{\\sigma_2^2}}\\)\n즉 \\(\\hat \\theta_{a_1,a_2}\\)는 \\(a_1=\\dfrac{\\sigma_2^2}{\\sigma_1^2+\\sigma_2^2}, a_2=\\dfrac{\\sigma_1^2}{\\sigma_1^2+\\sigma_2^2}\\)일 때 가장 작은 분산을 가진다. 일반화 하면 \\(a_i = \\dfrac{\\frac{1}{\\sigma_1}}{\\sum_{j=1}^2\\frac{1}{\\sigma_j^2}}\\)"
+  },
+  {
+    "objectID": "posts/TS8.html#section-2",
+    "href": "posts/TS8.html#section-2",
+    "title": "TS HW8",
+    "section": "(1)",
+    "text": "(1)\n\\(p(1-p)\\)에 대한 비편향추정량의 크래며-라오 하한값을 구하시오\n\\(f(x|p)=p^x(1-p)^{1-x}, g(p)=p(1-p)\\)\n\\(I(p) = E\\left(\\left(\\dfrac{d}{dp}log f(x|p)\\right)^2 \\right)=E\\left(\\left(\\dfrac{d}{dp}[xlogp+(1-x)log(1-p)]\\right)^2 \\right)=E\\left(\\left(\\dfrac{x}{p}-\\dfrac{1-x}{1-p}\\right)^2\\right)=E\\left(\\left(\\dfrac{x-p}{p(1-p)}\\right)^2\\right)=\\dfrac{1}{p^2(1-p)^2}E((x-p)^2)\\)\n\\(\\because E((x-p)^2)=Var\\)~\\(p(1-p)\\)\n\\(=\\dfrac{p(1-p)}{p^2(1-p)^2}=\\dfrac{1}{p(1-p)}\\)\n\\(\\therefore CRLB = \\dfrac{g'(p))^2}{nI(p)}=\\dfrac{p(1-p)(1-2p)^2}{n}\\)"
+  },
+  {
+    "objectID": "posts/TS8.html#section-3",
+    "href": "posts/TS8.html#section-3",
+    "title": "TS HW8",
+    "section": "(2)",
+    "text": "(2)\n\\(X_1(1-X_2)\\)의 기댓값을 구하시오.\n\\(E(X_1-X_1X_2)=E(X_1)-E(X_1X_2)=E(X_1)-E(X_1)E(X_2)=p-p^2=p(1-p)\\)\n\\(X_1,X_2\\)는 서로 독립"
+  },
+  {
+    "objectID": "posts/TS8.html#section-4",
+    "href": "posts/TS8.html#section-4",
+    "title": "TS HW8",
+    "section": "(3)",
+    "text": "(3)\n\\(p(1-p)\\)에 대한 최소분산 비편향추정량을 구하시오.\n책 226쪽 참고\n\\(f(x)=p^x(1-p)^{1-x}=(\\frac{p}{1-p})^x(1-p)=e^{xln(\\frac{p}{1-p})}(1-p)\\)로 나타내면\n\\(f(x)\\)는 지수족이고 책 226의 정리를 이용하면 완비충분 통게량이 보장된다.\n\nnote\n지수족에 속하는 확률밀도함수 \\(f(x;\\theta)=a(\\theta)b(x)exp[\\sum_{i=1}^k c_i(\\theta)t_i(x)]\\)로부터의 랜덤표본을 얻으면, 통계량 \\(S_1=\\sum_{i=1}^n t_1(X_i), \\dots, S_k=\\sum_{i=1}^n t_k(X_i)\\)는 모수 \\(\\theta_1,\\dots,\\theta_k\\)에 대한 완비충분통계량이다.\n위를 통해, \\((S_1,\\dots,S_k)\\)의 함수로 만들어지는 \\((\\theta_1,\\dots,\\theta_k)\\)의 비편향 추정량은 \\((\\theta_1,\\dots,\\theta_k)\\)의 최소분산 비편향 추정량이다.\n\n위 식에서 \\(t(x)=x\\)\n\\(E(\\bar X_n(1- \\bar(X_n))=E(\\bar X_n)-E(\\bar X_n^2)= p - (Var(\\bar X_n)+E(\\bar X_n)^2)=p-(\\frac{p(1-p)}{n}+p^2)=p(1-p)(1-\\frac{1}{n})=\\frac{p(1-p)(n-1)}{n}\\)\n\\(\\dfrac{n\\bar X_n(1- \\bar X_n)}{n-1}\\)이 최소분산 추정량이 된다."
+  },
+  {
+    "objectID": "posts/TS8.html#section-5",
+    "href": "posts/TS8.html#section-5",
+    "title": "TS HW8",
+    "section": "(4)",
+    "text": "(4)\n\\(p(1-p)\\)에 대한 적률추정량을 구하시오.\n\\(M_1 = E(X) = p\\)\n\\(M_2 = E(X^2) = Var(X) + E(X)^2 = p(1-p)+p^2 = p\\)\n모적률 \\(m_k = M_2 - M_1^2 = p- p^2 = p(1-p)\\)"
+  },
+  {
+    "objectID": "posts/TS8.html#section-6",
+    "href": "posts/TS8.html#section-6",
+    "title": "TS HW8",
+    "section": "(5)",
+    "text": "(5)\n\\(p(1-p)\\)에 대한 최대가능도추정량을 구하시오.\n\\(f(x;p)=p^x(1-p)^{1-x}\\)\n\\(L(p)=p^{\\sum_{i=1}^n x_i} (1-p)^{n-\\sum_{i=1}^nx_i}\\)\n\\(l(p) = \\sum_{i=1}^n x_i  log p + (n-\\sum_{i=1}^n x_i) log (1-p)\\)\n\\(\\dfrac{dl(p)}{dp} = \\dfrac{\\sum_{i=1}^n x_i}{p} - \\dfrac{n-\\sum_{i=1}^n x_i}{1-p}=0\\)\n\\(\\hat p = \\dfrac{\\sum_{i=1}^n x_i}{n}= \\bar X_n\\)\n\\([\\hat p (1- \\hat p)]^{MLE} = \\bar X_n(1-\\bar X_n)\\)"
+  },
+  {
+    "objectID": "posts/TS8.html#section-7",
+    "href": "posts/TS8.html#section-7",
+    "title": "TS HW8",
+    "section": "(1)",
+    "text": "(1)\n\\(\\theta\\)에 대한 적절한 추축변량을 구하고, 해당 추축변량의 분포를 명시하시오.\n\\(X_1\\) ~ \\(Exp(\\frac{1}{\\theta})\\)\n\\(2X_1 \\theta\\) ~ \\(Exp(2)\\) or \\(2X_1\\) ~ \\(Gamma(1,2)\\)\n\\(2 \\sum_{i=1}^n X_i \\theta\\) ~ \\(\\chi^2(2n)\\)\n\\(2n \\bar X \\theta\\) ~ \\(\\chi^2(2n)\\)\n즉 추축변량은 \\(2n\\bar X \\theta\\)이고 해당 추축변량은 자유도가 2n인 카이제곱분포를 따른다."
+  },
+  {
+    "objectID": "posts/TS8.html#section-8",
+    "href": "posts/TS8.html#section-8",
+    "title": "TS HW8",
+    "section": "(2)",
+    "text": "(2)\n\\(\\theta\\)에 대한 95% 신뢰구간을 구하시오.\n \\(P(\\chi^2_{0.975}(2n) \\leq 2n\\bar X \\theta \\leq \\chi^2_{0.025}(2n)) = 0.95\\)\n\\(\\therefore \\theta_{0.95} Ci: (\\dfrac{\\chi^2_{0.975}(2n)}{2n\\bar X},\\dfrac{\\chi^2_{0.025}(2n)}{2n\\bar X})\\)"
+  },
+  {
+    "objectID": "posts/TS8.html#section-9",
+    "href": "posts/TS8.html#section-9",
+    "title": "TS HW8",
+    "section": "(3)",
+    "text": "(3)\n\\(P(X&gt;1)\\)에 대한 95% 신뢰구간을 구하시오.\n\\(P(X&gt;1) = \\int_1^\\infty \\theta exp(-x \\theta) dx = [e^{-x \\theta}]_1^\\infty = e^{-\\theta}\\)\n\\(\\therefore P(X&gt;1) CI: (e^{-\\dfrac{\\chi^2_{0.975}(2n)}{2n\\bar X}},e^{-\\dfrac{\\chi^2_{0.025}(2n)}{2n\\bar X}})\\)"
   },
   {
     "objectID": "posts/TS final.html",
@@ -327,426 +803,6 @@
     "title": "TS final",
     "section": "(d)",
     "text": "(d)\n\\(H_0 : θ_1 = θ_2\\) vs \\(H_1 : θ_1 \\neq θ_2\\)을 검정하기 위한 유의수준 \\(α\\)인 가능도비 검정의 기각역을 구하시오"
-  },
-  {
-    "objectID": "posts/TS8.html",
-    "href": "posts/TS8.html",
-    "title": "TS HW8",
-    "section": "",
-    "text": "모수 \\(\\theta\\)에 대한 서로 독립인 비편향 추정량 \\(\\hat \\theta_1\\)과 \\(\\hat \\theta_2\\)이 존재하며 \\(Var(\\hat \\theta_i)=\\sigma_i^2, i=1,2\\)이라고 한다. 이를 이용하여 새로운 추정량 \\(\\hat \\theta_{a_1,a_2}=a_1\\hat \\theta_1+ a_2 \\hat \\theta_2\\)를 정의할 때 다음에 답하시오.\n\n\n\\(\\hat \\theta_{a_1,a_2}\\)이 비편향추정량이 될 \\(a_1\\)과 \\(a_2\\)의 조건을 구하시오\n\\(E(a_1\\hat \\theta_1 + a_2 \\hat \\theta_2) = a_1E(\\hat \\theta_1) + a_2 E(\\hat \\theta_2) = \\theta(a_1+a_2)=\\theta\\)\n\\(\\therefore a_1+a_2=1\\)\n\n\n\n비편향추정량인 \\(\\hat \\theta_{a_1,a_2}\\) 중에서 가장 작은 분산을 가지는 추정량을 구하시오.\n\\(Var(\\hat \\theta_{a_1,a_2})=Var(a_1\\hat \\theta_1 + a_2\\hat \\theta_2) = a_1^2 \\sigma_1^2 + a_2^2 \\sigma_2^2\\)\n(1)에서 \\(a_1+a_2=1\\)이므로 이를 이용하면\n\\(f(a_1) = a_1^2 \\sigma_1^2 + (1-a_1)^2 \\sigma^2_2 = a_1^2(\\sigma_1^2+\\sigma_2^2) -2\\sigma_2^2 a_1 + \\sigma_2^2\\)\n\\(\\dfrac{df(a_1)}{da_1} \\rightarrow a_1=\\dfrac{\\sigma_2^2}{\\sigma_1^2+\\sigma_2^2}=\\dfrac{\\frac{1}{\\sigma_1^2}}{\\frac{\\sigma_1^2+\\sigma_2^2}{\\sigma_1^2\\sigma_2^2}} = \\dfrac{\\frac{1}{\\sigma_1^2}}{\\frac{1}{\\sigma_1^2} + \\frac{1}{\\sigma_2^2}}\\)\n(1)에서 \\(a_1+a_2=1\\)이므로 이를 이용하면\n\\(f(a_2) = a_2^2 \\sigma_1^2 + (1-a_2)^2 \\sigma^2_2 = a_2^2(\\sigma_1^2+\\sigma_2^2) -2\\sigma_1^2 a_2 + \\sigma_1^2\\)\n\\(\\dfrac{df(a_2)}{da_2} \\rightarrow a_2=\\dfrac{\\sigma_1^2}{\\sigma_1^2+\\sigma_2^2}=\\dfrac{\\frac{1}{\\sigma_2^2}}{\\frac{\\sigma_1^2+\\sigma_2^2}{\\sigma_1^2\\sigma_2^2}} = \\dfrac{\\frac{1}{\\sigma_2^2}}{\\frac{1}{\\sigma_1^2} + \\frac{1}{\\sigma_2^2}}\\)\n즉 \\(\\hat \\theta_{a_1,a_2}\\)는 \\(a_1=\\dfrac{\\sigma_2^2}{\\sigma_1^2+\\sigma_2^2}, a_2=\\dfrac{\\sigma_1^2}{\\sigma_1^2+\\sigma_2^2}\\)일 때 가장 작은 분산을 가진다. 일반화 하면 \\(a_i = \\dfrac{\\frac{1}{\\sigma_1}}{\\sum_{j=1}^2\\frac{1}{\\sigma_j^2}}\\)"
-  },
-  {
-    "objectID": "posts/TS8.html#section",
-    "href": "posts/TS8.html#section",
-    "title": "TS HW8",
-    "section": "",
-    "text": "\\(\\hat \\theta_{a_1,a_2}\\)이 비편향추정량이 될 \\(a_1\\)과 \\(a_2\\)의 조건을 구하시오\n\\(E(a_1\\hat \\theta_1 + a_2 \\hat \\theta_2) = a_1E(\\hat \\theta_1) + a_2 E(\\hat \\theta_2) = \\theta(a_1+a_2)=\\theta\\)\n\\(\\therefore a_1+a_2=1\\)"
-  },
-  {
-    "objectID": "posts/TS8.html#section-1",
-    "href": "posts/TS8.html#section-1",
-    "title": "TS HW8",
-    "section": "",
-    "text": "비편향추정량인 \\(\\hat \\theta_{a_1,a_2}\\) 중에서 가장 작은 분산을 가지는 추정량을 구하시오.\n\\(Var(\\hat \\theta_{a_1,a_2})=Var(a_1\\hat \\theta_1 + a_2\\hat \\theta_2) = a_1^2 \\sigma_1^2 + a_2^2 \\sigma_2^2\\)\n(1)에서 \\(a_1+a_2=1\\)이므로 이를 이용하면\n\\(f(a_1) = a_1^2 \\sigma_1^2 + (1-a_1)^2 \\sigma^2_2 = a_1^2(\\sigma_1^2+\\sigma_2^2) -2\\sigma_2^2 a_1 + \\sigma_2^2\\)\n\\(\\dfrac{df(a_1)}{da_1} \\rightarrow a_1=\\dfrac{\\sigma_2^2}{\\sigma_1^2+\\sigma_2^2}=\\dfrac{\\frac{1}{\\sigma_1^2}}{\\frac{\\sigma_1^2+\\sigma_2^2}{\\sigma_1^2\\sigma_2^2}} = \\dfrac{\\frac{1}{\\sigma_1^2}}{\\frac{1}{\\sigma_1^2} + \\frac{1}{\\sigma_2^2}}\\)\n(1)에서 \\(a_1+a_2=1\\)이므로 이를 이용하면\n\\(f(a_2) = a_2^2 \\sigma_1^2 + (1-a_2)^2 \\sigma^2_2 = a_2^2(\\sigma_1^2+\\sigma_2^2) -2\\sigma_1^2 a_2 + \\sigma_1^2\\)\n\\(\\dfrac{df(a_2)}{da_2} \\rightarrow a_2=\\dfrac{\\sigma_1^2}{\\sigma_1^2+\\sigma_2^2}=\\dfrac{\\frac{1}{\\sigma_2^2}}{\\frac{\\sigma_1^2+\\sigma_2^2}{\\sigma_1^2\\sigma_2^2}} = \\dfrac{\\frac{1}{\\sigma_2^2}}{\\frac{1}{\\sigma_1^2} + \\frac{1}{\\sigma_2^2}}\\)\n즉 \\(\\hat \\theta_{a_1,a_2}\\)는 \\(a_1=\\dfrac{\\sigma_2^2}{\\sigma_1^2+\\sigma_2^2}, a_2=\\dfrac{\\sigma_1^2}{\\sigma_1^2+\\sigma_2^2}\\)일 때 가장 작은 분산을 가진다. 일반화 하면 \\(a_i = \\dfrac{\\frac{1}{\\sigma_1}}{\\sum_{j=1}^2\\frac{1}{\\sigma_j^2}}\\)"
-  },
-  {
-    "objectID": "posts/TS8.html#section-2",
-    "href": "posts/TS8.html#section-2",
-    "title": "TS HW8",
-    "section": "(1)",
-    "text": "(1)\n\\(p(1-p)\\)에 대한 비편향추정량의 크래며-라오 하한값을 구하시오\n\\(f(x|p)=p^x(1-p)^{1-x}, g(p)=p(1-p)\\)\n\\(I(p) = E\\left(\\left(\\dfrac{d}{dp}log f(x|p)\\right)^2 \\right)=E\\left(\\left(\\dfrac{d}{dp}[xlogp+(1-x)log(1-p)]\\right)^2 \\right)=E\\left(\\left(\\dfrac{x}{p}-\\dfrac{1-x}{1-p}\\right)^2\\right)=E\\left(\\left(\\dfrac{x-p}{p(1-p)}\\right)^2\\right)=\\dfrac{1}{p^2(1-p)^2}E((x-p)^2)\\)\n\\(\\because E((x-p)^2)=Var\\)~\\(p(1-p)\\)\n\\(=\\dfrac{p(1-p)}{p^2(1-p)^2}=\\dfrac{1}{p(1-p)}\\)\n\\(\\therefore CRLB = \\dfrac{g'(p))^2}{nI(p)}=\\dfrac{p(1-p)(1-2p)^2}{n}\\)"
-  },
-  {
-    "objectID": "posts/TS8.html#section-3",
-    "href": "posts/TS8.html#section-3",
-    "title": "TS HW8",
-    "section": "(2)",
-    "text": "(2)\n\\(X_1(1-X_2)\\)의 기댓값을 구하시오.\n\\(E(X_1-X_1X_2)=E(X_1)-E(X_1X_2)=E(X_1)-E(X_1)E(X_2)=p-p^2=p(1-p)\\)\n\\(X_1,X_2\\)는 서로 독립"
-  },
-  {
-    "objectID": "posts/TS8.html#section-4",
-    "href": "posts/TS8.html#section-4",
-    "title": "TS HW8",
-    "section": "(3)",
-    "text": "(3)\n\\(p(1-p)\\)에 대한 최소분산 비편향추정량을 구하시오.\n책 226쪽 참고\n\\(f(x)=p^x(1-p)^{1-x}=(\\frac{p}{1-p})^x(1-p)=e^{xln(\\frac{p}{1-p})}(1-p)\\)로 나타내면\n\\(f(x)\\)는 지수족이고 책 226의 정리를 이용하면 완비충분 통게량이 보장된다.\n\nnote\n지수족에 속하는 확률밀도함수 \\(f(x;\\theta)=a(\\theta)b(x)exp[\\sum_{i=1}^k c_i(\\theta)t_i(x)]\\)로부터의 랜덤표본을 얻으면, 통계량 \\(S_1=\\sum_{i=1}^n t_1(X_i), \\dots, S_k=\\sum_{i=1}^n t_k(X_i)\\)는 모수 \\(\\theta_1,\\dots,\\theta_k\\)에 대한 완비충분통계량이다.\n위를 통해, \\((S_1,\\dots,S_k)\\)의 함수로 만들어지는 \\((\\theta_1,\\dots,\\theta_k)\\)의 비편향 추정량은 \\((\\theta_1,\\dots,\\theta_k)\\)의 최소분산 비편향 추정량이다.\n\n위 식에서 \\(t(x)=x\\)\n\\(E(\\bar X_n(1- \\bar(X_n))=E(\\bar X_n)-E(\\bar X_n^2)= p - (Var(\\bar X_n)+E(\\bar X_n)^2)=p-(\\frac{p(1-p)}{n}+p^2)=p(1-p)(1-\\frac{1}{n})=\\frac{p(1-p)(n-1)}{n}\\)\n\\(\\dfrac{n\\bar X_n(1- \\bar X_n)}{n-1}\\)이 최소분산 추정량이 된다."
-  },
-  {
-    "objectID": "posts/TS8.html#section-5",
-    "href": "posts/TS8.html#section-5",
-    "title": "TS HW8",
-    "section": "(4)",
-    "text": "(4)\n\\(p(1-p)\\)에 대한 적률추정량을 구하시오.\n\\(M_1 = E(X) = p\\)\n\\(M_2 = E(X^2) = Var(X) + E(X)^2 = p(1-p)+p^2 = p\\)\n모적률 \\(m_k = M_2 - M_1^2 = p- p^2 = p(1-p)\\)"
-  },
-  {
-    "objectID": "posts/TS8.html#section-6",
-    "href": "posts/TS8.html#section-6",
-    "title": "TS HW8",
-    "section": "(5)",
-    "text": "(5)\n\\(p(1-p)\\)에 대한 최대가능도추정량을 구하시오.\n\\(f(x;p)=p^x(1-p)^{1-x}\\)\n\\(L(p)=p^{\\sum_{i=1}^n x_i} (1-p)^{n-\\sum_{i=1}^nx_i}\\)\n\\(l(p) = \\sum_{i=1}^n x_i  log p + (n-\\sum_{i=1}^n x_i) log (1-p)\\)\n\\(\\dfrac{dl(p)}{dp} = \\dfrac{\\sum_{i=1}^n x_i}{p} - \\dfrac{n-\\sum_{i=1}^n x_i}{1-p}=0\\)\n\\(\\hat p = \\dfrac{\\sum_{i=1}^n x_i}{n}= \\bar X_n\\)\n\\([\\hat p (1- \\hat p)]^{MLE} = \\bar X_n(1-\\bar X_n)\\)"
-  },
-  {
-    "objectID": "posts/TS8.html#section-7",
-    "href": "posts/TS8.html#section-7",
-    "title": "TS HW8",
-    "section": "(1)",
-    "text": "(1)\n\\(\\theta\\)에 대한 적절한 추축변량을 구하고, 해당 추축변량의 분포를 명시하시오.\n\\(X_1\\) ~ \\(Exp(\\frac{1}{\\theta})\\)\n\\(2X_1 \\theta\\) ~ \\(Exp(2)\\) or \\(2X_1\\) ~ \\(Gamma(1,2)\\)\n\\(2 \\sum_{i=1}^n X_i \\theta\\) ~ \\(\\chi^2(2n)\\)\n\\(2n \\bar X \\theta\\) ~ \\(\\chi^2(2n)\\)\n즉 추축변량은 \\(2n\\bar X \\theta\\)이고 해당 추축변량은 자유도가 2n인 카이제곱분포를 따른다."
-  },
-  {
-    "objectID": "posts/TS8.html#section-8",
-    "href": "posts/TS8.html#section-8",
-    "title": "TS HW8",
-    "section": "(2)",
-    "text": "(2)\n\\(\\theta\\)에 대한 95% 신뢰구간을 구하시오.\n \\(P(\\chi^2_{0.975}(2n) \\leq 2n\\bar X \\theta \\leq \\chi^2_{0.025}(2n)) = 0.95\\)\n\\(\\therefore \\theta_{0.95} Ci: (\\dfrac{\\chi^2_{0.975}(2n)}{2n\\bar X},\\dfrac{\\chi^2_{0.025}(2n)}{2n\\bar X})\\)"
-  },
-  {
-    "objectID": "posts/TS8.html#section-9",
-    "href": "posts/TS8.html#section-9",
-    "title": "TS HW8",
-    "section": "(3)",
-    "text": "(3)\n\\(P(X&gt;1)\\)에 대한 95% 신뢰구간을 구하시오.\n\\(P(X&gt;1) = \\int_1^\\infty \\theta exp(-x \\theta) dx = [e^{-x \\theta}]_1^\\infty = e^{-\\theta}\\)\n\\(\\therefore P(X&gt;1) CI: (e^{-\\dfrac{\\chi^2_{0.975}(2n)}{2n\\bar X}},e^{-\\dfrac{\\chi^2_{0.025}(2n)}{2n\\bar X}})\\)"
-  },
-  {
-    "objectID": "posts/TS3.html",
-    "href": "posts/TS3.html",
-    "title": "TS HW3",
-    "section": "",
-    "text": "모든 풀이는 틀릴 수 있움"
-  },
-  {
-    "objectID": "posts/TS3.html#section",
-    "href": "posts/TS3.html#section",
-    "title": "TS HW3",
-    "section": "(1)",
-    "text": "(1)\n\\(E(U)= μ\\)를 만족하기 위한 상수 \\(a_1, \\dots, a_n\\)에 대한 조건은?\n\\(E(U)=E(\\sum_{i=1}^n a_i X_i)= E(a_1X_1)+ \\dots + E(a_nX_n)=  μ(a_1 + \\dots + a_n)=μ\\)\ns.t \\((a_1 + \\dots + a_n)=1\\)"
-  },
-  {
-    "objectID": "posts/TS3.html#section-1",
-    "href": "posts/TS3.html#section-1",
-    "title": "TS HW3",
-    "section": "(2)",
-    "text": "(2)\n\\(Var(U)=\\sum_{i=1}^n a_i^2 Var(X_i) + 2 \\sum\\sum_{i&lt;j} a_i a_j Cov(X_i, X_j)\\)임을 보이시오.\n만약 \\(X_i\\) 가 랜덤분포라면..\n\\(Var(U)=Var(\\sum_{i=1}^n a_i X_i)= Var(a_1X_1)+ \\dots + Var(a_nX_n)= a_1^2Var(X_1)+\\dots+a_n^2Var(X_n)=\\sum a_i^2 Var(X_i)\\)\n\\(n=2\\)인 경우를 고려\n\\(Var(a_1X_1+a_2X_2)=E(a_1X_1+a_2X_2)^2 - [E(a_1X_1)+E(a_2X_2)]^2\\)\n= \\(E(a_1^2X_1^2+ a_2^2X_2^2 + 2a_1a_2X_1X_2) - [E(a_1X_1)]^2 -[E(a_2X_2)]^2 -2E(a_1X_1)E(a_2X_2)\\)\n= \\(E(a_1^2X_1^2)+E(a_2^2X_2^2)+ 2a_1a_2E(X_1X_2) - [E(a_1X_1)]^2 -[E(a_2X_2)]^2 -2E(a_1X_1)E(a_2X_2)\\)\n= \\(E(a_1^2X_1^2)- [E(a_1X_1)]^2+E(a_2^2X_2^2)-[E(a_2X_2)]^2 + 2a_1a_2E(X_1X_2)-2a_1a_2E(X_1)E(X_2)\\)\n=\\(Var(a_1X_1)+Var(a_2X_2)+2a_1a_2Cov(X_1,X_2)\\)\n수학적 귀납법을 통해 그 이후도 성립\n교수님 풀이\n\\(Var(U)=E[(u-E(u))^2]\\)\n\\(E(u)=\\sum a_i \\mu\\) 이므로\n\\(u-E(u) = \\sum a_iX_i - \\sum a_i \\mu = \\sum a_i(X_i - \\mu)\\)\n\\(E[(u-E(u))^2] = E(\\sum a_i(X_i - \\mu))^2 = E(\\sum a_i^2(X_i-\\mu)^2 + \\sum \\sum a_i (X_i-\\mu) a_j (X_j-\\mu))\\)\n\\(=\\sum a_i^2 E(X_i-\\mu)^2 + 2\\sum \\sum a_i a_j E(X_i-\\mu)E(X_j-\\mu)\\)\n\\(= \\sum_{i=1}^n a_i^2 Var(X_i) + 2 \\sum\\sum_{i&lt;j} a_i a_j Cov(X_i, X_j)\\)"
-  },
-  {
-    "objectID": "posts/TS3.html#확인해보쟈",
-    "href": "posts/TS3.html#확인해보쟈",
-    "title": "TS HW3",
-    "section": "(3) 확인해보쟈",
-    "text": "(3) 확인해보쟈\n\\(X_1, \\dots, X_n\\)이 서로 독립인 확률변수라고 할 때 \\(E(U)=μ\\)을 만족하면서 \\(Var(U)\\)를 최소로 하는 상수 \\(a_1,\\dots,a_n\\)에 대한 조건은?\n\\(X_i\\)가 서로 독립이면 \\(Cov(X_i,X_j)=0\\)이다.\n만약 \\(X_i\\) 가 랜덤분포라면..\n\\(Var(U)=Var(\\sum_{i=1}^n a_i X_i)= Var(a_1X_1)+ \\dots + Var(a_nX_n)= a_1^2Var(X_1)+\\dots+a_n^2Var(X_n)=\\sum a_i^2 Var(X_i)\\)\n\\((σ^2 - μ^2) \\sum a_i^2\\)\n위식이 최소가 되기 위해서는 \\(\\sum a_i^2\\)이 최소가 되어야 한다.\n코시 슈바츠르 부등식을 이용하여,\n\n코시 슈차르츠 부등식: \\((a^2+b^2)(x^2+y^2) &gt; (ax+by)^2\\)\n\n\\((a_1^2 + \\dots + a_n^2)(1^2+ \\dots + 1^2) \\geq (a_1+ \\dots a_n)^2\\)\n\\(n \\sum a_i^2 \\geq  μ^2\\)\n\\(\\sum a_i^2 \\geq \\dfrac{μ^2}{n}\\)\n문제오류!! \\(E(X_i^2)=\\sigma^2\\)이 아니라 \\(Var(X_i)=\\sigma^2\\)\n\\(Var(U)=\\sum a_i^2 \\sigma^2\\)을 최소로 하는 \\(a_1, \\dots, a_n\\)을 구하자.\n라그랑쥬(Lagrange)승수법 이용\n\\(g(a_1,\\dots,a_n,\\lambda) = \\sum_{i=1}^n a_i^2 \\sigma^2 + \\lambda(\\sum a_i - 1)\\)\n제약조건을 \\(\\lambda\\)로 넣는다.\n\\(\\begin{cases}\\dfrac{\\partial g}{\\partial a_{i}}=0(i=1,2,\\dots)\\\\ \\dfrac{\\partial g}{\\partial \\lambda}=0\\end{cases}\\)인 것을 찾자\n\\(2a_i \\sigma^2 + \\lambda=0  (i=1,\\dots,n)\\) \n\\(a_i=-\\dfrac{\\lambda}{2\\sigma^2}\\)\n\\(\\sum a_i - 1 = 0\\)\n\\(1=-\\dfrac{\\lambda}{2\\sigma^2}\\)\n\\(\\lambda = -\\dfrac{2\\sigma^2}{n}\\)\n\\(\\therefore a_i=\\dfrac{1}{n}\\)"
-  },
-  {
-    "objectID": "posts/TS3.html#section-2",
-    "href": "posts/TS3.html#section-2",
-    "title": "TS HW3",
-    "section": "(1)",
-    "text": "(1)\n\\(E(X-Y)=E(X)-E(Y)\\)\nT"
-  },
-  {
-    "objectID": "posts/TS3.html#section-3",
-    "href": "posts/TS3.html#section-3",
-    "title": "TS HW3",
-    "section": "(2)",
-    "text": "(2)\n\\(Var(X-Y) = Var(X) - Var(Y)\\)\nF(\\(Var(X-Y) = Var(X) + Var(Y)\\))"
-  },
-  {
-    "objectID": "posts/TS3.html#section-4",
-    "href": "posts/TS3.html#section-4",
-    "title": "TS HW3",
-    "section": "(3)",
-    "text": "(3)\n\\(Cov(X+Y,X) = Var(X)\\)\nT\n\\(Cov(X+Y,X)=E((X+Y)X)-E(X+Y)E(X)=E(X^2+YX)-(E(X)+E(Y))E(X)=E(X^2)+E(YX)-[E(X)]^2-E(Y)E(X)=E(X^2)-[E(X)]^2=Var(X)\\)"
-  },
-  {
-    "objectID": "posts/TS3.html#section-5",
-    "href": "posts/TS3.html#section-5",
-    "title": "TS HW3",
-    "section": "(4)",
-    "text": "(4)\n\\(Cov(X+Y,X-Y) = Var(X)+Var(Y)\\)\nF(\\(Var(X)-Var(Y)\\))\n\\(Cov(X+Y,X-Y)=E((X+Y)(X-Y))-E(X+Y)E(X-Y)=E(X^2+YX-XY-Y^2)-(E(X)+E(Y))(E(X)-E(Y))=Var(X)-Var(Y)\\)"
-  },
-  {
-    "objectID": "posts/TS3.html#section-6",
-    "href": "posts/TS3.html#section-6",
-    "title": "TS HW3",
-    "section": "(5)",
-    "text": "(5)\n\\(Corr(X+Y,Y)=\\dfrac{SD(Y)}{SD(X)}\\)\nF\n\\(Corr(X+Y,Y)=\\dfrac{Cov(X+Y,Y)}{SD(X+Y)SD(Y)}=\\dfrac{Var(Y)}{\\sqrt{Var(X)+Var(Y)}SD(Y)}=\\dfrac{SD(Y)}{\\sqrt{Var(X)+Var(Y)}}\\)"
-  },
-  {
-    "objectID": "posts/TS3.html#section-7",
-    "href": "posts/TS3.html#section-7",
-    "title": "TS HW3",
-    "section": "(1)",
-    "text": "(1)\n확률변수 \\(X_i\\)의 적률생성함수를 구하라.\n\\(M_X(t)=E(e^{tX})=\\int_{-\\infty}^\\infty e^{tx}xe^{-x}I(x&gt;0)dx=\\int_0^\\infty xe^{x(t-1)}dx=\\dfrac{1}{(t-1)^2}\\)\n\\(\\dfrac{1}{(1-t)^2} \\ for (1-t)&gt;0\\)"
-  },
-  {
-    "objectID": "posts/TS3.html#section-8",
-    "href": "posts/TS3.html#section-8",
-    "title": "TS HW3",
-    "section": "(2)",
-    "text": "(2)\n(1)의 결과를 이용하여 확률변수 \\(X_i\\)의 분산을 구하라\n\\(Var(X)=E(X^2)-[E(X)]^2\\)\n\\(M_X^{(1)}(t=0)=E(X), M_X^{(2)}(t=0)=E(X^2)\\) 이용\n\\(M_X^{(1)}(t)=\\dfrac{-2}{(t-1)^3}, M_X^{(1)}(t=0)=2\\)\n\\(\\dfrac{-2}{(1-t)^3}\\)\n\\(M_X^{(2)}(t)=\\dfrac{6}{(t-1)^4}, M_X^{(2)}(t=0)=6\\)\n\\(Var(X)=E(X^2)-[E(X)]^2=6-4=2\\)"
-  },
-  {
-    "objectID": "posts/TS3.html#section-9",
-    "href": "posts/TS3.html#section-9",
-    "title": "TS HW3",
-    "section": "(3)",
-    "text": "(3)\n(1)의 결과를 이용하여 확률변수 \\(\\sum_{i=1}^n X_i\\)의 적률생성함수를 구하라.\n확률변수 \\(X_i\\)가 랜덤분포이므로 \\(U=\\sum X_i\\)일때 적률생성함수는\n\\(M_U(t)=M_{X_1}(t)M_{X_2}(t) \\dots M_{X_n}(t)\\) 이다.\n\\(M_U(t)= \\dfrac{1}{(t-1)^{2n}}\\)"
-  },
-  {
-    "objectID": "posts/TS3.html#section-10",
-    "href": "posts/TS3.html#section-10",
-    "title": "TS HW3",
-    "section": "(4)",
-    "text": "(4)\n(3)의 결과를 이용하여 확률변수 \\(Y=\\sum_{i=1}^n 2X_i\\)의 적률생성함수를 구하라.\n\\(M_Y(t)=E(e^{tY})=E(e^{2tu})=M_u(2t)=(\\dfrac{1}{1-2t})^{2n}\\) 이다.\n위 결과는 \\(GAM(2n,2)\\)의 mgf이다, 즉 \\(Y\\)~\\(GAM(2n,2)\\)이다.\n\\(GAM(2n,2)\\)은 자유도가 4n인 카이제곱을 따른다."
-  },
-  {
-    "objectID": "posts/TS3.html#section-11",
-    "href": "posts/TS3.html#section-11",
-    "title": "TS HW3",
-    "section": "(2)",
-    "text": "(2)\n\\(Var(Y|X=x)\\)\n\\(Var(Y|X=x) = E(Y^2|x)-[E(Y|x)]^2\\)\n\\(E(Y^2|x)=\\sum y^2 f_{X|Y}(x|y) = \\sum_0^n y^2 \\begin{pmatrix} n \\\\ y  \\end{pmatrix} x^y \\ (1-x)^{n-y}\\)\n\\(f_{X|Y}(x|y)\\)는 이항분포이며 기댓값은 \\(nx\\), 분산은 \\(nx(1-x)\\)이다.\n\\(E(Y|X)=nx, Var(Y|X)=nx(1-x)\\)\n계산이 너무 복잡해.."
-  },
-  {
-    "objectID": "posts/TS3.html#section-12",
-    "href": "posts/TS3.html#section-12",
-    "title": "TS HW3",
-    "section": "(1)",
-    "text": "(1)\n이중기댓값 정의를 이용하여 \\(E(Y)=E[E(Y|X)]\\) 풀이\n\\(Var(Y)=Var(E(Y|X))+E(Var(Y|X))\\)\n\\(=Var(nX)+E(nX(1-X))\\)\n\\(=n^2 Var(X) + nE(X) - nE(X^2)\\)\n\\(=n^2/20 + n/2 - 3n/10\\)\n\\(=n^2/20 + n/5\\)"
-  },
-  {
-    "objectID": "posts/TS7.html",
-    "href": "posts/TS7.html",
-    "title": "TS HW7",
-    "section": "",
-    "text": "\\(Z\\) ~ \\(N(0,1)\\)이면 \\(Z^2\\) ~ \\(\\chi_1^2\\)이다.\n\\(Y=Z^2\\)\n\\(F_Y(y) = P(Y \\leq y) = P(Z^2 \\leq y)=P(-\\sqrt{y} \\leq Z \\leq \\sqrt{y})=\\Phi(\\sqrt{y})-\\Phi(-\\sqrt{y})\\)\n\\(f_Y(y) = \\dfrac{d}{dy}F_Y(y) = \\Phi(\\sqrt{y})\\dfrac{1}{2\\sqrt{y}}-\\Phi(-\\sqrt{y}) \\left(-\\dfrac{1}{2\\sqrt{y}} \\right)=\\dfrac{1}{\\sqrt{2\\pi}}e^{-2/y} \\dfrac{1}{\\sqrt{y}}=\\dfrac{1}{\\Gamma{(1/2)}2^{1/2}}y^{-1/2}e^{-2/y}\\)\n즉, \\(r=1\\)인 카이제곱 분포를 따른다.\n\n\n\n랜덤표본 \\(X_1, \\dots, X_n\\)에 대하여 \\(Cov(\\bar X_n, X_k - \\bar X_n)=0\\)\n\\(Cov(\\bar X, X_k-\\bar X) = Cov(\\bar X, X_k) - Cov(\\bar X, \\bar X) = Cov(\\bar X, X_k) - Var(\\bar X)\\)\n\\(Cov(\\bar X, X_k) = Cov(\\frac{1}{n}X_1+\\dots+\\frac{1}{n}X_n, X_k)=\\frac{1}{n}Cov(X_1,X_k)+\\dots+\\frac{1}{n}Cov(X_n,X_k)=\\frac{1}{n}Cov(X_k,X_k)=\\frac{1}{n}Var(X_k)=\\frac{1}{n} \\sigma^2\\)\n\\(\\because Cov(X_i, X_k)\\) 는 서로 독립이므로 \\(Cov(X_i, X_k)=0\\) (단 \\(i \\neq k\\))\n\\(\\therefore Cov(\\bar X, X_k-\\bar X)= Cov(\\bar X, X_k) - Var(\\bar X) = \\frac{1}{n} \\sigma^2 - \\frac{1}{n} \\sigma^2 = 0\\)\n\n\n\n\\(GAM(\\alpha, \\beta)\\)분포로부터의 랜덤표본 \\(X_1, \\dots, X_n\\)에 대하여 \\(\\bar X_n\\)의 분포를 구하시오.\n\\(\\bar X_n = \\sum_{i=1}^n X_i/n\\)\n\\(E(\\bar X_n)=\\dfrac{1}{n} n \\alpha \\beta=\\alpha \\beta\\), \\(Var(\\bar X_n)=\\dfrac{1}{n^2} n\\alpha \\beta^2=\\dfrac{1}{n} \\alpha \\beta^2\\)\n\\(\\bar X_n\\) ~ \\(GAM\\left( \\alpha \\beta, \\dfrac{1}{n} \\alpha \\beta^2 \\right)\\)"
-  },
-  {
-    "objectID": "posts/TS7.html#section",
-    "href": "posts/TS7.html#section",
-    "title": "TS HW7",
-    "section": "",
-    "text": "\\(Z\\) ~ \\(N(0,1)\\)이면 \\(Z^2\\) ~ \\(\\chi_1^2\\)이다.\n\\(Y=Z^2\\)\n\\(F_Y(y) = P(Y \\leq y) = P(Z^2 \\leq y)=P(-\\sqrt{y} \\leq Z \\leq \\sqrt{y})=\\Phi(\\sqrt{y})-\\Phi(-\\sqrt{y})\\)\n\\(f_Y(y) = \\dfrac{d}{dy}F_Y(y) = \\Phi(\\sqrt{y})\\dfrac{1}{2\\sqrt{y}}-\\Phi(-\\sqrt{y}) \\left(-\\dfrac{1}{2\\sqrt{y}} \\right)=\\dfrac{1}{\\sqrt{2\\pi}}e^{-2/y} \\dfrac{1}{\\sqrt{y}}=\\dfrac{1}{\\Gamma{(1/2)}2^{1/2}}y^{-1/2}e^{-2/y}\\)\n즉, \\(r=1\\)인 카이제곱 분포를 따른다."
-  },
-  {
-    "objectID": "posts/TS7.html#section-1",
-    "href": "posts/TS7.html#section-1",
-    "title": "TS HW7",
-    "section": "",
-    "text": "랜덤표본 \\(X_1, \\dots, X_n\\)에 대하여 \\(Cov(\\bar X_n, X_k - \\bar X_n)=0\\)\n\\(Cov(\\bar X, X_k-\\bar X) = Cov(\\bar X, X_k) - Cov(\\bar X, \\bar X) = Cov(\\bar X, X_k) - Var(\\bar X)\\)\n\\(Cov(\\bar X, X_k) = Cov(\\frac{1}{n}X_1+\\dots+\\frac{1}{n}X_n, X_k)=\\frac{1}{n}Cov(X_1,X_k)+\\dots+\\frac{1}{n}Cov(X_n,X_k)=\\frac{1}{n}Cov(X_k,X_k)=\\frac{1}{n}Var(X_k)=\\frac{1}{n} \\sigma^2\\)\n\\(\\because Cov(X_i, X_k)\\) 는 서로 독립이므로 \\(Cov(X_i, X_k)=0\\) (단 \\(i \\neq k\\))\n\\(\\therefore Cov(\\bar X, X_k-\\bar X)= Cov(\\bar X, X_k) - Var(\\bar X) = \\frac{1}{n} \\sigma^2 - \\frac{1}{n} \\sigma^2 = 0\\)"
-  },
-  {
-    "objectID": "posts/TS7.html#번",
-    "href": "posts/TS7.html#번",
-    "title": "TS HW7",
-    "section": "",
-    "text": "\\(GAM(\\alpha, \\beta)\\)분포로부터의 랜덤표본 \\(X_1, \\dots, X_n\\)에 대하여 \\(\\bar X_n\\)의 분포를 구하시오.\n\\(\\bar X_n = \\sum_{i=1}^n X_i/n\\)\n\\(E(\\bar X_n)=\\dfrac{1}{n} n \\alpha \\beta=\\alpha \\beta\\), \\(Var(\\bar X_n)=\\dfrac{1}{n^2} n\\alpha \\beta^2=\\dfrac{1}{n} \\alpha \\beta^2\\)\n\\(\\bar X_n\\) ~ \\(GAM\\left( \\alpha \\beta, \\dfrac{1}{n} \\alpha \\beta^2 \\right)\\)"
-  },
-  {
-    "objectID": "posts/TS7.html#section-2",
-    "href": "posts/TS7.html#section-2",
-    "title": "TS HW7",
-    "section": "(1)",
-    "text": "(1)\n\\(\\bar X_{16} - \\bar Y_{25}\\)의 분포를 구하시오.\n\\(E(\\bar X_{16} - \\bar Y_{25}) = E(\\bar X_{16}) - E(\\bar Y_{25}) = 0-2 = -2\\)\n\\(Var(\\bar X_{16} - \\bar Y_{25}) = Var(\\bar X_{16})+Var( \\bar Y_{25}) = \\dfrac{9}{16}+\\dfrac{16}{25}=\\dfrac{481}{400}\\)\n\\(\\bar X_{16} - \\bar Y_{25}\\) ~ \\(N(-2,\\dfrac{481}{400})\\)"
-  },
-  {
-    "objectID": "posts/TS7.html#section-3",
-    "href": "posts/TS7.html#section-3",
-    "title": "TS HW7",
-    "section": "(2)",
-    "text": "(2)\n\\(\\dfrac{24\\sum_{i=1}^{16} X_i^2}{9 \\sum_{i=1}^{25}(Y_i-\\bar Y)^2}\\)\n\\(U=\\left( \\sum_{i=1}^{16}\\dfrac{X_i-0}{3} \\right)^2\\) ~ \\(\\chi_{16}^2\\)\n\\(S_{25}^2=\\dfrac{\\sum_{i=1}^{25}(Y_i-\\bar Y)^2}{24}\\)\n\\(V=\\dfrac{24S_{25}^2}{16}\\) ~ \\(\\chi_{24}^2\\)\n\\(\\sum_{i=1}^{25}(Y_i-\\bar Y)^2 = 24 S_{25}^2\\)\n\\(\\dfrac{24\\sum_{i=1}^{16} X_i^2}{9 \\sum_{i=1}^{25}(Y_i-\\bar Y)^2}=\\dfrac{24}{9} \\dfrac{16 \\times 9}{16 \\times 24} \\dfrac{U/16}{V/24}=F\\)~\\(F_{16,24}\\)"
-  },
-  {
-    "objectID": "posts/TS7.html#section-4",
-    "href": "posts/TS7.html#section-4",
-    "title": "TS HW7",
-    "section": "(1)",
-    "text": "(1)\n\\(GAM(2,\\theta)\\)\n\\(\\mu_1 = E(X) = 2\\theta = \\bar{X_n} \\rightarrow \\theta^{MME} = \\dfrac{\\bar X_n}{2}\\)\n\\(\\mu_1 = \\bar X^1\\)"
-  },
-  {
-    "objectID": "posts/TS7.html#section-5",
-    "href": "posts/TS7.html#section-5",
-    "title": "TS HW7",
-    "section": "(2)",
-    "text": "(2)\n\\(f(x|\\mu, \\sigma) = \\dfrac{1}{\\sigma} e^{-\\frac{x-\\mu}{\\sigma}}I(x&gt;\\mu)\\)"
-  },
-  {
-    "objectID": "posts/TS7.html#section-6",
-    "href": "posts/TS7.html#section-6",
-    "title": "TS HW7",
-    "section": "(3)",
-    "text": "(3)\n\\(f(x|\\theta) = \\dfrac{3\\theta^3}{x^4}I(\\theta&lt;x)\\)"
-  },
-  {
-    "objectID": "posts/TS7.html#번-8",
-    "href": "posts/TS7.html#번-8",
-    "title": "TS HW7",
-    "section": "11번",
-    "text": "11번\n\\(X_1, X_2, \\dots, X_n\\)이 \\(U(−θ, θ), θ &gt; 0\\)로부터의 랜덤표본일 때 \\(c(X_{(n)} − X_{(1)})\\)이 모수 \\(θ\\)의 비편향 추정량이 되기 위한 상수 \\(c\\)의 값은?"
-  },
-  {
-    "objectID": "posts/TS5.html",
-    "href": "posts/TS5.html",
-    "title": "TS HW5",
-    "section": "",
-    "text": "\\((X_1, X_2, X_3)\\) ∼ \\(MULT(n, p_1, p_2, p_3)\\)일 때 \\(X_1|X_2 = x_2\\)의 조건부 확률밀도함수를 구하시오.\n\\(f_{X_1,X_2,X_3}(x_1,x_2,x_3)=\\begin{pmatrix} n \\\\ x_1 \\ x_2\\  x_3 \\end{pmatrix} p_1^{x_1} p_2^{x_2} p_3^{x_3}\\) , 단 \\(\\begin{pmatrix} 0\\leq x_{1}\\leq 1 & \\\\ 0\\leq x_{2}\\leq 1 & \\\\ 0\\leq x_{3}\\leq 1 & \\\\ x_{1}+x_{2}+x_{3}= & 1 \\end{pmatrix}\\)\n\\(X_1\\) ~ \\(B(n,p_1)\\)이므로 \\(E(X_1)=np_1, E(X_2)=np_2\\)\n\\(f_{X_1,X_2}(x_1,x_2)=P(X_1=x_1,X_2=x_2)\\) 이고 \n이 실험에서는,\n\\(=P(X_1=x_1,X_2=x_2,X_3=n-x_1-x_2)\\)\n\\(=\\dfrac{n!}{x_1! x_2! (n-x_1 -x_2)!}p_1^{x_1} p_2^{x_2} p_3^{n-x_1-x_2}\\)\n분모는, 이항분포를 따르므로\n\\(f_{X_2}(x_2) = \\dfrac{n!}{x_2!(n-x_2)!}p_2^{x_2}(1-p_2)^{n-x_2}\\)\n\\(f_{X_1|X_2}(x_1|x_2)=\\dfrac{f_{X_1,X_2}(x_1,x_2)}{f_{X_2}(x_2)}\\)\n\\(=\\dfrac{\\dfrac{n!}{x_1! x_2! (n-x_1 -x_2)!}p_1^{x_1} p_2^{x_2} p_3^{n-x_1-x_2}}{\\dfrac{n!}{x_2!(n-x_2)!}p_2^{x_2}(1-p_2)^{n-x_2}}\\)\n\\(=\\dfrac{(n-x_2)!}{x_1!(n-x_2-x_1)!} \\left( \\dfrac{p_{1}}{1-p_{2}}\\right) ^{x_{1}} \\left( \\dfrac{p_{3}}{1-p_{2}}\\right) ^{n-x_{2}-x_{1}}\\)\n\\(=\\begin{pmatrix} n-x_{2} \\\\ x_{1} \\end{pmatrix}  \\left( \\dfrac{p_{1}}{1-p_{2}}\\right) ^{x_{1}} \\left( 1-\\dfrac{p_{1}}{1-p_{2}}\\right) ^{n-x_{2}-x_{1}}\\)\n즉, \\(B(n-x_2, \\dfrac{p_1}{1-p_2})\\)를 따른다."
-  },
-  {
-    "objectID": "posts/TS5.html#section",
-    "href": "posts/TS5.html#section",
-    "title": "TS HW5",
-    "section": "(1)",
-    "text": "(1)\n\\(Y = |X − µ|\\)의 확률밀도함수\n\\(f_X(x)=\\dfrac{1}{\\sqrt{2\\pi \\sigma^2}}e^ {-\\frac{(x-\\mu)^2}{2\\sigma^2}}\\)\n\\(F_Y(y) = P(Y \\le y) = P(|X-\\mu| \\le y) = P(\\mu-y \\le X \\le \\mu+y) = F_X(\\mu + y) - F_X(\\mu - y)\\) 이다.\n\\(f_y(y) = \\frac{d}{dy}\\{F_X(\\mu + y) - F_X(\\mu - y) \\} = f_X (\\mu + y) + f_X(\\mu - y) = \\frac{2}{\\sqrt{2\\pi}\\sigma} exp(-\\frac{y^2}{2\\sigma^2}) I(y&gt;0)\\)"
-  },
-  {
-    "objectID": "posts/TS5.html#section-1",
-    "href": "posts/TS5.html#section-1",
-    "title": "TS HW5",
-    "section": "(2)",
-    "text": "(2)\n\\(Y = exp(X)\\)의 확률밀도함수\n\\(g(y) = e^X\\) 라 놓자.\n\\(g^{-1}(y) = lny\\)\n\\(\\dfrac{d}{dy}(g^{-1}(y))= \\dfrac{1}{y}\\)\n\\(f_Y(y) = f_X(g^{-1}(y))\\left| \\dfrac{d g^{-1}(y) }{dy} \\right| =  \\dfrac{1}{y\\sqrt{2\\pi\\sigma^2}}e^{-\\frac{(lny - \\mu)^2}{2\\sigma^2}}\\)\n\\(= \\dfrac{1}{y\\sqrt{2\\pi\\sigma^2}}e^{-\\frac{(lny - \\mu)^2}{2\\sigma^2}}I(y&gt;0)\\)"
-  },
-  {
-    "objectID": "posts/TS5.html#section-2",
-    "href": "posts/TS5.html#section-2",
-    "title": "TS HW5",
-    "section": "(1)",
-    "text": "(1)\n\\(Z = Y_1 + Y_2\\)의 확률분포\n\\(Y_1\\)과 \\(Y_2\\)는 서로 독립이므로 합성곱 이용해보면, 범위는 \\(0&lt;y_1&lt;z\\)이고\n\\(f_Z(z)=\\int_{-\\infty}^\\infty f_{Y_2}(z-y_1) f_{Y_1}(y_1) dy_1=\\dfrac{e^{-2/z}}{8}\\int_0^z  y_1 dy_1=\\dfrac{ze^{-2/z}}{8}I(z&gt;0)\\)\n 교수님 풀이\n\\(f_Z(z) = \\dfrac{d}{dz}F_Z(z)\\)\n\\(F_Z(z) = P(Z \\leq z) = P(Y_1 + Y_2 \\leq z)\\) 이므로 \\((Y_1, Y_2)\\)의 사건\n\\(\\int\\int_{y_1+y_2 \\leq z} f_{Y_1,Y_2}(y_1,y_2)dy_1dy_2\\)\n=\\(\\int\\int_{y_1+y_2 \\leq z} \\dfrac{1}{8}y_1e^{-(y_1+y_2)/2}I(y_1&gt;0)I(y_2&gt;0)dy_1dy_2\\)\n=\\(\\int_0^z \\dfrac{1}{8}y_1 e^{-\\frac{y_1}{2}}\\int_0^{z-y_1}e^{-\\frac{y_2}{2}}dy_2dy_1\\)\n=\\(\\int_0^z \\dfrac{1}{8}y_1 e^{-\\frac{y_1}{2}} \\left[ -2e^{-\\frac{y^2}{2}} \\right]_0^{z-y_1}dy_1\\)\n=\\(\\int_0^z \\dfrac{1}{8}y_1 e^{-\\frac{y_1}{2}} 2(1-e^{-\\frac{z-y_1}{2}})dy_1\\)\n=\\(\\int_0^z \\dfrac{1}{4}y_1 \\left( e^{-\\frac{y_1}{2}}-e^{-\\frac{z}{2}} \\right)dy_1\\)"
-  },
-  {
-    "objectID": "posts/TS5.html#section-3",
-    "href": "posts/TS5.html#section-3",
-    "title": "TS HW5",
-    "section": "(2)",
-    "text": "(2)\n\\(U = Y_2/Y_1\\)와 \\(V = Y_1\\)의 결합확률밀도함수\n\\(U.V\\)를 연립하면 \\(Y_1=V, Y_2=UV\\) 이다.\n\\(|J|=\\begin{vmatrix} 0 & 1 \\\\ v & u \\end{vmatrix}=|-v|=v\\)\n\\(f_{U,V}(u,v) = f_{Y_1,Y_2}(y_1,y_2)|J| = f_{Y_1,Y_2}(v,uv)v =\\dfrac{1}{8} v^2 e^{-(v+uv)/2}I(u&gt;0,v&gt;0)\\)"
-  },
-  {
-    "objectID": "posts/TS5.html#section-4",
-    "href": "posts/TS5.html#section-4",
-    "title": "TS HW5",
-    "section": "(3)",
-    "text": "(3)\n\\((2)\\)의 결과를 이용하여 \\(U\\)의 주변확률밀도함수\n\\(f_U(u)=\\int_{-\\infty}^{\\infty} f_{U,V}(u,v) dv = \\int_{0}^{\\infty} \\dfrac{1}{8} v^2 e^{-(v+uv)/2}I(u&gt;0)dv\\)\n \\(\\dfrac{v(u+1)}{2}=t\\)치환, \\(v=\\dfrac{2t}{u+1}, dv=\\dfrac{2}{u+1}dt\\)\n=\\(\\int_{-\\infty}^\\infty \\dfrac{1}{8} (\\dfrac{2}{u+1})^3 t^2 e^{-t} I(u&gt;0)I(t&gt;0)dt\\)\n=\\(\\dfrac{1}{8}(\\dfrac{2}{u+1})^3I(u&gt;0) \\int_0^\\infty t^2e^{-t}dt\\)\n\\(\\because  \\int_0^\\infty t^2e^{-t}dt=\\Gamma(3)=2!=2\\)\n=\\(\\dfrac{2}{(u+1)^3}I(u&gt;0)\\)"
-  },
-  {
-    "objectID": "posts/TS5.html#section-5",
-    "href": "posts/TS5.html#section-5",
-    "title": "TS HW5",
-    "section": "(3)",
-    "text": "(3)\n\\(U = X − Y\\) 라고 할 때 \\(U\\)의 확률밀도함수\n\\(U=X-Y, V=Y\\)이면 \\(X=U+V, Y=V, |J|=1\\)\n\\(f_{U,V}(u,v)=p^2(1-p)^{u+2v-2}\\)\n\\(f_U(u)=\\sum_v f_{U,V}(u,v) = \\sum_{v=1}^\\infty (1-p)^u [p(1-p)^{v-1}]^2 = \\dfrac{p}{2-p}(1-p)^u\\)\n \\(u\\)의 범위가 \\((-\\infty, \\infty)\\)이고, 위 식은 \\(u&gt;0\\)인 경우에만 성립한다.\n만약 \\(u\\leq0\\)인 경우를 생각하면\n\\(\\begin{aligned}\\sum \\sum \\\\ \\begin{pmatrix} x=y+n \\\\ y=1.2,\\dots \\\\ x\\geq 1 \\end{pmatrix}\\end{aligned} = \\sum_{y=1-u}^\\infty p^2 (1-p)^{2y+u-2} = p^2 \\dfrac{(1-p)^{-u}}{1-(1-p)^2}=\\dfrac{p}{(2-p)(1-p)^u}\\)"
-  },
-  {
-    "objectID": "posts/TS5.html#section-6",
-    "href": "posts/TS5.html#section-6",
-    "title": "TS HW5",
-    "section": "(1)",
-    "text": "(1)\n\\(P (X = Y )\\)\n\\(P (X = Y )=P(X-Y=0)=P(U=0)=\\dfrac{p}{2-p}\\)\n교수님 풀이\n\\(f_{X,Y}(x,y) = \\sum \\sum_{x=y}f_{X,Y}(x,y)= \\begin{aligned}\\sum \\sum \\\\ \\begin{pmatrix} x=y \\\\ x=1,2,\\dots \\\\ y=1,2,\\dots \\end{pmatrix}\\end{aligned}p^2(1-p)^{x+y-2}=\\sum_{k=1}^\\infty (1-p)^{2k-2}=\\dfrac{p}{2-p}\\)"
-  },
-  {
-    "objectID": "posts/TS5.html#section-7",
-    "href": "posts/TS5.html#section-7",
-    "title": "TS HW5",
-    "section": "(2)",
-    "text": "(2)\n\\(P (X − Y = 1)\\)\n\\(P (X − Y = 1)=P(U=1)=\\dfrac{p(1-p)}{2-p}\\)\n교수님 풀이\n\\(f_{X,Y}(x,y) = \\sum \\sum_{x-y=1}f_{X,Y}(x,y)= \\begin{aligned}\\sum \\sum \\\\ \\begin{pmatrix} x-y=1 \\\\ x=1,2,\\dots \\\\ y=1,2,\\dots \\end{pmatrix}\\end{aligned}p^2(1-p)^{x+y-2}=\\sum_{y=1}^\\infty (1-p)^{2y-1}=\\dfrac{p(1-p)}{2-p}\\)"
-  },
-  {
-    "objectID": "posts/TS4.html",
-    "href": "posts/TS4.html",
-    "title": "TS HW4",
-    "section": "",
-    "text": "1번\n음이항분포 \\(NB(r, p)\\)의 확률밀도함수 \\(f(x)\\)가 \\(\\sum_{x=r}^\\infty f(x) = 1\\)을 만족함을 음이항정리를 이용하여 증명하시오\n음이항정리\n\\(\\dfrac{1}{1-q} = \\sum_{x=0}^{\\infty} \\begin{pmatrix} x+1-1 \\\\ 1-1 \\end{pmatrix} q^x (|x|&lt;1)\\)\n\\(\\dfrac{1}{(1-q)^2} = \\dfrac{d}{dq} (\\dfrac{1}{1-q}) = \\sum_{x=1}^\\infty xq^{x-1} = \\sum_{x=0}^\\infty (x+1)q^x = \\sum_{x=0}^{\\infty} \\begin{pmatrix} x+2-1 \\\\ 2-1 \\end{pmatrix} q^x (|x|&lt;1)\\)\n수학적 귀납법을 통해\n\\((1-q)^{-r} = \\sum_{x=0}^\\infty \\begin{pmatrix} x+r-1 \\\\ r-1 \\end{pmatrix} q^x\\) 임을 구할 수 있다. -(A)\n\\(\\sum_{x=r}^\\infty f(x)\\)\n= \\(\\sum_{x=r}^\\infty \\begin{pmatrix} x-r \\\\ r-1 \\end{pmatrix} p^r (1-p)^{x-r} (x=r, r+1, \\dots)\\)\n= \\(p^r \\sum_{x=r}^\\infty \\begin{pmatrix} x-r \\\\ r-1 \\end{pmatrix} (1-p)^{x-r}\\) 이고\n\\(x-r=t\\)로 치환하면\n= \\(p^r \\sum_{t=0}^\\infty \\begin{pmatrix} t+r-1 \\\\ r-1 \\end{pmatrix} (1-p)^t\\) 이다.\n(A)식을 이용해\n= \\(p^r(1-q)^{-r} = p^r p^{-r} = 1\\) 을 증명할 수 있다.\n이항정리 \\((x+y)^n = \\sum_{k=0}^n \\begin{pmatrix} n \\\\ k \\end{pmatrix} x^k y^{n-k}\\)\n일반화된 이항정리 \\((x+y)^a = \\sum_{k=0}^\\infty \\begin{pmatrix} a \\\\ k \\end{pmatrix} a^k y^{n-k}, a\\in \\mathbb{R}, -1&lt;x&lt;1\\)\n즉, \\((1-w)^{-r}= \\sum_{k=0}^\\infty \\begin{pmatrix} -r \\\\ k \\end{pmatrix} (-w)^k\\)\n=\\(\\sum_{k=0}^\\infty \\dfrac{-r \\cdot (-r-1) \\dots \\cdot (-r-k+1) }{k!}(-1)^k w^k\\)\n=\\(\\sum_{k=0}^\\infty \\dfrac{r \\cdot (r+1) \\dots \\cdot (r+k-1) }{k!}(-1)^{2k} w^k\\)\n\\(\\sum_{k=0}^\\infty \\dfrac{-r \\cdot (-r-1) \\dots \\cdot (-r-k+1) }{k!}(-1)^k w^k\\)\n\\(\\sum_{k=0}^\\infty\\begin{pmatrix} r+k-1 \\\\ k \\end{pmatrix} w^k\\)\n\\(x=r+k\\)로 치환하면\n=\\(\\sum_{x=r}^\\infty \\begin{pmatrix} x-1 \\\\ r-1 \\end{pmatrix} w^{x-r}\\)\n\\(s.t \\sum \\begin{pmatrix} x-1 \\\\ r-1 \\end{pmatrix} p^r (1-p)^{x-r} =  p^r \\sum \\begin{pmatrix} x-1 \\\\ r-1 \\end{pmatrix}  (1-p)^{x-r} = p^r {1-(1-p)}^{-r} = 1\\)\n\n\n2번\n음이항분포 \\(NB(r, p)\\)의 적률생성함수를 구하시오\n\\(Y_i\\)가 기하분포를 따르면 \\(\\sum_{i=1}^r Y_i = X~NB(r,p)\\)이다.\n\\(M_X(t)=E(e^{tX})=E(e^{tY_1+\\dots+tY_r})\\)\n\\(Y_i\\)는 각각 독립이므로,\n=\\(E(e^{tY_1}) \\dots E(e^{tY_r})\\)\n=\\((\\dfrac{pe^t}{1-qe^t})^r\\)\n\n\n3번\n베타분포 \\(BETA(a, b)\\)의 \\(k\\)차적률이 \\(E(X^k) = \\dfrac{Γ(a + k)Γ(a + b)}{Γ(a)Γ(a + b + k)}\\)임을 보이시오.\n\\(E(X^k)=\\int_{-\\infty}^{\\infty}x^k \\dfrac{1}{B(a,b)}x^{a-1}(1-x)^{b-1}I(0&lt;x&lt;1)dx\\)\n= \\(\\dfrac{1}{B(a,b)}\\int_0^1 x^{a+k-1}(1-x)^{b-1}dx\\)\n= \\(\\dfrac{B(a+k,b)}{B(a,b)}= \\dfrac{\\Gamma(a+k)\\Gamma(b)}{\\Gamma(a+k+b)} \\dfrac{\\Gamma(a+B)}{\\Gamma(a)\\Gamma(b)}=\\dfrac{\\Gamma(a+k) \\Gamma(a+b)}{\\Gamma(a) \\Gamma(a+b+k)}\\)\n과제 3의 9번 문제도 이 공식을 이용해 구할 수 있다.\n\n\n4번\n감마분포 \\(GAM(α, β)\\)의 평균과 분산의 기댓값 정의를 이용하여 구하시오.\n\\(E(X)=\\dfrac{1}{\\Gamma(\\alpha) \\beta^\\alpha}\\int_0^\\infty x x^{\\alpha -1} e^{-x/\\beta}\\)\n\\(=\\dfrac{\\Gamma(\\alpha+1) \\beta^{\\alpha+1}}{\\Gamma(\\alpha) \\beta^\\alpha} \\int_0^\\infty \\dfrac{1}{\\Gamma(\\alpha+1)\\beta^{\\alpha+1}} x^{(a+1)-1}e^{-x/\\beta}\\)\n\\(\\because \\int_0^\\infty \\dfrac{1}{\\Gamma(\\alpha+1)\\beta^{\\alpha+1}} x^{(a+1)-1}e^{-x/\\beta} =1\\)\n\\(=\\dfrac{\\Gamma(\\alpha+1) \\beta^{\\alpha+1}}{\\Gamma(\\alpha) \\beta^\\alpha} = \\dfrac{\\alpha \\Gamma(\\alpha) \\beta^{\\alpha +1}}{\\Gamma(\\alpha) \\beta^\\alpha} = \\alpha\\beta\\)\n\\(E(X^2)=\\dfrac{1}{\\Gamma(\\alpha) \\beta^\\alpha}\\int_0^\\infty x^2 x^{\\alpha -1} e^{-x/\\beta}\\)\n\\(=\\dfrac{\\Gamma(\\alpha+2) \\beta^{\\alpha+2}}{\\Gamma(\\alpha) \\beta^\\alpha} \\int_0^\\infty \\dfrac{1}{\\Gamma(\\alpha+2)\\beta^{\\alpha+2}} x^{(a+2)-1}e^{-x/\\beta}\\)\n\\(=\\dfrac{\\Gamma(\\alpha+2) \\beta^{\\alpha+2}}{\\Gamma(\\alpha) \\beta^\\alpha} = \\dfrac{\\Gamma(\\alpha+1)\\alpha \\beta^{\\alpha +2} \\Gamma(\\alpha)}{\\Gamma(\\alpha) \\beta^\\alpha} = (\\alpha+1)\\alpha\\beta^2\\)\n\\(Var(X)=E(X^2)-[E(X)]^2= (\\alpha+1)\\alpha\\beta^2 - (\\alpha\\beta)^2 = \\alpha\\beta^2\\)\n\n\n5번\n정규분포 \\(N(µ, σ^2)\\)의 적률생성함수를 구하시오.\n\\(M_X(t)=E(e^{tX})=\\int_{-\\infty}^\\infty e^{tx} \\dfrac{1}{\\sqrt{2\\pi \\sigma^2}}e^{-\\dfrac{(x-\\mu)^2}{2\\sigma^2}}dx\\)\n(\\(\\dfrac{x-\\mu}{\\sigma}=u\\) 치환하면, \\(dx=\\sigma du\\), \\(x=\\mu+\\sigma u\\))\n= \\(\\int_{-\\infty}^\\infty e^{t(\\mu+\\sigma u)} \\dfrac{1}{\\sqrt{2\\pi \\sigma^2}}e^{-u^2/2} \\sigma du\\)\n= \\(\\dfrac{e^{t\\mu}}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty}e^{-\\dfrac{1}{2}(u-t \\mu)^2 + -\\dfrac{1}{2}t^2\\sigma^2}du\\)\n=\\(\\dfrac{e^{t\\mu+ \\dfrac{1}{2}t^2 \\sigma^2}}{\\sqrt{2\\pi}} \\int_{-\\infty}^\\infty e ^{-\\dfrac{(u-t\\mu)^2}{2}}du\\)\n(\\(u-t\\sigma=v\\)로 치환하면, \\(du=dv, u=v+t\\sigma\\))\n=\\(\\dfrac{e^{t\\mu+ \\dfrac{1}{2}t^2 \\sigma^2}}{\\sqrt{2\\pi}} \\int_{-\\infty}^\\infty e^{-\\dfrac{v}{2}}dv\\)\n\\(\\because \\int_{-\\infty}^\\infty e^{-\\dfrac{v}{2}}dv = \\sqrt{2\\pi}\\)\n=\\(e^{t\\mu+ \\dfrac{1}{2}t^2 \\sigma^2}\\)\n\n\n6번\n이변량정규분포 \\(BVN(µ_X, µ_Y , σ_X, σ_Y , ρ)\\)를 따르는 확률벡터 \\((X,Y)\\)의 확률밀도함수를 다변량정규분포의 확률밀도함수의 2차원형임을 이용하여 구하시오.\n\\(\\mu =\\begin{pmatrix} \\mu _{x} \\\\ \\mu _{y} \\end{pmatrix}\\)\n\\(\\sum =\\begin{pmatrix} \\sigma _{x}^{2} & \\sigma _{xy} \\\\ \\sigma _{xy} & \\sigma _{y}^{2} \\end{pmatrix}= \\begin{pmatrix} \\sigma _{x}^{2} & \\rho \\sigma _{x}\\sigma _{y} \\\\ \\rho \\sigma _{x}\\sigma _{y} & \\sigma _{y}^{2} \\end{pmatrix}\\)\n\\(f_{X,Y}(x,y)=\\dfrac{1}{|2\\pi \\sum|^{1/2}} exp\\left[ -\\dfrac{1}{2}\\left( \\begin{pmatrix} x \\\\ y \\end{pmatrix}-\\begin{pmatrix} u_{x} \\\\ u_{y} \\end{pmatrix}\\right) ^{t}\\Sigma ^{-1}\\left( \\begin{pmatrix} x \\\\ y \\end{pmatrix}-\\begin{pmatrix} \\mu _{x} \\\\ \\mu _{y} \\end{pmatrix}\\right) \\right]\\)\n먼저, \\(\\dfrac{1}{|2\\pi\\sum|^{1/2}}=\\dfrac{1}{2\\pi|\\sum|^{1/2}}=\\dfrac{1}{2\\pi(\\sigma_x^2 \\sigma_y^2 - \\rho^2 \\sigma_x^2 \\sigma_y^2)^{1/2}}=\\dfrac{1}{2\\pi \\sigma_x \\sigma_y \\sqrt{1-\\rho^2}}\\)\n\\(exp\\left[ -\\dfrac{1}{2}\\left( \\begin{pmatrix} x \\\\ y \\end{pmatrix}-\\begin{pmatrix} \\mu_{x} \\\\ \\mu_{y} \\end{pmatrix}\\right) ^{t}\\Sigma ^{-1}\\left( \\begin{pmatrix} x \\\\ y \\end{pmatrix}-\\begin{pmatrix} \\mu _{x} \\\\ \\mu _{y} \\end{pmatrix}\\right) \\right]\\)\n= \\(exp \\left[-\\dfrac{1}{2(\\sigma_x^2 \\sigma_y^2 - \\rho^2 \\sigma_x^2 \\sigma_y^2)} \\begin{pmatrix} x-\\mu_x & y-\\mu_y \\end{pmatrix} \\begin{pmatrix} \\sigma _{y}^{2} & - \\rho \\sigma _{x}\\sigma _{y} \\\\ - \\rho \\sigma _{x}\\sigma _{y} & \\sigma _{x}^{2} \\end{pmatrix} \\begin{pmatrix} x-\\mu_x \\\\ y-\\mu_y \\end{pmatrix} \\right]\\)\n= \\(exp \\left[ -\\dfrac{1}{2(\\sigma_x^2 \\sigma_y^2 - \\rho^2 \\sigma_x^2 \\sigma_y^2)} ( (x-\\mu_x)^2 \\sigma_y^2 + (y-\\mu_y)^2 \\sigma_x^2 - 2\\rho \\sigma_x \\sigma_y (x-\\mu_x)(y-\\mu_y)) \\right]\\)\n=\\(exp \\left[-\\dfrac{\\sigma_x^2 \\sigma_y^2}{2\\sigma_x^2 \\sigma_y^2(1- \\rho^2)} \\left( \\left(\\dfrac{x-\\mu_x}{\\sigma_x}\\right)^2 + \\left(\\dfrac{y-\\mu_y}{\\sigma_y}\\right)^2 - 2\\rho \\left(\\dfrac{x-\\mu_x}{\\sigma_x}\\right) \\left(\\dfrac{y-\\mu_y}{\\sigma_y}\\right) \\right) \\right]\\)\n=\\(exp \\left[-\\dfrac{1}{2(1- \\rho^2)} \\left( \\left(\\dfrac{x-\\mu_x}{\\sigma_x}\\right)^2 + \\left(\\dfrac{y-\\mu_y}{\\sigma_y}\\right)^2 - 2\\rho \\left(\\dfrac{x-\\mu_x}{\\sigma_x}\\right) \\left(\\dfrac{y-\\mu_y}{\\sigma_y}\\right) \\right) \\right]\\)\n즉,\n\\(f_{X,Y}(x,y)=\\dfrac{1}{2\\pi \\sigma_x \\sigma_y \\sqrt{1-\\rho^2}}exp \\left[-\\dfrac{1}{2(1- \\rho^2)} \\left( \\left(\\dfrac{x-\\mu_x}{\\sigma_x}\\right)^2 + \\left(\\dfrac{y-\\mu_y}{\\sigma_y}\\right)^2 - 2\\rho \\left(\\dfrac{x-\\mu_x}{\\sigma_x}\\right) \\left(\\dfrac{y-\\mu_y}{\\sigma_y}\\right) \\right) \\right]\\)\n\n\n7번\n이변량정규분포 \\(BVN(µ_X, µ_Y , σ_X, σ_Y , ρ)\\)의 확률밀도함수로부터 \\(X\\)의 주변확률밀도함수를 구하시오.\n\\(f_X(x)=\\int_{-\\infty}^\\infty f_{X,Y}(x,y)dy\\)\n\\(= \\int_{-\\infty}^\\infty \\dfrac{1}{2\\pi \\sigma_x \\sigma_y \\sqrt{1-\\rho^2}}exp \\left[-\\dfrac{1}{2(1- \\rho^2)} \\left( \\left(\\dfrac{x-\\mu_x}{\\sigma_x}\\right)^2 + \\left(\\dfrac{y-\\mu_y}{\\sigma_y}\\right)^2 - 2\\rho \\left(\\dfrac{x-\\mu_x}{\\sigma_x}\\right) \\left(\\dfrac{y-\\mu_y}{\\sigma_y}\\right) \\right) \\right]dy\\)\n\\(v=\\dfrac{y-\\mu_y}{\\sigma_y}\\)치환하면, \\(dv=\\dfrac{1}{\\sigma_y}dy\\)\n\\(=\\int_{-\\infty}^\\infty \\dfrac{1}{2 \\pi \\sigma_x \\sqrt{1-\\rho^2}} exp \\left[ -\\dfrac{1}{2} \\left(\\dfrac{x-\\mu_x}{\\sigma_x}\\right)^2  - \\dfrac{1}{2(1-\\rho^2)} \\left( v-\\rho \\left( \\dfrac{x-\\mu_x}{\\sigma_x}\\right) \\right)^2 \\right]dy\\)\n\\(u=\\left( v-\\rho \\left( \\dfrac{x-\\mu_x}{\\sigma_x}\\right) \\right)\\) 치환하면, \\(du=\\dfrac{dv}{\\sqrt{1-\\rho^2}}\\)\n\\(=\\int_{-\\infty}^\\infty \\dfrac{1}{\\sqrt{2\\pi}\\sigma_x} exp \\left[ -\\dfrac{1}{2} \\left( \\dfrac{x-\\mu_x}{\\sigma_x}\\right)^2 - \\dfrac{u^2}{2}\\right]du\\)\n\\(=\\dfrac{1}{\\sqrt{2\\pi}\\sigma_x} exp \\left[ -\\dfrac{1}{2} \\left( \\dfrac{x-\\mu_x}{\\sigma_x}\\right)^2 \\right] \\int_{-\\infty}^\\infty e^{-u^2/2}du\\)\n\\(\\because \\int_{-\\infty}^\\infty e^{-u^2/2}du=1\\)\n\\(=\\dfrac{1}{\\sqrt{2\\pi}\\sigma_x} exp \\left[ -\\dfrac{1}{2} \\left( \\dfrac{x-\\mu_x}{\\sigma_x}\\right)^2 \\right]\\)\n\n\n8번\n\\((X_1, X_2, X_3) ∼ MULT(n, p_1, p_2, p_3)\\)일 때 \\(Cov(X_1, X_2)\\)를 구하시오\n\n\\(Var(X_1+X_2)=n(p_1+p_2)(1-(p_1+p_2))\\)\n\\(Var(X_1+X_2)=Var(X_1)+Var(X_2)+2Cov(X_1,X_2)=np_1(1-p_1)+np_2(1-p_2)+2Cov(X_1,X_2)\\)\n\n1과 2를 연립하면,\n\\(Cov(X_1,X_2)=-np_1p_2\\)\n\\(f_{X_1,X_2,X_3}(x_1,x_2,x_3)\\begin{pmatrix} n \\\\ x_1 \\ x_2\\  x_3 \\end{pmatrix} p_1^{x_1} p_2^{x_2} p_3^{x_3}\\) , 단 \\(\\begin{pmatrix} 0\\leq x_{1}\\leq 1 & \\\\ 0\\leq x_{2}\\leq 1 & \\\\ 0\\leq x_{3}\\leq 1 & \\\\ x_{1}+x_{2}+x_{3}= & 1 \\end{pmatrix}\\)\n\\(Cov(X_1, X_2) = E(X_1X_2) - E(X_1)E(X_2)\\)\n\\(X_1\\) ~ \\(B(n,p_1)\\)이므로 \\(E(X_1)=np_1, E(X_2)=np_2\\)\n\\(E(X_1X_2)=E(E(X_1X_2|X_2))\\) 이고 \\(X_2\\)가 주어졌을 때의 조건부서식이므로 \\(X_2\\)는 밖으로 나갈 수 있다.\n=\\(E(X_2 E(X_1|X_2))\\)를 구하자.\n먼저, \\(E(X_1|X_2=x_2)\\)는 \\(f_{X_1|X_2}(x_1|x_2)=\\dfrac{f_{X_1,X_2}(x_1,x_2)}{f_{X_2}(x_2)}\\)이다.\n분자먼저 구하자! \n\\(f_{X_1,X_2}(x_1,x_2)=P(X_1=x_1,X_2=x_2)\\) 이고 \n이 실험에서는,\n\\(=P(X_1=x_1,X_2=x_2,X_3=n-x_1-x_2)\\)\n\\(=\\dfrac{n!}{x_1! x_2! (n-x_1 -x_2)!}p_1^{x_1} p_2^{x_2} p_3^{n-x_1-x_2}\\)\n분모는, 이항분포를 따르므로\n\\(f_{X_2}(x_2) = \\dfrac{n!}{x_2!(n-x_2)!}p_2^{x_2}(1-p_2)^{n-x_2}\\)\n\\(f_{X_1|X_2}(x_1|x_2)=\\dfrac{f_{X_1,X_2}(x_1,x_2)}{f_{X_2}(x_2)}\\)\n\\(=\\dfrac{\\dfrac{n!}{x_1! x_2! (n-x_1 -x_2)!}p_1^{x_1} p_2^{x_2} p_3^{n-x_1-x_2}}{\\dfrac{n!}{x_2!(n-x_2)!}p_2^{x_2}(1-p_2)^{n-x_2}}\\)\n\\(=\\dfrac{(n-x_2)!}{x_1!(n-x_2-x_1)!} \\left( \\dfrac{p_{1}}{1-p_{2}}\\right) ^{x_{1}} \\left( \\dfrac{p_{3}}{1-p_{2}}\\right) ^{n-x_{2}-x_{1}}\\)\n\\(=\\begin{pmatrix} n-x_{2} \\\\ x_{1} \\end{pmatrix}  \\left( \\dfrac{p_{1}}{1-p_{2}}\\right) ^{x_{1}} \\left( 1-\\dfrac{p_{1}}{1-p_{2}}\\right) ^{n-x_{2}-x_{1}}\\)\n즉, \\(B(n-x_2, \\dfrac{p_1}{1-p_2})\\)를 따른다.\n즉, \\(E(X_1X_2)=\\dfrac{(n-x_2)p_1}{1-p_2}\\)\n다시 이중기댓값 정의로 돌아가서..\n구하려는 값 : \\(E(X_2 E(X_1|X_2))\\)\n\\(E(X_2 E(X_1|X_2))=E(X_2 \\cdot \\dfrac{(n-x_2)p_1}{1-p_2})\\)\n\\(=\\dfrac{p_1}{1-p_2}[E(n_2X_2)-E(X_2^2)]\\)\n\\(\\because E(X_2^2) = Var(X_2) + [E(X_2)]^2 = np_2(1-p_2) + n^2 p_2^2\\)\n\\(=\\dfrac{p_1}{1-p_2}(n^2p_2 - np_2(1-p_2) - n^2 p_2^2)\\)\n\\(=\\dfrac{np_1p_2}{1-p_2}(n-1+p_2-np_2)\\)\n\\(=\\dfrac{np_1p_2(1-p_2)(n-1)}{1-p_2}\\)\n\\(=n(n-1)p_1p_2\\)\n돌고돌아 구하고자 하는 공분산을 구해보자.\n\\(Cov(X_1, X_2) = E(X_1X_2) - E(X_1)E(X_2)\\)\n\\(=n(n-1)p_1p_2 - n^2p_1p_2\\)\n\\(=-np_1p_2\\)"
-  },
-  {
-    "objectID": "posts/TS1.html",
-    "href": "posts/TS1.html",
-    "title": "TS HW1",
-    "section": "",
-    "text": "모든 풀이는 틀릴 수 있음 하하하 ㅇ_&lt;"
-  },
-  {
-    "objectID": "posts/TS1.html#a_1과-a_2c",
-    "href": "posts/TS1.html#a_1과-a_2c",
-    "title": "TS HW1",
-    "section": "(1) \\(A_{1}\\)과 \\(A_{2}^{c}\\)",
-    "text": "(1) \\(A_{1}\\)과 \\(A_{2}^{c}\\)\n\n\\(P(A_{1} \\cap  A_{2}^c)\\)\n\n= \\(P(A_1) - P(A_1 \\cap A_2)\\)\n= \\(P(A_1) - P(A_1) \\cdot P(A_2)\\)\n= \\(P(A_1) \\cdot (1 - P(A_2))\\)\n\\(= P(A_{1})P(A_{2}^c)\\)"
-  },
-  {
-    "objectID": "posts/TS1.html#a_1c과-a_2",
-    "href": "posts/TS1.html#a_1c과-a_2",
-    "title": "TS HW1",
-    "section": "(2) \\(A_{1}^{c}\\)과 \\(A_{2}\\)",
-    "text": "(2) \\(A_{1}^{c}\\)과 \\(A_{2}\\)\n\n\\(P(A_{2} \\cap  A_{1}^c)\\)\n\n= \\(P(A_2) - P(A_1 \\cap A_2)\\)\n= \\(P(A_2) - P(A_1) \\cdot P(A_2)\\)\n= \\(P(A_2) \\cdot (1-P(A_1))\\)\n= \\(P(A_2) \\cdot P(A_1^c)\\)"
-  },
-  {
-    "objectID": "posts/TS1.html#a_1c과-a_2c",
-    "href": "posts/TS1.html#a_1c과-a_2c",
-    "title": "TS HW1",
-    "section": "(3) \\(A_{1}^{c}\\)과 \\(A_{2}^{c}\\)",
-    "text": "(3) \\(A_{1}^{c}\\)과 \\(A_{2}^{c}\\)\n\n\\(P(A_1^c \\cap A_2^c)\\)\n\n= \\(P((A_1 \\cup A_2)^c)\\)\n= \\(1-P(A_1 \\cup A_2)\\)\n= \\(1 - (P(A_1) + P(A_2) - P(A_1 \\cap A_2))\\)\n= \\(1 - P(A_1) - P(A_2) + P(A_1 \\cap A_2)\\)\n= \\(1 - P(A_1) - P(A_2) + P(A_1)P(A_2)\\)\n= \\(1 - P(A_1) - P(A_2)(1-P_{A_1})\\)\n= \\((1-P(A_1))(1-P(A_2))\\)\n= \\(P(A_1^c)P(A_2^c)\\)"
-  },
-  {
-    "objectID": "posts/TS1.html#pa_1-cap-a_2",
-    "href": "posts/TS1.html#pa_1-cap-a_2",
-    "title": "TS HW1",
-    "section": "(1) \\(P(A_{1} \\cap A_{2})\\)",
-    "text": "(1) \\(P(A_{1} \\cap A_{2})\\)\n\\(A_{1}\\)과 \\(A_{2}\\)가 서로 독립이므로 \\(P(A_{1} \\cap A_{2}) = P(A_{1}) P(A_{2})\\) 가 성립\n\\(P(A_1 \\cap A_2) = P(A_1)P(A_2) = 0.6 \\times 0.3 = 0.18\\)"
-  },
-  {
-    "objectID": "posts/TS1.html#pleft-a_1cup-a_2right",
-    "href": "posts/TS1.html#pleft-a_1cup-a_2right",
-    "title": "TS HW1",
-    "section": "(2) \\(P\\left( A_{1}\\cup A_{2}\\right)\\)",
-    "text": "(2) \\(P\\left( A_{1}\\cup A_{2}\\right)\\)\n\\(P(A_1 \\cup A_2) = P(A_1) + P(A_2) - P(A_1 \\cap A_2) = 0.6 + 0.3 - 0.18 = 0.72\\)"
-  },
-  {
-    "objectID": "posts/TS1.html#pa_1-cup-a_2c",
-    "href": "posts/TS1.html#pa_1-cup-a_2c",
-    "title": "TS HW1",
-    "section": "(3) \\(P(A_{1} \\cup A_{2}^{c})\\)",
-    "text": "(3) \\(P(A_{1} \\cup A_{2}^{c})\\)\n\\(P(A_{1} \\cup A_{2}^c)\\)\n= \\(P(A_1) + P(A_2^c) - P(A_1 \\cap A_2^c)\\)\n= \\(P(A_1) + 1 - P(A_2) - ( P(A_1) - P(A_1 \\cap A_2))\\)\n= \\(1 - P(A_2) + P(A_1 \\cap A_2)\\)\n= \\(1 - 0.3 + 0.18\\)\n= \\(0.88\\)"
-  },
-  {
-    "objectID": "posts/TS1.html#fleft-xright-c-dfrac23x-ileft-xin-left-012ldots-right-right",
-    "href": "posts/TS1.html#fleft-xright-c-dfrac23x-ileft-xin-left-012ldots-right-right",
-    "title": "TS HW1",
-    "section": "(1) \\(f\\left( x\\right) = c( \\dfrac{2}{3})^x\\) \\(I\\left( x\\in \\left\\{ 0,1,2,\\ldots \\right\\} \\right)\\)",
-    "text": "(1) \\(f\\left( x\\right) = c( \\dfrac{2}{3})^x\\) \\(I\\left( x\\in \\left\\{ 0,1,2,\\ldots \\right\\} \\right)\\)\n이럴수가 연속형이 아니라 이산형이였담 두둥 이산형인 경우 저렇게 0,1,2,… 표시되고 연속형인 경우에는 \\(x\\geq0\\) 이렇게 표시됨..ㅠㅠ\n각 \\(f(x) \\geq 0\\) 이므로 \\(c \\geq 0\\)\n\\(\\sum _{\\forall x_{i}}f\\left( x_{i}\\right) = 1\\) 을 만족하는 상수 c값 찾기\n\\(\\sum ^{\\infty}_{0}c( \\dfrac{2}{3})^x =\\dfrac{\\dfrac{2}{3}c}{1-\\dfrac{2}{3}}= 2c = 1\\)\ns.t \\(c= \\dfrac{1}{2}\\)"
-  },
-  {
-    "objectID": "posts/TS1.html#fx-cx-ileft-xin-left-123456-right-right",
-    "href": "posts/TS1.html#fx-cx-ileft-xin-left-123456-right-right",
-    "title": "TS HW1",
-    "section": "(2) \\(f(x) = cx\\) \\(I\\left( x\\in \\left\\{ 1,2,3,4,5,6 \\right\\} \\right)\\)",
-    "text": "(2) \\(f(x) = cx\\) \\(I\\left( x\\in \\left\\{ 1,2,3,4,5,6 \\right\\} \\right)\\)\n각 \\(f(x) \\geq 0\\) 이므로 \\(c \\geq 0\\)\n\\(\\sum _{\\forall x_{i}}f\\left( x_{i}\\right) = 1\\) 을 만족하는 상수 c값 찾기\n\\(\\sum ^{6}_{x=1}f\\left( x_{i}\\right) = c (1+2+3+4+5+6) = 21 c =1\\)\ns.t \\(c= \\dfrac{1}{21}\\)"
-  },
-  {
-    "objectID": "posts/TS1.html#p0-x_1-dfrac12-dfrac14-x_2-1",
-    "href": "posts/TS1.html#p0-x_1-dfrac12-dfrac14-x_2-1",
-    "title": "TS HW1",
-    "section": "(1) \\(P(0 < X_{1} < \\dfrac{1}{2}, \\dfrac{1}{4} < X_{2} < 1)\\)",
-    "text": "(1) \\(P(0 &lt; X_{1} &lt; \\dfrac{1}{2}, \\dfrac{1}{4} &lt; X_{2} &lt; 1)\\)\n\\(\\int \\int _{A}f\\left( x_{1},x_{2}\\right) dx_{1}dx_{2} = \\int _{0}^{1/2}\\int _{1/4}^{1}4x_{1}x_{2}dx_{2}dx_{1} = \\dfrac{15}{64}\\)"
-  },
-  {
-    "objectID": "posts/TS1.html#px_1-x_2",
-    "href": "posts/TS1.html#px_1-x_2",
-    "title": "TS HW1",
-    "section": "(2) \\(P(X_{1} = X_{2})\\)",
-    "text": "(2) \\(P(X_{1} = X_{2})\\)\n\\(\\int _{0}^{.1}\\int ^{x_{1}}_{x_{1}}4x_{1}x_{2}dx_{2}dx_{1} = 0\\)"
-  },
-  {
-    "objectID": "posts/TS1.html#px_1-x_2-1",
-    "href": "posts/TS1.html#px_1-x_2-1",
-    "title": "TS HW1",
-    "section": "(3) \\(P(X_{1} < X_{2})\\)",
-    "text": "(3) \\(P(X_{1} &lt; X_{2})\\)"
-  },
-  {
-    "objectID": "posts/TS1.html#p-x_1leq-x_2",
-    "href": "posts/TS1.html#p-x_1leq-x_2",
-    "title": "TS HW1",
-    "section": "(4) \\(P( X_{1}\\leq X_{2})\\)",
-    "text": "(4) \\(P( X_{1}\\leq X_{2})\\)\n(2)에서 \\(P(X_{1} = X_{2}) = 0\\) 이므로 (3)식과 (4)식의 확률값은 동일하다.\n\\(\\int \\int _{A}f\\left( x_{1},x_{2}\\right) dx_{1}dx_{2} = \\int _{0}^{1}\\int _{0}^{x_2}4x_{1}x_{2}dx_{1}dx_{2} = \\int _{0}^{1}2x_{2}^{3}dx_{2} = \\dfrac{1}{2}\\)"
-  },
-  {
-    "objectID": "posts/TS9.html",
-    "href": "posts/TS9.html",
-    "title": "TS HW9",
-    "section": "",
-    "text": "1번\n\\(X_1,X_2,\\dots, X_n\\)이 \\(N(\\mu, \\sigma^2)\\) (단 \\(\\mu\\):unknown)로부터의 랜덤샘플일 때 다음 가설에 대한 가능도비 검정의 유의수준 \\(\\alpha\\)기각역을 구하시오.\n\\[H_0: \\sigma^2 = \\sigma_0^2 \\ vs \\ H_1: \\sigma^2 \\neq \\sigma_0^2\\]\n\\((\\hat \\mu, \\hat \\sigma^2) = (\\bar X, \\frac{\\sum_{i=1}^n (X_i-\\bar X)^2}{n})\\)\n\\((\\hat \\mu_0, \\hat \\sigma^2_0) = (\\bar X, \\sigma_0^2)\\)\n\\(L(\\mu, \\sigma^2 |x)=\\Pi_{i=1}^n \\frac{1}{\\sqrt{2\\pi \\sigma^2}} e^{-\\frac{(X_i-\\mu)^2}{2\\sigma^2}}\\)\n\\(\\gamma(X)=\\dfrac{(\\frac{1}{2\\pi \\hat \\sigma_0^2})^{2/n} exp(-\\frac{\\sum_{i=1}^n(X_i-\\bar X)^2}{2\\hat \\sigma_0^2})}{(\\frac{1}{2\\pi\\hat \\sigma^2})^{2/n}exp(-\\frac{\\sum_{i=1}^n(X_i-\\bar X)^2}{2\\hat \\sigma^2})}\\)\n\\(=(\\frac{\\hat \\sigma^2}{\\sigma_0^2})^{2/n}exp(-\\frac{\\sum_{i=1}^n (X_i-\\bar X)^2}{2\\sigma_0^2}+\\frac{n}{2})\\)\n\\(=(\\frac{\\hat \\sigma^2}{ \\sigma_0^2})^{2/n}exp((-\\frac{n}{2}) (\\frac{\\hat \\sigma^2}{\\sigma_0^2})+\\frac{n}{2})\\)\n\\(P(\\gamma(X) \\leq C |H_0) = \\alpha\\) 를 찾자.\n\\(e^{n/2}\\)식은 상수이므로 곱해서 없애주면\n\\((\\frac{\\hat \\sigma^2}{\\sigma_0^2})^{2/n} exp(-\\frac{\\hat \\sigma^2}{\\sigma_0^2}) \\leq C\\)\n\\(\\because \\frac{n\\hat \\sigma^2}{\\sigma_0^2} = \\frac{\\sum_{i=1}^n (X_i-\\bar X)^2}{\\sigma_0^2}\\) ~ \\(\\chi^2(n-1))\\)\n\\(\\rightarrow P((\\frac{n\\hat \\sigma^2}{\\sigma_0^2})^{2/n} exp(-\\frac{n\\hat \\sigma^2}{\\sigma_0^2}) \\leq C |H_0) = \\alpha\\)\n\\(\\therefore \\dfrac{\\sum_{i=1}^n (X_i -\\bar X)^2}{\\sigma_0^2} \\geq \\chi^2_{\\alpha/2}(n-1)\\) or \\(\\dfrac{\\sum_{i=1}^n (X_i -\\bar X)^2}{\\sigma_0^2} \\leq \\chi^2_{1-\\alpha/2}(n-1)\\)\n\n\n2번\n\\(X_k\\) ~ \\(N(k\\theta. 1), k=1,2,\\dots,n\\)이고 서로 독립인 확률변수이다. 다음 가설에 대한 가능도비 검정의 유의수준 \\(\\alpha\\) 기각역을 구하시오.\n\\[H_0:\\theta=0 \\ vs \\ H_1: \\theta \\neq 0\\]\n위 확률변수는 평균이 다 다르므로 랜덤표본이 아니다.\n\\(L(\\theta: x_1, \\dots, x_n)= f(x_1,\\dots,x_n;\\theta)=\\Pi_{k=1}^n f_k (x_k ; \\theta) = \\Pi_{k=1}^n \\frac{1}{\\sqrt{2\\pi}} e^{-\\frac{(X_k-k\\theta)^2}{2}}=(\\frac{1}{2\\pi})^{n/2}e^{-\\frac{\\sum_{i=1}^n(X_k-k\\theta)^2}{2}}\\)\n\\(h: \\{ \\theta : -\\infty &lt; \\theta &lt; \\infty \\}\\)\n\\(h_0: \\{ \\theta : \\theta=0 \\}\\)\n\\(l(\\theta)=\\frac{n}{2}log 2\\pi - \\frac{\\sum_{k=1}^n (X_k - k\\theta)^2}{2}\\)\n\\(l'(\\theta) = \\sum_{k=1}^n k(X_k - k\\theta) = 0\\)\n\\(\\hat \\theta^{MLE} = \\dfrac{\\sum_{k=1}^n kX_k}{\\sum_{k=1}^n k^2}\\)\n\\(\\gamma(X) = \\dfrac{(\\frac{1}{2\\pi})^{2/n} e^{-\\frac{\\sum_{k=1}^n (X_k)^2}{2}}}{(\\frac{1}{2\\pi})^{2/n} e^{-\\frac{\\sum_{k=1}^n (X_k-k\\hat \\theta^{MLE})^2}{2}}}\\)\n\\(=e^{-\\frac{\\sum X_k^2}{2}+\\frac{\\sum(X_k-k\\hat \\theta^{MLE})^2}{2}}\\)\n\\(=exp(-(\\sum kX_k) \\frac{\\sum kX_k}{\\sum k^2} + \\frac{1}{2}\\sum k^2 \\frac{(\\sum kX_k)^2}{(\\sum k^2)^2})\\)\n\\(=exp(-\\dfrac{(\\sum kX_k)^2}{2\\sum k^2}) \\leq C\\)\n위 식에서 log를 취하면\n\\(\\dfrac{(\\sum kX_k)^2}{\\sum k^2} \\geq C\\)\n\\(kX_k\\) ~ \\(N(k^2 \\theta, k^2)\\)\n\\(\\sum_{k=1}^n k X_k\\) ~ \\(N(\\sum_{k=1}^n k^2 \\theta, \\sum_{k=1}^n k^2)\\)\nunder \\(H_0\\),\n\\(\\sum_{k=1}^n k X_k\\) ~ \\(N(0,\\sum_{k=1}^n k^2)\\)\n표준화하면,\n\\(\\dfrac{\\sum_{k=1}^n k X_k - 0}{\\sqrt{\\sum_{k=1}^n k^2}}\\) ~ \\(N(0,1)\\)\n제곱하면,\n\\(\\dfrac{(\\sum_{k=1}^n k X_k)^2}{\\sum_{k=1}^n k^2}\\) ~ \\(\\chi^2(1)\\)\n즉,\n\\(P \\{ (X_1, \\dots, X_n): \\dfrac{(\\sum_{k=1}^n kX_k)^2}{\\sum_{k=1}^n k^2} \\geq C \\} (\\theta_0)=\\alpha\\)\n\\(\\dfrac{(\\sum_{k=1}^n kX_k)^2}{\\sum_{k=1}^n k^2} \\geq \\chi^2_\\alpha(1)\\)"
   },
   {
     "objectID": "posts/TS2.html",
