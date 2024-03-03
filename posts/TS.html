@@ -186,26 +186,43 @@ window.Quarto = {
 <section id="section-1" class="level2">
 <h2 class="anchored" data-anchor-id="section-1">(1)</h2>
 <p><span class="math inline">\(T = X_1 + X_2 + \dots + X_n\)</span>라고 할 때 <span class="math inline">\(T\)</span>의 평균과 분산</p>
+<p><span class="math inline">\(T=\sum X_i\)</span></p>
+<p><span class="math inline">\(E(T) = n\lambda\)</span></p>
+<p><span class="math inline">\(Var(T) = n^2 \lambda\)</span></p>
 </section>
 <section id="section-2" class="level2">
 <h2 class="anchored" data-anchor-id="section-2">(2)</h2>
 <p><span class="math inline">\(\lambda\)</span>의 최대가능도추정량 MLE <span class="math inline">\(\hat \lambda_n\)</span>을 유도하시오</p>
+<p><span class="math inline">\(f(x:\lambda) = \Pi_{i=1}^n \dfrac{1}{\lambda} e^{-x_i/\lambda} I(x&gt; 0)\)</span></p>
+<p>=<span class="math inline">\((\dfrac{1}{\lambda})^n e^{\sum_{i=0}^n (-x_i / \lambda)}I(x&gt;0)\)</span></p>
+<p><span class="math inline">\(l(\lambda) = -nlog \lambda - \dfrac{\sum_{i=0}^n x}{\lambda}\)</span></p>
+<p><span class="math inline">\(l'(\lambda) = -\dfrac{n}{\lambda} + \dfrac{\sum_{i=0}^n x}{\lambda^2}=0\)</span></p>
+<p><span class="math inline">\(\lambda n = \sum x\)</span></p>
+<p><span class="math inline">\(\hat \lambda = \dfrac{\sum x}{n} = \bar x\)</span></p>
+<p>원래는 <span class="math inline">\(l''(\lambda) &lt; 0\)</span>인지 확인해야함. (볼록함수)</p>
 </section>
 <section id="section-3" class="level2">
 <h2 class="anchored" data-anchor-id="section-3">(3)</h2>
 <p><span class="math inline">\(\hat \lambda_n^*\)</span>과 다른 추정량을 제시하고, 어느 추정량이 좋은지 그 판단의 근거를 간단히 기술하시오</p>
+<p>적률추정량?</p>
+<p><span class="math inline">\(\mu_1  = E(x) = \int xf(x)dx= \int x \dfrac{1}{\lambda}e^{-x/\lambda}I(x&gt;0)\)</span></p>
+<p>흠 무엇이 더 좋은지는.. 어떻게 하느거쥐</p>
 </section>
 <section id="section-4" class="level2">
 <h2 class="anchored" data-anchor-id="section-4">(4)</h2>
 <p><span class="math inline">\(\hat \lambda_n\)</span>의 기댓값</p>
+<p><span class="math inline">\(E(\hat \lambda_n) = E(\bar X) = \dfrac{1}{n}E(X_1+ \dots + X_n) = \dfrac{1}{n} n \lambda = \lambda\)</span></p>
 </section>
 <section id="section-5" class="level2">
 <h2 class="anchored" data-anchor-id="section-5">(5)</h2>
 <p><span class="math inline">\(\hat \lambda_n\)</span>는 일치추정량 여부를 판단하고, 그 이유를 기술</p>
+<p><span class="math inline">\(E(\hat \lambda_n) = \lambda\)</span>이면 일치추정량</p>
+<p>(4)에서 기댓값이 <span class="math inline">\(\lambda\)</span>이므로 일치추정량이당</p>
 </section>
 <section id="section-6" class="level2">
 <h2 class="anchored" data-anchor-id="section-6">(6)</h2>
 <p><span class="math inline">\(\hat \lambda_n\)</span>의 점근분포를 구체적으로 기술</p>
+<p><span class="math inline">\(\sqrt{n}(\hat \lambda_n - \lambda ) \rightarrow N(0,\dfrac{1}{I(\lambda)})\)</span></p>
 </section>
 <section id="section-7" class="level2">
 <h2 class="anchored" data-anchor-id="section-7">(7)</h2>
