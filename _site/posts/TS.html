@@ -9,7 +9,7 @@
 <meta name="author" content="김보람">
 <meta name="dcterms.date" content="2024-02-26">
 
-<title>ThS - TS</title>
+<title>ThS - TS_23.8</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -144,7 +144,7 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">TS</h1>
+      <h1 class="title">TS_23.8</h1>
                       </div>
   </div>
     
@@ -188,7 +188,7 @@ window.Quarto = {
 <p><span class="math inline">\(T = X_1 + X_2 + \dots + X_n\)</span>라고 할 때 <span class="math inline">\(T\)</span>의 평균과 분산</p>
 <p><span class="math inline">\(T=\sum X_i\)</span></p>
 <p><span class="math inline">\(E(T) = n\lambda\)</span></p>
-<p><span class="math inline">\(Var(T) = n^2 \lambda\)</span></p>
+<p><span class="math inline">\(Var(T) = n \lambda^2\)</span></p>
 </section>
 <section id="section-2" class="level2">
 <h2 class="anchored" data-anchor-id="section-2">(2)</h2>
@@ -205,8 +205,9 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="section-3">(3)</h2>
 <p><span class="math inline">\(\hat \lambda_n^*\)</span>과 다른 추정량을 제시하고, 어느 추정량이 좋은지 그 판단의 근거를 간단히 기술하시오</p>
 <p>적률추정량?</p>
-<p><span class="math inline">\(\mu_1  = E(x) = \int xf(x)dx= \int x \dfrac{1}{\lambda}e^{-x/\lambda}I(x&gt;0)\)</span></p>
-<p>흠 무엇이 더 좋은지는.. 어떻게 하느거쥐</p>
+<p><span class="math inline">\(\mu_1  = E(x) = \int xf(x)dx= \int x \dfrac{1}{\lambda}e^{-x/\lambda}I(x&gt;0)=\hat \lambda\)</span></p>
+<p><span class="math inline">\(\hat \lambda_n^* = \bar X\)</span></p>
+<p>MLE와 MME 중에서 어떤 것이 더 좋은지 판단하기 위해서는 추정량의 편향성, 효율성, 일치성 드응ㄹ 평가해야 한다. 표본 크기에 따른 추정량의 성능도 비교해야한다. 크기가 크고 모집단이 지수분포와 유사한 경우에 MLE추정량이 더 효율적이고 일치성을 보장하는 경향이 있다.</p>
 </section>
 <section id="section-4" class="level2">
 <h2 class="anchored" data-anchor-id="section-4">(4)</h2>
@@ -227,6 +228,15 @@ window.Quarto = {
 <section id="section-7" class="level2">
 <h2 class="anchored" data-anchor-id="section-7">(7)</h2>
 <p>가설 <span class="math inline">\(H_0: \lambda= 1, \text{vs} \ H_1: \lambda \neq 1\)</span>을 가능도비 검정법으로 검정하시오</p>
+<p><span class="math inline">\(\Lambda =\dfrac{L(\lambda^*)}{L(\lambda)}\)</span></p>
+<p><span class="math inline">\(L(\lambda^*) = \Pi_{i=1}^n \dfrac{1}{1}e^{-x_i/1}=e^{-\sum_{i=1}^n x_i}\)</span></p>
+<p><span class="math inline">\(L(\lambda) = \Pi_{i=1}^n \dfrac{1}{ \bar X} e^{-x_i/\bar X} = \dfrac{1}{\bar X^n} e^{-\dfrac{\sum_{i=1}^n x_i}{\bar X}}=\dfrac{1}{\bar X^n} e^{-n}\)</span></p>
+<p><span class="math inline">\(\Lambda = \dfrac{e^{-\sum_{i=1}^n x_i}}{\dfrac{1}{\bar X^n} e^{-n}}=\bar X^n e^{- \bar X}\)</span></p>
+<p><span class="math inline">\(-2log(\Lambda) = nlog(\bar X) - \bar X &lt; log C\)</span></p>
+<p>= <span class="math inline">\(log(\bar X) - \dfrac{\bar X}{n} &lt; \dfrac{logC}{n}\)</span></p>
+<p>= <span class="math inline">\(log(\dfrac{\bar X}{e^{(\bar X/n)}}) &lt; \dfrac{logC}{n}\)</span></p>
+<p><span class="math inline">\(=\dfrac{\bar X}{e^{(\bar X / n)}} &lt; C'\)</span></p>
+<p>이것이..기각역?</p>
 
 
 </section>
