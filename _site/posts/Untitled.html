@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ThS - Theoretical Statistics</title>
+<title>ThS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,77 +66,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">ThS</span>
     </a>
   </div>
@@ -149,7 +89,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">Boram-coco</span></a>
   </li>  
   <li class="nav-item compact">
@@ -170,184 +110,20 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">Theoretical Statistics</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-<ul>
-<li><p>Professor Hye-mi Choi, Department of Statistics, Jeonbuk National University</p></li>
-<li><p>2nd semester, 2022</p></li>
-</ul>
 
 
-
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Date
-</th>
-<th>
-Title
-</th>
-<th>
-Author
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-date-sort="1708873200000" data-listing-file-modified-sort="1709475892326" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="161" data-listing-title-sort="TS" data-listing-filename-sort="TS.ipynb">
-<td>
-<span class="listing-date">Feb 26, 2024</span>
-</td>
-<td>
-<a href="./posts/TS.html" class="title listing-title">TS</a>
-</td>
-<td>
-<span class="listing-author">김보람 </span>
-</td>
-</tr>
-<tr data-index="1" data-categories="Theoretical statistics,final exam" data-listing-date-sort="1686927600000" data-listing-file-modified-sort="1709094302051" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="901" data-listing-title-sort="TS final" data-listing-filename-sort="TS final.ipynb">
-<td>
-<span class="listing-date">Jun 17, 2023</span>
-</td>
-<td>
-<a href="./posts/TS final.html" class="title listing-title">TS final</a>
-</td>
-<td>
-<span class="listing-author">김보람 </span>
-</td>
-</tr>
-<tr data-index="2" data-categories="Theoretical statistics,homework" data-listing-date-sort="1686322800000" data-listing-file-modified-sort="1696499943000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="286" data-listing-title-sort="TS HW9" data-listing-filename-sort="TS9.ipynb">
-<td>
-<span class="listing-date">Jun 10, 2023</span>
-</td>
-<td>
-<a href="./posts/TS9.html" class="title listing-title">TS HW9</a>
-</td>
-<td>
-<span class="listing-author">김보람 </span>
-</td>
-</tr>
-<tr data-index="3" data-categories="Theoretical statistics,homework" data-listing-date-sort="1685804400000" data-listing-file-modified-sort="1699860893000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="381" data-listing-title-sort="TS HW8" data-listing-filename-sort="TS8.ipynb">
-<td>
-<span class="listing-date">Jun 4, 2023</span>
-</td>
-<td>
-<a href="./posts/TS8.html" class="title listing-title">TS HW8</a>
-</td>
-<td>
-<span class="listing-author">김보람 </span>
-</td>
-</tr>
-<tr data-index="4" data-categories="Theoretical statistics,homework" data-listing-date-sort="1684422000000" data-listing-file-modified-sort="1707191216475" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="520" data-listing-title-sort="TS HW7" data-listing-filename-sort="TS7.ipynb">
-<td>
-<span class="listing-date">May 19, 2023</span>
-</td>
-<td>
-<a href="./posts/TS7.html" class="title listing-title">TS HW7</a>
-</td>
-<td>
-<span class="listing-author">김보람 </span>
-</td>
-</tr>
-<tr data-index="5" data-categories="Theoretical statistics,homework" data-listing-date-sort="1683298800000" data-listing-file-modified-sort="1696499943000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="724" data-listing-title-sort="TS HW6" data-listing-filename-sort="TS6.ipynb">
-<td>
-<span class="listing-date">May 6, 2023</span>
-</td>
-<td>
-<a href="./posts/TS6.html" class="title listing-title">TS HW6</a>
-</td>
-<td>
-<span class="listing-author">김보람 </span>
-</td>
-</tr>
-<tr data-index="6" data-categories="Theoretical statistics,homework" data-listing-date-sort="1681830000000" data-listing-file-modified-sort="1696499943000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="698" data-listing-title-sort="TS HW5" data-listing-filename-sort="TS5.ipynb">
-<td>
-<span class="listing-date">Apr 19, 2023</span>
-</td>
-<td>
-<a href="./posts/TS5.html" class="title listing-title">TS HW5</a>
-</td>
-<td>
-<span class="listing-author">김보람 </span>
-</td>
-</tr>
-<tr data-index="7" data-categories="Theoretical statistics,homework" data-listing-date-sort="1681484400000" data-listing-file-modified-sort="1696499943000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="819" data-listing-title-sort="TS HW4" data-listing-filename-sort="TS4.ipynb">
-<td>
-<span class="listing-date">Apr 15, 2023</span>
-</td>
-<td>
-<a href="./posts/TS4.html" class="title listing-title">TS HW4</a>
-</td>
-<td>
-<span class="listing-author">김보람 </span>
-</td>
-</tr>
-<tr data-index="8" data-categories="Theoretical statistics,homework" data-listing-date-sort="1680015600000" data-listing-file-modified-sort="1696499943000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="740" data-listing-title-sort="TS HW3" data-listing-filename-sort="TS3.ipynb">
-<td>
-<span class="listing-date">Mar 29, 2023</span>
-</td>
-<td>
-<a href="./posts/TS3.html" class="title listing-title">TS HW3</a>
-</td>
-<td>
-<span class="listing-author">김보람 </span>
-</td>
-</tr>
-<tr data-index="9" data-categories="Theoretical statistics,homework" data-listing-date-sort="1679929200000" data-listing-file-modified-sort="1702007633292" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="720" data-listing-title-sort="TS HW2" data-listing-filename-sort="TS2.ipynb">
-<td>
-<span class="listing-date">Mar 28, 2023</span>
-</td>
-<td>
-<a href="./posts/TS2.html" class="title listing-title">TS HW2</a>
-</td>
-<td>
-<span class="listing-author">김보람 </span>
-</td>
-</tr>
-<tr data-index="10" data-categories="Theoretical statistics,homework" data-listing-date-sort="1679324400000" data-listing-file-modified-sort="1708930288109" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="909" data-listing-title-sort="TS HW1" data-listing-filename-sort="TS1.ipynb">
-<td>
-<span class="listing-date">Mar 21, 2023</span>
-</td>
-<td>
-<a href="./posts/TS1.html" class="title listing-title">TS HW1</a>
-</td>
-<td>
-<span class="listing-author">김보람 </span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

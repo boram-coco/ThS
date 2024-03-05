@@ -151,49 +151,49 @@
     "href": "posts/TS.html",
     "title": "TS",
     "section": "",
-    "text": "\\(X_1, X_2, \\dots, X_n\\)는 확률밀도함수 \\(f(x) = \\dfrac{1}{\\lambda}e^{-x/\\lambda}I(x&gt;0)\\)를 가지는 모집단으로부터의 랜덤표본이라고 할 때\n\n\n\\(T = X_1 + X_2 + \\dots + X_n\\)라고 할 때 \\(T\\)의 평균과 분산\n\n\n\n\\(\\lambda\\)의 최대가능도추정량 MLE \\(\\hat \\lambda_n\\)을 유도하시오\n\n\n\n\\(\\hat \\lambda_n^*\\)과 다른 추정량을 제시하고, 어느 추정량이 좋은지 그 판단의 근거를 간단히 기술하시오\n\n\n\n\\(\\hat \\lambda_n\\)의 기댓값\n\n\n\n\\(\\hat \\lambda_n\\)는 일치추정량 여부를 판단하고, 그 이유를 기술\n\n\n\n\\(\\hat \\lambda_n\\)의 점근분포를 구체적으로 기술\n\n\n\n가설 \\(H_0: \\lambda= 1, \\text{vs} \\ H_1: \\lambda \\neq 1\\)을 가능도비 검정법으로 검정하시오"
+    "text": "\\(X_1, X_2, \\dots, X_n\\)는 확률밀도함수 \\(f(x) = \\dfrac{1}{\\lambda}e^{-x/\\lambda}I(x&gt;0)\\)를 가지는 모집단으로부터의 랜덤표본이라고 할 때\n\n\n\\(T = X_1 + X_2 + \\dots + X_n\\)라고 할 때 \\(T\\)의 평균과 분산\n\\(T=\\sum X_i\\)\n\\(E(T) = n\\lambda\\)\n\\(Var(T) = n^2 \\lambda\\)\n\n\n\n\\(\\lambda\\)의 최대가능도추정량 MLE \\(\\hat \\lambda_n\\)을 유도하시오\n\\(f(x:\\lambda) = \\Pi_{i=1}^n \\dfrac{1}{\\lambda} e^{-x_i/\\lambda} I(x&gt; 0)\\)\n=\\((\\dfrac{1}{\\lambda})^n e^{\\sum_{i=0}^n (-x_i / \\lambda)}I(x&gt;0)\\)\n\\(l(\\lambda) = -nlog \\lambda - \\dfrac{\\sum_{i=0}^n x}{\\lambda}\\)\n\\(l'(\\lambda) = -\\dfrac{n}{\\lambda} + \\dfrac{\\sum_{i=0}^n x}{\\lambda^2}=0\\)\n\\(\\lambda n = \\sum x\\)\n\\(\\hat \\lambda = \\dfrac{\\sum x}{n} = \\bar x\\)\n원래는 \\(l''(\\lambda) &lt; 0\\)인지 확인해야함. (볼록함수)\n\n\n\n\\(\\hat \\lambda_n^*\\)과 다른 추정량을 제시하고, 어느 추정량이 좋은지 그 판단의 근거를 간단히 기술하시오\n적률추정량?\n\\(\\mu_1  = E(x) = \\int xf(x)dx= \\int x \\dfrac{1}{\\lambda}e^{-x/\\lambda}I(x&gt;0)\\)\n흠 무엇이 더 좋은지는.. 어떻게 하느거쥐\n\n\n\n\\(\\hat \\lambda_n\\)의 기댓값\n\\(E(\\hat \\lambda_n) = E(\\bar X) = \\dfrac{1}{n}E(X_1+ \\dots + X_n) = \\dfrac{1}{n} n \\lambda = \\lambda\\)\n\n\n\n\\(\\hat \\lambda_n\\)는 일치추정량 여부를 판단하고, 그 이유를 기술\n\\(E(\\hat \\lambda_n) = \\lambda\\)이면 일치추정량\n(4)에서 기댓값이 \\(\\lambda\\)이므로 일치추정량이당\n\n\n\n\\(\\hat \\lambda_n\\)의 점근분포를 구체적으로 기술\n\\(\\sqrt{n}(\\hat \\lambda_n - \\lambda ) \\rightarrow N(0,\\dfrac{1}{I(\\lambda)})\\)\n\n\n\n가설 \\(H_0: \\lambda= 1, \\text{vs} \\ H_1: \\lambda \\neq 1\\)을 가능도비 검정법으로 검정하시오"
   },
   {
     "objectID": "posts/TS.html#section-1",
     "href": "posts/TS.html#section-1",
     "title": "TS",
     "section": "",
-    "text": "\\(T = X_1 + X_2 + \\dots + X_n\\)라고 할 때 \\(T\\)의 평균과 분산"
+    "text": "\\(T = X_1 + X_2 + \\dots + X_n\\)라고 할 때 \\(T\\)의 평균과 분산\n\\(T=\\sum X_i\\)\n\\(E(T) = n\\lambda\\)\n\\(Var(T) = n^2 \\lambda\\)"
   },
   {
     "objectID": "posts/TS.html#section-2",
     "href": "posts/TS.html#section-2",
     "title": "TS",
     "section": "",
-    "text": "\\(\\lambda\\)의 최대가능도추정량 MLE \\(\\hat \\lambda_n\\)을 유도하시오"
+    "text": "\\(\\lambda\\)의 최대가능도추정량 MLE \\(\\hat \\lambda_n\\)을 유도하시오\n\\(f(x:\\lambda) = \\Pi_{i=1}^n \\dfrac{1}{\\lambda} e^{-x_i/\\lambda} I(x&gt; 0)\\)\n=\\((\\dfrac{1}{\\lambda})^n e^{\\sum_{i=0}^n (-x_i / \\lambda)}I(x&gt;0)\\)\n\\(l(\\lambda) = -nlog \\lambda - \\dfrac{\\sum_{i=0}^n x}{\\lambda}\\)\n\\(l'(\\lambda) = -\\dfrac{n}{\\lambda} + \\dfrac{\\sum_{i=0}^n x}{\\lambda^2}=0\\)\n\\(\\lambda n = \\sum x\\)\n\\(\\hat \\lambda = \\dfrac{\\sum x}{n} = \\bar x\\)\n원래는 \\(l''(\\lambda) &lt; 0\\)인지 확인해야함. (볼록함수)"
   },
   {
     "objectID": "posts/TS.html#section-3",
     "href": "posts/TS.html#section-3",
     "title": "TS",
     "section": "",
-    "text": "\\(\\hat \\lambda_n^*\\)과 다른 추정량을 제시하고, 어느 추정량이 좋은지 그 판단의 근거를 간단히 기술하시오"
+    "text": "\\(\\hat \\lambda_n^*\\)과 다른 추정량을 제시하고, 어느 추정량이 좋은지 그 판단의 근거를 간단히 기술하시오\n적률추정량?\n\\(\\mu_1  = E(x) = \\int xf(x)dx= \\int x \\dfrac{1}{\\lambda}e^{-x/\\lambda}I(x&gt;0)\\)\n흠 무엇이 더 좋은지는.. 어떻게 하느거쥐"
   },
   {
     "objectID": "posts/TS.html#section-4",
     "href": "posts/TS.html#section-4",
     "title": "TS",
     "section": "",
-    "text": "\\(\\hat \\lambda_n\\)의 기댓값"
+    "text": "\\(\\hat \\lambda_n\\)의 기댓값\n\\(E(\\hat \\lambda_n) = E(\\bar X) = \\dfrac{1}{n}E(X_1+ \\dots + X_n) = \\dfrac{1}{n} n \\lambda = \\lambda\\)"
   },
   {
     "objectID": "posts/TS.html#section-5",
     "href": "posts/TS.html#section-5",
     "title": "TS",
     "section": "",
-    "text": "\\(\\hat \\lambda_n\\)는 일치추정량 여부를 판단하고, 그 이유를 기술"
+    "text": "\\(\\hat \\lambda_n\\)는 일치추정량 여부를 판단하고, 그 이유를 기술\n\\(E(\\hat \\lambda_n) = \\lambda\\)이면 일치추정량\n(4)에서 기댓값이 \\(\\lambda\\)이므로 일치추정량이당"
   },
   {
     "objectID": "posts/TS.html#section-6",
     "href": "posts/TS.html#section-6",
     "title": "TS",
     "section": "",
-    "text": "\\(\\hat \\lambda_n\\)의 점근분포를 구체적으로 기술"
+    "text": "\\(\\hat \\lambda_n\\)의 점근분포를 구체적으로 기술\n\\(\\sqrt{n}(\\hat \\lambda_n - \\lambda ) \\rightarrow N(0,\\dfrac{1}{I(\\lambda)})\\)"
   },
   {
     "objectID": "posts/TS.html#section-7",
