@@ -201,20 +201,39 @@ window.Quarto = {
 <p><span class="math inline">\(E(X_1(1-X_2)) = E(X_1)-E(X_1 X_2) = E(X_1) - E(X_1)E(X_2) = p - p^2 = p(1-p)\)</span></p>
 <p>랜덤표본이므로..독립</p>
 </section>
-<section id="d-ex_11-x_2sum_i1n-x_i-t" class="level2">
-<h2 class="anchored" data-anchor-id="d-ex_11-x_2sum_i1n-x_i-t">(d) <span class="math inline">\(E[X_1(1-X_2)|\sum_{i=1}^n X_i = t]\)</span></h2>
+<section id="d-ex_11-x_2sum_i1n-x_i-t-star-모르겠땅" class="level2">
+<h2 class="anchored" data-anchor-id="d-ex_11-x_2sum_i1n-x_i-t-star-모르겠땅">(d) <span class="math inline">\(E[X_1(1-X_2)|\sum_{i=1}^n X_i = t]\)</span> <span class="math inline">\(\star\)</span> 모르겠땅</h2>
+<p>완비충분통계량이용</p>
+<p>완비충분통계량은 확률변수 분포에 대한 모든 정보를 갖고 있는 충분통계량</p>
+<p>베르누이 분포는 <span class="math inline">\(X_1 + \dots + X_n\)</span>이 모수 <span class="math inline">\(\hat p\)</span>에 대한 충분통계량이며 완비성을 가짐</p>
+<p><span class="math inline">\(T=\sum X_i\)</span></p>
+<p><span class="math inline">\(E(X_1(1-X_2)|T=t) = E(X_1|T=t) E(1-X_2|T=t)\)</span></p>
+<p><span class="math inline">\(P(T=t)\)</span>는 이항분포</p>
 </section>
-<section id="e-pdfrac12일-때-점근분포" class="level2">
-<h2 class="anchored" data-anchor-id="e-pdfrac12일-때-점근분포">(e) <span class="math inline">\(p=\dfrac{1}{2}\)</span>일 때 점근분포</h2>
+<section id="e-pdfrac12일-때-점근분포-star-모르겠땅" class="level2">
+<h2 class="anchored" data-anchor-id="e-pdfrac12일-때-점근분포-star-모르겠땅">(e) <span class="math inline">\(p=\dfrac{1}{2}\)</span>일 때 점근분포 <span class="math inline">\(\star\)</span> 모르겠땅</h2>
+<p><span class="math inline">\(\sqrt{n}(\hat p - p) \rightarrow N(0,\dfrac{1}{I(p)})\)</span></p>
+<p>p=1/2이면.. var(x)=1/4이고…</p>
+<p>I(p)=4</p>
+<p>그럼..N(0,4)인가..</p>
 </section>
-<section id="f" class="level2">
-<h2 class="anchored" data-anchor-id="f">(f)</h2>
+<section id="f-star-모르겠땅" class="level2">
+<h2 class="anchored" data-anchor-id="f-star-모르겠땅">(f) <span class="math inline">\(\star\)</span> 모르겠땅</h2>
 <p>가설 <span class="math inline">\(H_0: p= \dfrac{1}{2} \ \text{vs} \ H_1: p \neq \dfrac{1}{2}\)</span>일 때 일반화 가능도비를 이용해 기각 영역 제시</p>
+<p><span class="math inline">\(L(p) = p^{\sum_{i=1}^n x_i} (1-p)^{n-\sum_{i=1}^n x_i}\)</span></p>
+<p><span class="math inline">\(\Lambda = \dfrac{L(p_0)}{L(p)} = \dfrac{((1/2)^{\sum_{i=1}^n x_i} (1/2)^{n-\sum_{i=1}^n x_i}}{\bar X^{\sum_{i=1}^n x_i} (1-\bar X)^{n-\sum_{i=1}^n x_i}}\)</span></p>
+<p><span class="math inline">\(-2log \Lambda = -2(log(1/2)^n - log(\bar X^{\sum_{i=1}^n x_i} (1-\bar X)^{n-\sum_{i=1}^n x_i}) = -2(-nlog2 - \sum x log \bar X - (n- \sum x) log(1- \bar X)) \geq C\)</span></p>
 </section>
 </section>
 <section id="section-1" class="level1">
 <h1>2</h1>
-<p><span class="math inline">\(Y_i \sim Ber(p_i)\)</span>일 때, <span class="math inline">\(\text{logit} (p_i) = \text{log}(\dfrac{p}{1-p})\)</span>에 공변량 <span class="math inline">\(x_i\)</span>를 더한 것으로 표현 가능하다. 즉, $(</p>
+<p><span class="math inline">\(Y_i \sim Ber(p_i)\)</span>일 때, <span class="math inline">\(\text{logit} (p_i) = \text{log}(\dfrac{p}{1-p})\)</span>에 공변량 <span class="math inline">\(x_i\)</span>를 더한 것으로 표현 가능하다. 즉, <span class="math inline">\(\text{logit}(p_i) = \alpha + \beta x_i\)</span>의 선형결합 형태이다. 최대가능도 추정량을 이용해 구체적으로 설명</p>
+<p><span class="math inline">\(P(Y_i = y_i) = p_i^{y_i} (1-p_i)^{1-y_i}\)</span></p>
+<p>최대가능도추정량</p>
+<p><span class="math inline">\(l(\alpha,\beta) = \sum [y log(p) + (1-y)log(1-p)]\)</span></p>
+<p><span class="math inline">\(logit(p) = \alpha + \beta x\)</span></p>
+<p><span class="math inline">\(logit(p) = log(\dfrac{p}{1-p})\)</span></p>
+<p>위 두개 식을 정리하면, <span class="math inline">\(p=\dfrac{e^{\alpha+\beta x}}{1+e^{\alpha+\beta x}}=\dfrac{1}{1+e^{-(\alpha+\beta x)}}\)</span></p>
 
 
 </section>
