@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Theoretical Statistics",
     "section": "",
-    "text": "Professor Hye-mi Choi, Department of Statistics, Jeonbuk National University\n2nd semester, 2022\n\n\n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nMar 5, 2024\n\n\nTS final\n\n\n김보람 \n\n\n\n\nMar 3, 2024\n\n\nTS_23.2\n\n\n김보람 \n\n\n\n\nFeb 26, 2024\n\n\nTS_23.8\n\n\n김보람 \n\n\n\n\nJun 17, 2023\n\n\nTS final\n\n\n김보람 \n\n\n\n\nJun 10, 2023\n\n\nTS HW9\n\n\n김보람 \n\n\n\n\nJun 4, 2023\n\n\nTS HW8\n\n\n김보람 \n\n\n\n\nMay 19, 2023\n\n\nTS HW7\n\n\n김보람 \n\n\n\n\nMay 6, 2023\n\n\nTS HW6\n\n\n김보람 \n\n\n\n\nApr 19, 2023\n\n\nTS HW5\n\n\n김보람 \n\n\n\n\nApr 15, 2023\n\n\nTS HW4\n\n\n김보람 \n\n\n\n\nMar 29, 2023\n\n\nTS HW3\n\n\n김보람 \n\n\n\n\nMar 28, 2023\n\n\nTS HW2\n\n\n김보람 \n\n\n\n\nMar 21, 2023\n\n\nTS HW1\n\n\n김보람 \n\n\n\n\n\nNo matching items"
+    "text": "Professor Hye-mi Choi, Department of Statistics, Jeonbuk National University\n2nd semester, 2022\n\n\n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nMar 5, 2024\n\n\nTS_24.2\n\n\n김보람 \n\n\n\n\nMar 3, 2024\n\n\nTS_23.2\n\n\n김보람 \n\n\n\n\nFeb 26, 2024\n\n\nTS_23.8\n\n\n김보람 \n\n\n\n\nJun 17, 2023\n\n\nTS final\n\n\n김보람 \n\n\n\n\nJun 10, 2023\n\n\nTS HW9\n\n\n김보람 \n\n\n\n\nJun 4, 2023\n\n\nTS HW8\n\n\n김보람 \n\n\n\n\nMay 19, 2023\n\n\nTS HW7\n\n\n김보람 \n\n\n\n\nMay 6, 2023\n\n\nTS HW6\n\n\n김보람 \n\n\n\n\nApr 19, 2023\n\n\nTS HW5\n\n\n김보람 \n\n\n\n\nApr 15, 2023\n\n\nTS HW4\n\n\n김보람 \n\n\n\n\nMar 29, 2023\n\n\nTS HW3\n\n\n김보람 \n\n\n\n\nMar 28, 2023\n\n\nTS HW2\n\n\n김보람 \n\n\n\n\nMar 21, 2023\n\n\nTS HW1\n\n\n김보람 \n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/TS6.html",
@@ -212,42 +212,42 @@
   {
     "objectID": "posts/TS240305.html",
     "href": "posts/TS240305.html",
-    "title": "TS final",
+    "title": "TS_24.2",
     "section": "",
     "text": "\\(f(x) = \\lambda e^{-\\lambda x} I(x&gt;0)\\)\n\n\n\\(p_1 = P(X&gt;1)\\)\n—&gt; \\(\\int_1^\\infty \\lambda e ^{-\\lambda x}I(x&gt;0)=e^{-\\lambda}\\)\n\n\n\n\\(\\hat p_1\\)의 최대가능도추정량\n\\(e^{-\\lambda}\\)\nf(x)의 최대가능도추정량\n\\(L(x) = \\lambda^n e^{-\\lambda \\sum x}\\)\n\\(l(x) = n log \\lambda - \\lambda \\sum x\\)\n\\(l'(x) = \\dfrac{n}{\\lambda} - \\sum x = 0\\)\n\\(\\rightarrow n - \\hat \\lambda \\sum x = 0\\)\n\\(\\rightarrow \\hat \\lambda = \\dfrac{n}{\\sum x} = \\dfrac{1}{\\bar X}\\)\n\\(e^{-\\hat \\lambda} = e^{\\bar X}\\)\n\n\n\n\\(\\hat p_1\\)의 기댓값\n\\(E(\\hat p_1) = E(e^{\\bar X}) = e^{E(ln^{e^{\\bar X}})} = e^{E(\\bar X)}\\)\n\\(E(\\bar X) = E(X)\\)\n\\(E(X) = \\int_{-\\infty}^{\\infty} x f(x)dx\\)\n\n\n\n\\(\\hat p_1\\)의 점근분포\n\n\n\n$ H_0: = 1 $ 가능도비 검정"
   },
   {
     "objectID": "posts/TS240305.html#section-1",
     "href": "posts/TS240305.html#section-1",
-    "title": "TS final",
+    "title": "TS_24.2",
     "section": "",
     "text": "\\(p_1 = P(X&gt;1)\\)\n—&gt; \\(\\int_1^\\infty \\lambda e ^{-\\lambda x}I(x&gt;0)=e^{-\\lambda}\\)"
   },
   {
     "objectID": "posts/TS240305.html#section-2",
     "href": "posts/TS240305.html#section-2",
-    "title": "TS final",
+    "title": "TS_24.2",
     "section": "",
     "text": "\\(\\hat p_1\\)의 최대가능도추정량\n\\(e^{-\\lambda}\\)\nf(x)의 최대가능도추정량\n\\(L(x) = \\lambda^n e^{-\\lambda \\sum x}\\)\n\\(l(x) = n log \\lambda - \\lambda \\sum x\\)\n\\(l'(x) = \\dfrac{n}{\\lambda} - \\sum x = 0\\)\n\\(\\rightarrow n - \\hat \\lambda \\sum x = 0\\)\n\\(\\rightarrow \\hat \\lambda = \\dfrac{n}{\\sum x} = \\dfrac{1}{\\bar X}\\)\n\\(e^{-\\hat \\lambda} = e^{\\bar X}\\)"
   },
   {
     "objectID": "posts/TS240305.html#section-3",
     "href": "posts/TS240305.html#section-3",
-    "title": "TS final",
+    "title": "TS_24.2",
     "section": "",
     "text": "\\(\\hat p_1\\)의 기댓값\n\\(E(\\hat p_1) = E(e^{\\bar X}) = e^{E(ln^{e^{\\bar X}})} = e^{E(\\bar X)}\\)\n\\(E(\\bar X) = E(X)\\)\n\\(E(X) = \\int_{-\\infty}^{\\infty} x f(x)dx\\)"
   },
   {
     "objectID": "posts/TS240305.html#section-4",
     "href": "posts/TS240305.html#section-4",
-    "title": "TS final",
+    "title": "TS_24.2",
     "section": "",
     "text": "\\(\\hat p_1\\)의 점근분포"
   },
   {
     "objectID": "posts/TS240305.html#section-5",
     "href": "posts/TS240305.html#section-5",
-    "title": "TS final",
+    "title": "TS_24.2",
     "section": "",
     "text": "$ H_0: = 1 $ 가능도비 검정"
   },
